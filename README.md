@@ -1,10 +1,16 @@
-# Awesome PMM
+<div align="center">
 
-> — Hello, my name is ___ and I'm a PMM
->
-> — (chorus) Welcome, ___
+# Awesome Product Marketing
 
-A curated and **opinionated** list of resources for Product Marketing Managers at high-growth and developer-focused companies.
+A curated and opinionated list of resources for Product Marketing Managers at high-growth and developer-focused companies.
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/a692570/awesome-product-marketing/pulls) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+Positioning &middot; Competitive Intelligence &middot; ICP &amp; Segmentation &middot; Launches &middot; Sales Enablement &middot; Content &middot; Growth &middot; Customer Evidence &middot; Pricing &middot; Developer Marketing &middot; Metrics &middot; Stack &middot; Books &middot; Communities
+
+</div>
+
+---
 
 ## Contents
 
