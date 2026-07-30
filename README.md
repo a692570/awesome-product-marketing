@@ -290,7 +290,7 @@ The tools that show up again and again in working PMM stacks.
   The canonical book on sticky messaging, including the SUCCESs framework. Cited by every B2B messaging trainer.
 - 📕 [Building a StoryBrand](https://www.amazon.com/Building-StoryBrand-Clarify-Message-Customers/dp/0718039859) - Donald Miller
   The SB7 framework for messaging.
-- 📕 [Lovable: A Guide to Building Products People Love](https://www.amazon.com/Lovable-Guide-Building-Products-People/dp/1119890132) - Martina Lauchengco
+- 📕 [LOVED: How to Rethink Marketing for Tech Products](https://www.amazon.com/LOVED-Rethink-Marketing-Tech-Products/dp/1119703646) - Martina Lauchengco
   SVPG take on product marketing specifically.
 
 ### Product & Discovery
@@ -329,7 +329,7 @@ The tools that show up again and again in working PMM stacks.
 
 ### Pricing
 
-- 📕 [Monetizing Innovation: Creating Loyal Customers Through Better Pricing](https://www.amazon.com/Monetizing-Innovation-Creating-Loyal-Customers/dp/1119692260) - Madhavan Ramanujam & Stephan Liozu
+- 📕 [Monetizing Innovation: How Smart Companies Design the Product Around the Price](https://www.amazon.com/Monetizing-Innovation-Creating-Loyal-Customers/dp/1119692260) - Madhavan Ramanujam & Georg Tacke
   The book on pricing decisions made before product, not after.
 - 📕 [The Pricing Roadmap: How to Design B2B SaaS Pricing Models That Your Customers Will Love](https://www.goodreads.com/book/show/56093931-the-pricing-roadmap) - Ulrik Lehrskov-Schmidt
   Systematic B2B SaaS pricing design. Value perception, competitive positioning, customer engagement.
