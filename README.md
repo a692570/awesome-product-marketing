@@ -361,7 +361,7 @@ Public marketing handbooks from developer-focused companies. The best way to lea
 
 ### Positioning & Messaging
 
-- 📕 [Obviously Awesome: How to Nail Product Positioning so Customers Get It, Buy It, Love It](https://www.amazon.com/Obviously-Awesome-Product-Positioning-Customers/dp/1996000308) - April Dunford
+- 📕 [Obviously Awesome: How to Nail Product Positioning so Customers Get It, Buy It, Love It](https://www.amazon.com/Obviously-Awesome-Product-Positioning-Customers/dp/1999023005) - April Dunford
   The positioning bible. Read it before anything else.
 - 📕 [Positioning: The Battle for Your Mind](https://www.goodreads.com/book/show/138566.Positioning) - Al Ries and Jack Trout
   The 1981 original positioning book. Predates Obviously Awesome by 40 years and is the source of every framework Dunford builds on.
@@ -387,23 +387,23 @@ Public marketing handbooks from developer-focused companies. The best way to lea
 
 ### Sales Enablement
 
-- 📕 [The Challenger Sale: Taking Control of the Customer Conversation](https://www.amazon.com/Challenger-Sale-Control-Customer-Conversation/dp/1591845355) - Matthew Dixon
+- 📕 [The Challenger Sale: Taking Control of the Customer Conversation](https://www.goodreads.com/book/show/11073347-the-challenger-sale) - Matthew Dixon
   How the best reps win. Sales enablement foundations.
-- 📕 [SPIN Selling](https://www.amazon.com/SPIN-Selling-Neil-Rackham/dp/0070521136) - Neil Rackham
+- 📕 [SPIN Selling](https://www.goodreads.com/book/show/109649.Spin_Selling) - Neil Rackham
   The original research on question-based selling. Old, still useful.
 
 ### Growth & Demand
 
-- 📕 [Hacking Growth](https://www.amazon.com/Hacking-Growth-Sean-Ellis/dp/0804137362) - Sean Ellis & Morgan Brown
+- 📕 [Hacking Growth](https://www.goodreads.com/book/show/33078997-hacking-growth) - Sean Ellis & Morgan Brown
   Cross-functional growth teams and the testing engine.
 - 📕 [Product-Led Growth: How to Build a Product That Sells Itself](https://productled.com/book/) - Wes Bush
   Defines PLG as a discipline. Free PDF and an audiobook tier. Predates and informs Hacking Growth for SaaS-specific motions.
 
 ### Content & Evidence
 
-- 📕 [They Ask, You Answer](https://www.amazon.com/They-Ask-You-Answer/dp/1119716617) - Marcus Sheridan
+- 📕 [They Ask, You Answer](https://www.amazon.com/They-Ask-You-Answer-Revolutionary/dp/1119610141) - Marcus Sheridan
   Content as trust, trust as pipeline.
-- 📕 [Show Your Work](https://www.amazon.com/Show-Your-Work-Austin-Kleon/dp/1626897988) - Austin Kleon
+- 📕 [Show Your Work](https://www.amazon.com/Show-Your-Work-Austin-Kleon/dp/076117897X) - Austin Kleon
   Not PMM specific, but the mindset behind evidence-based marketing.
 - 📕 [The Developer's Guide To Content Creation](https://www.stephaniemorillo.co/product-page/the-developer-s-guide-to-content-creation) - Stephanie Morillo
   Practical content creation guide for technical audiences from an ex-AWS and Microsoft technical writer.
@@ -414,7 +414,7 @@ Public marketing handbooks from developer-focused companies. The best way to lea
 
 ### Pricing
 
-- 📕 [Monetizing Innovation: How Smart Companies Design the Product Around the Price](https://www.amazon.com/Monetizing-Innovation-Creating-Loyal-Customers/dp/1119692260) - Madhavan Ramanujam & Georg Tacke
+- 📕 [Monetizing Innovation: How Smart Companies Design the Product Around the Price](https://www.amazon.com/Monetizing-Innovation-Companies-Design-Product/dp/1119240867) - Madhavan Ramanujam & Georg Tacke
   The book on pricing decisions made before product, not after.
 - 📕 [The Pricing Roadmap: How to Design B2B SaaS Pricing Models That Your Customers Will Love](https://www.goodreads.com/book/show/56093931-the-pricing-roadmap) - Ulrik Lehrskov-Schmidt
   Systematic B2B SaaS pricing design. Value perception, competitive positioning, customer engagement.
@@ -444,7 +444,7 @@ Public marketing handbooks from developer-focused companies. The best way to lea
 
 - 📕 [The Art of Community: Building the New Age of Participation](https://www.jonobacon.com/books/artofcommunity) - Jono Bacon
   Canonical open source community building book by Ubuntu's former community manager. Still the most-cited community text.
-- 📕 [The Business of Belonging: How to Make Community Your Competitive Advantage](https://www.amazon.com/Business-Belonging-Community-Competitive-Advantage/dp/1119766119) - David Spinks
+- 📕 [The Business of Belonging: How to Make Community Your Competitive Advantage](https://www.amazon.com/Business-Belonging-Community-Competitive-Advantage/dp/1119766125) - David Spinks
   Modern playbook for community-led growth from Commsor's founder, complements Bacon with current SaaS-era examples.
 
 ## Videos & Talks
