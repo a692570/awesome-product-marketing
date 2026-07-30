@@ -31,7 +31,7 @@ Positioning &middot; Competitive Intelligence &middot; ICP &amp; Segmentation &m
 - [Books](#books)
 - [Videos & Talks](#videos--talks)
 - [Communities & Newsletters](#communities--newsletters)
-- [More links](#more-links)
+- [Follow](#follow)
 
 ## Positioning & Messaging
 
@@ -529,13 +529,15 @@ Public marketing handbooks from developer-focused companies. The best way to lea
 - [Developer Markepear Newsletter](https://www.developermarkepear.com/) - Flo Merian
   Newsletter with real developer marketing campaign breakdowns. The closest thing to a swipe file subscription for B2D marketers.
 
-## More links
+## Follow
 
-- [Awesome CEO](https://github.com/kuchin/awesome-ceo) *(GitHub)*
-- [Awesome CTO](https://github.com/kuchin/awesome-cto) *(GitHub)*
-- [Awesome TPM](https://github.com/kuchin/awesome-tpm) *(GitHub)*
-- [Awesome Startup Tools List](https://github.com/Ibexoft/awesome-startup-tools-list) *(GitHub)*
-- [The Founder Library](https://www.nfx.com) - NFX
+<div align="center">
+
+Made with care by [Abhishek Sharma](https://www.linkedin.com/in/absheksharma/), PMM at Telnyx.
+
+Follow me on [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/absheksharma/)
+
+</div>
 
 ## License
 
