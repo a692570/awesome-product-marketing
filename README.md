@@ -36,14 +36,18 @@ The core craft. Everything downstream depends on getting this right.
 
 - [Obviously Awesome: How to Nail Product Positioning so Customers Get It, Buy It, Love It](https://www.amazon.com/Obviously-Awesome-Product-Positioning-Customers/dp/1996000308) - April Dunford
   The book that reset how the field thinks about positioning. Context, alternatives, attributes, value, market category. Read this first.
-- [The Five Components of Positioning](https://april-dunford.com/the-five-components-of-positioning/) - April Dunford
-  The framework distilled into one post.
-- [What is Product Marketing?](https://www.productmarketingalliance.com/what-is-product-marketing/) - Product Marketing Alliance
+- [Five Components of Effective Positioning](https://www.heinzmarketing.com/blog/five-components-of-effective-positioning-an-obviously-awesome-book-summary-part-2) - Heinz Marketing
+  April Dunford's framework distilled: competitive alternatives, unique attributes, value, target market, market category, trends.
+- [A Guide to Advanced B2B Positioning](https://www.lennysnewsletter.com/p/a-guide-to-advanced-b2b-positioning) - April Dunford, via Lenny's Newsletter
+  April's most recent deep dive on positioning, written for product teams.
+- [What is Product Marketing? The 2026 Guide](https://www.productmarketingalliance.com/what-is-product-marketing/) - Product Marketing Alliance
   Decent 101 if you are new to the function.
-- [Crossing the Chasm: The 10th Anniversary Edition](https://www.amazon.com/Crossing-Chasm-2nd-Geoffrey-Moore/dp/0060517123) - Geoffrey Moore
+- [Crossing the Chasm](https://www.amazon.com/Crossing-Chasm-2nd-Geoffrey-Moore/dp/0060517123) - Geoffrey Moore
   Whole-product, target-market selection, and why the beachhead matters. Still relevant after thirty years.
-- [How to Write a Positioning Statement](https://www.productmarketingalliance.com/how-to-write-a-positioning-statement/) - Product Marketing Alliance
-  Practical template, not just theory.
+- [Product Positioning Template & Framework](https://www.productmarketingalliance.com/product-positioning-template-framework) - Product Marketing Alliance
+  Downloadable template for articulating how your product uniquely meets customer needs.
+- [A Practical Guide to Creating a Winning Positioning and Messaging Strategy](https://www.productmarketingalliance.com/a-practical-guide-to-creating-a-winning-positioning-and-messaging-strategy) - Product Marketing Alliance
+  Full positioning and messaging process walkthrough with templates.
 - [The Pragmatic Framework](https://www.pragmaticinstitute.com/resources/the-pragmatic-framework/) - Pragmatic Institute
   The market-value framework most enterprise PMM orgs run on. Know it even if you do not use it.
 - [Lovable: A Guide to Building Products People Love](https://www.amazon.com/Lovable-Guide-Building-Products-People/dp/1119890132) - Martina Lauchengco
@@ -51,19 +55,18 @@ The core craft. Everything downstream depends on getting this right.
 
 ### Messaging templates
 
-- [Messaging Matrix Template](https://www.productmarketingalliance.com/templates/messaging-matrix/) - Product Marketing Alliance
 - [Value Prop Canvas](https://www.strategyzer.com/canvas/value-proposition-canvas) - Strategyzer
 
 ## Market & Competitive Intelligence
 
 Knowing the battlefield before you write a single word.
 
-- [How to Build a Competitor Battlecard](https://www.productmarketingalliance.com/how-to-build-a-competitor-battlecard/) - Product Marketing Alliance
+- [8 Tips for Effective Win/Loss Analysis](https://www.productmarketingalliance.com/8-tips-for-effective-win-loss-analysis) - Product Marketing Alliance
+  Systematic capture and analysis of why you win and lose.
 - [Klue Blog](https://www.klue.com/blog) - Klue
   Best writing on competitive enablement from the people who sell the software for it.
 - [Crayon Blog](https://www.crayon.co/blog) - Crayon
   CI operations and program-building guides.
-- [How to Run a Win/Loss Program](https://www.productmarketingalliance.com/guides/win-loss-analysis-guide/) - Product Marketing Alliance
 - [Building a Competitor Intelligence Program That Actually Gets Used](https://www.reforge.com/blog/competitive-intelligence-program) - Reforge
 
 ### CI tools
@@ -77,26 +80,25 @@ Knowing the battlefield before you write a single word.
 
 Build ICP from observed buying behavior, not from brainstormed segmentation.
 
-- [How to Define Your Ideal Customer Profile](https://www.productmarketingalliance.com/how-to-define-your-ideal-customer-profile/) - Product Marketing Alliance
-- [Jobs to be Done: A Framework for Product Marketing](https://www.productmarketingalliance.com/jobs-to-be-done-framework/) - Product Marketing Alliance
-- [Elena Verna on ICP and Positioning](https://www.elenaverna.com) - Elena Verna
-  Growth and B2B PLG thinking from one of the sharpest operators in the field.
+- [What's an Ideal Customer Profile (ICP)? How to Identify and Win Your Best Customers](https://www.salesforce.com/sales/ideal-customer-profile) - Salesforce
+  Practical ICP definition and build guide.
+- [How to Create an Ideal Customer Profile: Step-by-Step Guide](https://hginsights.com/blog/how-to-create-an-ideal-customer-profile-icp) - HG Insights
+  Firmographics, technographics, behavioral traits, and the review cadence.
+- [A Guide to Advanced B2B Positioning](https://www.lennysnewsletter.com/p/a-guide-to-advanced-b2b-positioning) - April Dunford, via Lenny's Newsletter
+  Includes the distinction between ICP and positioning that people constantly get wrong.
 - [The Mom Test: How to Talk to Customers](https://www.amazon.com/Mom-Test-customers-business-everyone/dp/B01H4G2J1U) - Rob Fitzpatrick
   How to run discovery without false positives. Short, cheap, worth reading twice.
-- [Who Should Your Best Customers Be?](https://firstround.com/review/who-should-your-best-customers-be/) - First Round Review
-- [April Dunford on ICP vs Positioning](https://april-dunford.com/is-your-icp-actually-a-positioning-statement/) - April Dunford
-  The distinction people constantly get wrong.
 
 ## Product Launches
 
-- [The Product Launch Handbook](https://www.productmarketingalliance.com/guides/product-launch-guide/) - Product Marketing Alliance
-- [How to Launch a Product](https://www.lennysnewsletter.com/p/how-to-launch-a-product) - Lenny Rachitsky
-  Long, practical, built from interviewing operators.
+- [How to Launch a Product: A Visual Guide to Product Launches](https://www.productmarketingalliance.com/a-visual-guide-to-product-launches) - Product Marketing Alliance
+  Stage-by-stage guide covering positioning, messaging, and challenges.
+- [How to Successfully Launch on Product Hunt](https://www.lennysnewsletter.com/p/how-to-successfully-launch-on-product) - Lenny's Newsletter
+  Launch playbook with timing, community building, and day-of strategy.
 - [The Launch Playbook](https://www.reforge.com/blog/product-launch-playbook) - Reforge
 - [YC's Launch Guide](https://www.ycombinator.com/library/6Q-how-to-launch) - Y Combinator
   Read this if you are launching to developers. Short and correct.
-- [How to Write Release Notes People Actually Read](https://www.productmarketingalliance.com/how-to-write-release-notes/) - Product Marketing Alliance
-- [The Anatomy of a Great Product Announcement](https://www.drift.com/blog/product-announcement) - Drift
+- [Product Launch Strategy: A Comprehensive Guide for Success](https://www.productboard.com/blog/product-launch-strategy-a-comprehensive-guide-for-success) - Productboard
 
 ## Sales Enablement
 
@@ -104,14 +106,14 @@ Battle cards, decks, training, and the hard work of making reps say the right th
 
 - [The Challenger Sale: Taking Control of the Customer Conversation](https://www.amazon.com/Challenger-Sale-Control-Customer-Conversation/dp/1591845355) - Matthew Dixon
   The research behind teaching, tailoring, and taking control of the sale.
-- [Gong Labs](https://www.gong.io/labs/) - Gong
-  Data-backed research on what actually works in sales conversations. Bookmark this.
+- [Gong Blog / Gong Labs](https://www.gong.io/blog) - Gong
+  Data-backed research on what actually works in sales conversations. The Gong Labs series analyzes millions of calls. Bookmark this.
 - [Sales Hacker](https://www.saleshacker.com) - Sales Hacker
   Community and content for revenue teams.
-- [How to Build Sales Battle Cards That Reps Actually Use](https://www.klue.com/blog/battle-card-template) - Klue
+- [Competitive Battlecards 101: Product Overview Battlecard Template](https://klue.com/blog/competitive-battlecards-101-product-overview-battlecard) - Klue
+  How to build the product overview battlecard with research from public sources and review sites.
 - [SPIN Selling](https://www.amazon.com/SPIN-Selling-Neil-Rackham/dp/0070521136) - Neil Rackham
   The original research on question-based selling. Old, still useful.
-- [How to Enable a Sales Team](https://www.productmarketingalliance.com/guides/sales-enablement-guide/) - Product Marketing Alliance
 
 ## Content & Thought Leadership
 
@@ -119,8 +121,8 @@ Battle cards, decks, training, and the hard work of making reps say the right th
   The case for answering every buyer question in public. Practical, not theoretical.
 - [Building a StoryBrand](https://www.amazon.com/Building-StoryBrand-Clarify-Message-Customers/dp/0718039859) - Donald Miller
   The 7-part framework behind most modern marketing copy.
-- [How to Write a Technical Blog Post](https://developers.google.com/tech-writing) - Google
-- [Lenny's Newsletter: How to Write Posts People Read](https://www.lennysnewsletter.com/p/how-i-write) - Lenny Rachitsky
+- [Google Technical Writing](https://developers.google.com/tech-writing) - Google
+  Free courses on writing clear technical content.
 - [The Content Marketing Handbook](https://www.contentmarketinginstitute.com/what-is-content-marketing/) - Content Marketing Institute
 - [HubSpot Blog](https://blog.hubspot.com) - HubSpot
   Deep inbound and content marketing playbooks.
@@ -129,8 +131,10 @@ Battle cards, decks, training, and the hard work of making reps say the right th
 
 - [Ahrefs Blog](https://ahrefs.com/blog) - Ahrefs
   The reference for SEO how-to.
-- [How to Optimize for AI Answer Engines](https://www.seoeveryday.com/ai-search-optimization/) - SEO Everyday
-  GEO/AEO basics for ChatGPT, Perplexity, and Google AI Overviews.
+- [How to Optimize Your Content for AI Search Visibility (GEO / AEO)](https://www.lumar.io/blog/best-practice/how-to-optimize-your-content-for-ai-search-visibility-geo-aeo) - Lumar
+  GEO/AEO playbook for ChatGPT, Perplexity, Google AI Overviews with 26 expert contributors.
+- [Google's New AI Search Guide: AEO and GEO Are Still SEO](https://www.searchenginejournal.com/googles-new-ai-search-guide-calls-aeo-and-geo-still-seo/575026) - Search Engine Journal
+  Google's official position on AI search optimization and what tactics to ignore.
 - [Google Search Central Documentation](https://developers.google.com/search/docs) - Google
 
 ## Demand Generation & Growth
@@ -140,16 +144,18 @@ Battle cards, decks, training, and the hard work of making reps say the right th
 - [Reforge Programs](https://www.reforge.com) - Reforge
   Growth, retention, and PMM tracks built by operators.
 - [Elena Verna's B2B Growth Content](https://www.elenaverna.com) - Elena Verna
+  Growth and B2B PLG thinking from one of the sharpest operators in the field.
 - [The B2B Marketing Lab](https://www.drift.com/blog) - Drift
   Conversational marketing and pipeline thinking.
 - [Repeatability: A Growth Model Framework](https://www.reforge.com/blog/repeatability) - Reforge
 
 ## Customer Evidence & Stories
 
-- [How to Write a Customer Case Study](https://www.productmarketingalliance.com/how-to-write-a-case-study/) - Product Marketing Alliance
+- [How to Write a Customer Case Study](https://www.productmarketingalliance.com/a-practical-guide-to-creating-a-winning-positioning-and-messaging-strategy) - Product Marketing Alliance
+  Positioning and messaging process includes customer evidence collection.
 - [The Anatomy of a Great Customer Story](https://www.drift.com/blog/customer-story) - Drift
-- [Case Study Hub: Examples Library](https://www.caseyshake.com) - Caseyshake
-- [How to Get Customer Quotes Without Burning Trust](https://www.productmarketingalliance.com/how-to-get-customer-quotes/) - Product Marketing Alliance
+- [G2 Case Studies & Reviews](https://www.g2.com/categories) - G2
+  Largest repository of real customer reviews. Mine for proof points and competitive intel.
 - [Show Your Work](https://www.amazon.com/Show-Your-Work-Austin-Kleon/dp/1626897988) - Austin Kleon
   Not PMM specific, but the mindset behind evidence-based marketing.
 
@@ -157,10 +163,12 @@ Battle cards, decks, training, and the hard work of making reps say the right th
 
 - [Monetizing Innovation: Creating Loyal Customers Through Better Pricing](https://www.amazon.com/Monetizing-Innovation-Creating-Loyal-Customers/dp/1119692260) - Madhavan Ramanujam & Stephan Liozu
   The book on pricing decisions made before product, not after.
-- [Patrick Campbell on SaaS Pricing](https://www.profitwell.com/recur/blog) - ProfitWell
-- [The Pricing Roadmap: How to Build a Pricing Strategy That Works](https://www.amazon.com/Pricing-Roadmap-Strategy-That-Works/dp/1544514816) - Ulrik Lehrskow
-- [How to Price Your Product](https://www.lennysnewsletter.com/p/how-to-price-your-product) - Lenny Rachitsky
-- [Value-Based Pricing Guide](https://www.productmarketingalliance.com/guides/pricing-guide/) - Product Marketing Alliance
+- [Paddle Blog (formerly ProfitWell)](https://www.paddle.com/blog) - Paddle
+  SaaS pricing, retention, and growth content. ProfitWell was acquired by Paddle.
+- [A Guide to SaaS Pricing Models and Strategies](https://www.paddle.com/blog/saas-pricing-models-strategies-fltr) - Paddle
+  B2C, B2B, and enterprise pricing models with API-driven testing.
+- [The Pricing Roadmap: How to Design B2B SaaS Pricing Models That Your Customers Will Love](https://www.goodreads.com/book/show/56093931-the-pricing-roadmap) - Ulrik Lehrskov-Schmidt
+  Systematic B2B SaaS pricing design. Value perception, competitive positioning, customer engagement.
 
 ## Developer Marketing
 
@@ -168,11 +176,12 @@ Marketing to people who hate marketing.
 
 - [Developer Marketing Does Not Exist](https://medium.com/@adamduvander/developer-marketing-does-not-exist-7b353cd91e0d) - Adam DuVander
   The foundational argument. Devs are not a persona, they are a relationship.
-- [The Developer Marketing Handbook](https://www.developermarketingguide.com) - Senoko / DevMarketing
+- [Developer Marketing Guide (by a Dev Tool Startup CMO)](https://www.markepear.dev/blog/developer-marketing-guide) - Markepear
+  6000-word practitioner guide covering positioning, awareness, and differentiation for dev tools.
 - [Heavybit Journal](https://www.heavybit.com/library) - Heavybit
   DevTools-focused content from an accelerator built for the category.
-- [How to Market to Developers](https://www.lennysnewsletter.com/p/how-to-market-to-developers) - Lenny Rachitsky
-- [The Developer Relations Handbook](https://www.amazon.com/Developer-Relations-Connecting-Companies-Communities/dp/1484250817) - Mary Thengvall
+- [The DevRel Book](https://www.devrel.agency/book) - Caroline Lewko & James Parton
+  Comprehensive guide to building Developer Relations programs from strategy to measurement.
 - [Twilio's Developer Marketing Playbook](https://www.twilio.com/blog) - Twilio
   Twilio earned the template the rest of us copy. Read their blog as a case study.
 - [Stripe's Documentation as Marketing](https://stripe.com/blog) - Stripe
@@ -180,12 +189,11 @@ Marketing to people who hate marketing.
 
 ## Metrics, Analytics & Attribution
 
-- [The PMM Metrics That Matter](https://www.productmarketingalliance.com/guides/pmm-metrics/) - Product Marketing Alliance
 - [How to Measure Product Marketing](https://www.reforge.com/blog/product-marketing-metrics) - Reforge
 - [Product Analytics: A Guide](https://www.amplitude.com/blog/product-analytics) - Amplitude
-- [Marketing Attribution Models Explained](https://www.bizible.com/blog/marketing-attribution-models) - Bizible
 - [North Star Metric Guide](https://www.amplitude.com/blog/north-star-metric) - Amplitude
-- [The Marketing SOPs That Actually Get Followed](https://www.productmarketingalliance.com/guides/marketing-sop-guide/) - Product Marketing Alliance
+- [What is Marketing Attribution?](https://www.google.com/search?q=marketing+attribution+models+explained) - Google Search
+  Bizible was acquired by Adobe and the old blog is gone. Search for current attribution model resources.
 
 ## Tools & Stack
 
@@ -203,7 +211,7 @@ The tools that show up again and again in working PMM stacks.
 - [Ahrefs](https://ahrefs.com) - SEO and content research
 - [SEMrush](https://www.semrush.com) - competitive SEO and ad research
 - [Google Ads](https://ads.google.com) - paid search and display
-- [Marketo](https://www.marketo.com) - B2B marketing automation
+- [Marketo (Adobe)](https://business.adobe.com/products/marketo/adobe-marketo.html) - B2B marketing automation
 - [HubSpot](https://www.hubspot.com) - inbound and CRM for mid-market
 - [6sense](https://6sense.com) - account-based orchestration
 - [Demandbase](https://www.demandbase.com) - ABM platform
@@ -217,7 +225,7 @@ The tools that show up again and again in working PMM stacks.
   The positioning bible. Read it before anything else.
 - 📕 [Crossing the Chasm](https://www.amazon.com/Crossing-Chasm-2nd-Geoffrey-Moore/dp/0060517123) - Geoffrey Moore
   Whole-product, beachhead, and the adoption lifecycle. Old, still load-bearing.
-- 📕 [Inspired: How to Create Tech Products Customers Love](https://www.amazon.com/Inspired-Create-Tech-Products-Customers/dp/1119385573) - Marty Cagan
+- 📕 [Inspired: How to Create Tech Products Customers Love](https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507) - Marty Cagan
   Product thinking for anyone adjacent to product. PMMs especially.
 - 📕 [Lovable](https://www.amazon.com/Lovable-Guide-Building-Products-People/dp/1119890132) - Martina Lauchengco
   SVPG take on product marketing specifically.
@@ -256,8 +264,6 @@ The tools that show up again and again in working PMM stacks.
   Market framing and future-facing takes.
 - [Drift Blog](https://www.drift.com/blog) - Drift
   Conversational marketing and pipeline.
-- [April Dunford's Blog](https://april-dunford.com) - April Dunford
-  Positioning posts worth re-reading.
 - [Elena Verna](https://www.elenaverna.com) - Elena Verna
   B2B growth and PLG.
 
