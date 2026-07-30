@@ -194,8 +194,12 @@ Marketing to people who hate marketing.
 - [How to Measure Product Marketing](https://www.reforge.com/blog/product-marketing-metrics) - Reforge
 - [Product Analytics: A Guide](https://www.amplitude.com/blog/product-analytics) - Amplitude
 - [North Star Metric Guide](https://www.amplitude.com/blog/north-star-metric) - Amplitude
-- [What is Marketing Attribution?](https://www.google.com/search?q=marketing+attribution+models+explained) - Google Search
-  Bizible was acquired by Adobe and the old blog is gone. Search for current attribution model resources.
+- [B2B Marketing Attribution: A Practical Guide for SaaS Companies](https://www.poweredbysearch.com/blog/b2b-marketing-attribution) - Powered by Search
+  How to build attribution systems that account for organic and paid channels, with a single source of truth.
+- [Marketing Attribution Models: The Ultimate Guide for 2026](https://improvado.io/blog/marketing-attribution-models) - Improvado
+  Single-touch vs multi-touch vs data-driven, with sales cycle length as the key variable.
+- [A Quick Guide to Marketing Attribution](https://amplitude.com/explore/digital-marketing/marketing-attribution-guide) - Amplitude
+  Single-touch, multi-touch, and data-driven models with B2C and B2B SaaS examples.
 
 ## Tools & Stack
 
