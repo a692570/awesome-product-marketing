@@ -111,8 +111,8 @@ Battle cards, decks, training, and the hard work of making reps say the right th
 
 - [Gong Blog / Gong Labs](https://www.gong.io/blog) - Gong
   Data-backed research on what actually works in sales conversations. The Gong Labs series analyzes millions of calls. Bookmark this.
-- [Sales Hacker](https://www.saleshacker.com) - Sales Hacker
-  Community and content for revenue teams.
+- [GTMnow (formerly Sales Hacker)](https://gtmnow.com) - GTMnow
+  Community and content for revenue teams. Rebranded from Sales Hacker in 2025.
 - [Competitive Battlecards 101: Product Overview Battlecard Template](https://klue.com/blog/competitive-battlecards-101-product-overview-battlecard) - Klue
   How to build the product overview battlecard with research from public sources and review sites.
 - [Emerging Developer Patterns for the AI Era](https://a16z.com/nine-emerging-developer-patterns-for-the-ai-era) - Yoko Li, a16z
@@ -272,7 +272,7 @@ The tools that show up again and again in working PMM stacks.
 - [Common Room](https://www.commonroom.io/) - community intelligence platform aggregating dev engagement signals across GitHub, Slack, Discord, Twitter. Used by PostHog, Snowflake for dark-funnel account mapping.
 - [PostHog](https://posthog.com/) - open source product analytics with feature flags and A/B testing. The default analytics stack for dev-focused PLG companies.
 - [Stainless](https://www.stainless.com/) - SDK generation tool used by OpenAI, Cloudflare, and LangChain for typed client SDKs.
-- [Speakeasy](https://www.speakeasyapi.dev/) - SDK generation from OpenAPI specs. Used by API-first companies to ship idiomatic client libraries.
+- [Speakeasy](https://www.speakeasy.com/) - SDK generation from OpenAPI specs. Used by API-first companies to ship idiomatic client libraries.
 - [DX](https://getdx.com/) - survey platform for measuring developer experience and engineering productivity. Used by Spotify, Verizon, Walmart.
 - [Developer Marketing Examples](https://mktto.dev/examples) - Flo Merian
   Curated swipe file of real developer marketing campaigns and landing pages.
@@ -327,7 +327,7 @@ The tools that show up again and again in working PMM stacks.
 
 - [GitHub Sponsors](https://github.com/sponsors) - built-in sponsorship for funding open source maintainers
 - [Open Collective](https://opencollective.com) - transparent fiscal hosting platform for open source project funding
-- [Tidelift](https://tidelift.com) - connecting enterprise subscribers with open source maintainers for commercial support
+- [SonarSource (formerly Tidelift)](https://www.sonarsource.com/solutions/security/?tidelift=tidelift-redirect) - connecting enterprise subscribers with open source maintainers for commercial support. Tidelift was absorbed into SonarSource.
 
 ## Market Research & Developer Surveys
 
@@ -361,7 +361,7 @@ Public marketing handbooks from developer-focused companies. The best way to lea
 
 ### Positioning & Messaging
 
-- 📕 [Obviously Awesome: How to Nail Product Positioning so Customers Get It, Buy It, Love It](https://www.amazon.com/Obviously-Awesome-Product-Positioning-Customers/dp/1999023005) - April Dunford
+- 📕 [Obviously Awesome: How to Nail Product Positioning so Customers Get It, Buy It, Love It](https://www.amazon.com/dp/1999023056) - April Dunford
   The positioning bible. Read it before anything else.
 - 📕 [Positioning: The Battle for Your Mind](https://www.goodreads.com/book/show/138566.Positioning) - Al Ries and Jack Trout
   The 1981 original positioning book. Predates Obviously Awesome by 40 years and is the source of every framework Dunford builds on.
