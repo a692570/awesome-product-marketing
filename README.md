@@ -47,7 +47,7 @@ The core craft. Everything downstream depends on getting this right.
   Downloadable template for articulating how your product uniquely meets customer needs.
 - [A Practical Guide to Creating a Winning Positioning and Messaging Strategy](https://www.productmarketingalliance.com/a-practical-guide-to-creating-a-winning-positioning-and-messaging-strategy) - Product Marketing Alliance
   Full positioning and messaging process walkthrough with templates.
-- [The Pragmatic Framework](https://www.pragmaticinstitute.com/resources/the-pragmatic-framework/) - Pragmatic Institute
+- [The Pragmatic Framework](https://www.pragmaticinstitute.com/framework/) - Pragmatic Institute
   The market-value framework most enterprise PMM orgs run on. Know it even if you do not use it.
 - [The Four Types of Defensibility](https://www.nfx.com/post/the-four-types-of-defensibility/) - NFX (James Currier)
   Foundational moats article. Used by PMMs when articulating defensibility in messaging or to sales.
@@ -68,7 +68,8 @@ Knowing the battlefield before you write a single word.
   Best writing on competitive enablement from the people who sell the software for it.
 - [Crayon Blog](https://www.crayon.co/blog) - Crayon
   CI operations and program-building guides.
-- [Building a Competitor Intelligence Program That Actually Gets Used](https://www.reforge.com/blog/competitive-intelligence-program) - Reforge
+- [How to Grow By Stealing Market Share](https://www.reforge.com/blog/competitive-marketing-growth) - Reforge
+  OODA Loop framework for competitive marketing programs.
 
 ### CI tools
 
@@ -94,7 +95,8 @@ Build ICP from observed buying behavior, not from brainstormed segmentation.
   Stage-by-stage guide covering positioning, messaging, and challenges.
 - [How to Successfully Launch on Product Hunt](https://www.lennysnewsletter.com/p/how-to-successfully-launch-on-product) - Lenny's Newsletter
   Launch playbook with timing, community building, and day-of strategy.
-- [The Launch Playbook](https://www.reforge.com/blog/product-launch-playbook) - Reforge
+- [Go To Market Strategy & Planning (Complete Guide)](https://www.reforge.com/blog/go-to-market-strategy-guide) - Reforge
+  GTM planning phases: goals, product-market fit assessment, channel strategy, and campaign activity.
 - [YC's Launch Guide](https://www.ycombinator.com/library/6Q-how-to-launch) - Y Combinator
   Read this if you are launching to developers. Short and correct.
 - [Product Launch Strategy: A Comprehensive Guide for Success](https://www.productboard.com/blog/product-launch-strategy-a-comprehensive-guide-for-success) - Productboard
@@ -154,7 +156,8 @@ Battle cards, decks, training, and the hard work of making reps say the right th
   Growth and B2B PLG thinking from one of the sharpest operators in the field.
 - [The B2B Marketing Lab](https://www.drift.com/blog) - Drift
   Conversational marketing and pipeline thinking.
-- [Repeatability: A Growth Model Framework](https://www.reforge.com/blog/repeatability) - Reforge
+- [The Racecar Growth Framework](https://www.reforge.com/blog/racecar-growth-framework) - Reforge
+  Brian Balfour's growth model framework: growth engines, turbo boosts, lubricants, and fuel.
 - [How to Build a Product-Led Growth Strategy](https://productled.com/blog/product-led-growth-strategy-playbook/) - Wes Bush, ProductLed
   Foundational PLG playbook from the author who named the discipline.
 - [Traction Tactics Behind Square, PayPal, Waze, Twilio & More](https://www.nfx.com/post/traction-tactics/) - NFX
@@ -226,7 +229,8 @@ Marketing to people who hate marketing.
 
 ## Metrics, Analytics & Attribution
 
-- [How to Measure Product Marketing](https://www.reforge.com/blog/product-marketing-metrics) - Reforge
+- [Identifying the Right Metric for Marketing Measurement](https://www.reforge.com/guides/identifying-the-right-metric-for-marketing-measurement) - Reforge
+  How to model your business, choose output metrics, and pick the right secondary metrics.
 - [Product Analytics: A Guide](https://www.amplitude.com/blog/product-analytics) - Amplitude
 - [North Star Metric Guide](https://www.amplitude.com/blog/north-star-metric) - Amplitude
 - [B2B Marketing Attribution: A Practical Guide for SaaS Companies](https://www.poweredbysearch.com/blog/b2b-marketing-attribution) - Powered by Search
