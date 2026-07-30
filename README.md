@@ -84,7 +84,7 @@ Build ICP from observed buying behavior, not from brainstormed segmentation.
 
 - [What's an Ideal Customer Profile (ICP)? How to Identify and Win Your Best Customers](https://www.salesforce.com/sales/ideal-customer-profile) - Salesforce
   Practical ICP definition and build guide.
-- [How to Create an Ideal Customer Profile: Step-by-Step Guide](https://hginsights.com/blog/how-to-create-an-ideal-customer-profile-icp) - HG Insights
+- [How to Create an Ideal Customer Profile: Step-by-Step Guide](https://hginsights.com/blog/how-to-create-an-ideal-customer-profile-icp/) - HG Insights
   Firmographics, technographics, behavioral traits, and the review cadence.
 - [The Many Flavors of Developer-Focused Software](https://openviewpartners.com/blog/flavors-developer-focused-software) - OpenView
   Taxonomy of dev-focused software by GTM motion. Useful ICP framework for any PMM segmenting dev buyers.
@@ -262,7 +262,7 @@ The tools that show up again and again in working PMM stacks.
 - [Ahrefs](https://ahrefs.com) - SEO and content research
 - [SEMrush](https://www.semrush.com) - competitive SEO and ad research
 - [Google Ads](https://ads.google.com) - paid search and display
-- [Marketo (Adobe)](https://business.adobe.com/products/marketo/adobe-marketo-engagement.html) - B2B marketing automation
+- [Marketo (Adobe)](https://business.adobe.com/products/marketo.html) - B2B marketing automation
 - [HubSpot](https://www.hubspot.com) - inbound and CRM for mid-market
 - [6sense](https://6sense.com) - account-based orchestration
 - [Demandbase](https://www.demandbase.com) - ABM platform
@@ -387,14 +387,14 @@ Public marketing handbooks from developer-focused companies. The best way to lea
 
 ### Sales Enablement
 
-- 📕 [The Challenger Sale: Taking Control of the Customer Conversation](https://www.goodreads.com/book/show/11073347-the-challenger-sale) - Matthew Dixon
+- 📕 [The Challenger Sale: Taking Control of the Customer Conversation](https://www.amazon.com/dp/1591844355) - Matthew Dixon
   How the best reps win. Sales enablement foundations.
-- 📕 [SPIN Selling](https://www.goodreads.com/book/show/109649.Spin_Selling) - Neil Rackham
+- 📕 [SPIN Selling](https://www.amazon.com/dp/0070511136) - Neil Rackham
   The original research on question-based selling. Old, still useful.
 
 ### Growth & Demand
 
-- 📕 [Hacking Growth](https://www.goodreads.com/book/show/33078997-hacking-growth) - Sean Ellis & Morgan Brown
+- 📕 [Hacking Growth](https://www.amazon.com/Hacking-Growth-Fastest-Growing-Companies-Breakout/dp/045149721X) - Sean Ellis & Morgan Brown
   Cross-functional growth teams and the testing engine.
 - 📕 [Product-Led Growth: How to Build a Product That Sells Itself](https://productled.com/book/) - Wes Bush
   Defines PLG as a discipline. Free PDF and an audiobook tier. Predates and informs Hacking Growth for SaaS-specific motions.
