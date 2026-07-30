@@ -6,7 +6,7 @@ A curated and opinionated list of resources for Product Marketing Managers at hi
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/a692570/awesome-product-marketing/pulls) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-Positioning &middot; Competitive Intelligence &middot; ICP &amp; Segmentation &middot; Launches &middot; Sales Enablement &middot; Content &middot; Growth &middot; Customer Evidence &middot; Pricing &middot; Developer Marketing &middot; Metrics &middot; Stack &middot; Books &middot; Videos &middot; Communities
+Positioning &middot; Competitive Intelligence &middot; ICP &amp; Segmentation &middot; Launches &middot; Sales Enablement &middot; Content &middot; Growth &middot; Customer Evidence &middot; Pricing &middot; Developer Marketing &middot; Metrics &middot; Stack &middot; Market Research &middot; Internal Handbooks &middot; Books &middot; Videos &middot; Communities
 
 </div>
 
@@ -26,6 +26,8 @@ Positioning &middot; Competitive Intelligence &middot; ICP &amp; Segmentation &m
 - [Developer Marketing](#developer-marketing)
 - [Metrics, Analytics & Attribution](#metrics-analytics--attribution)
 - [Tools & Stack](#tools--stack)
+- [Market Research & Developer Surveys](#market-research--developer-surveys)
+- [Internal Handbooks](#internal-handbooks)
 - [Books](#books)
 - [Videos & Talks](#videos--talks)
 - [Communities & Newsletters](#communities--newsletters)
@@ -269,14 +271,85 @@ The tools that show up again and again in working PMM stacks.
 - [Developer Marketing Examples](https://mktto.dev/examples) - Flo Merian
   Curated swipe file of real developer marketing campaigns and landing pages.
 
+### Developer Advertising Platforms
+
+- [Carbon Ads (BuySellAds)](https://www.buysellads.com) - ad marketplace connecting advertisers with developer and tech publisher inventory
+- [daily.dev Ads](https://business.daily.dev) - native advertising platform for reaching developers through in-feed and email digest placements
+- [EthicalAds](https://www.ethicalads.io) - privacy-focused ad network for developer sites, run by the Read the Docs team
+- [Stack Overflow Advertising](https://stackoverflow.co/advertising) - targeting developers by technology tags
+
+### Developer Newsletters for Sponsorship
+
+- [TLDR](https://tldr.tech) - daily newsletter covering tech, startups, and programming with topic-specific editions
+- [Changelog](https://changelog.com/news) - weekly newsletter covering open source and software development news
+- [Bytes](https://bytes.dev) - twice-weekly JavaScript and web development newsletter
+
+### Documentation Platforms
+
+- [Mintlify](https://mintlify.com) - documentation platform with built-in analytics, optimized for developer tools and APIs
+- [ReadMe](https://readme.com) - API documentation and developer hub platform with usage analytics
+- [Docusaurus](https://docusaurus.io) - open source documentation site generator by Meta, widely used for technical docs
+- [Starlight](https://starlight.astro.build) - documentation site builder powered by Astro
+- [Nextra](https://nextra.site) - documentation site framework built on Next.js with MDX support
+
+### Developer Experience Tools
+
+- [CodeSandbox](https://codesandbox.io) - browser-based development environment for instant, shareable demos
+- [StackBlitz](https://stackblitz.com) - browser-based IDE for running full Node.js projects instantly
+- [Replit](https://replit.com) - online coding environment for interactive tutorials and demos
+- [Scarf](https://about.scarf.sh) - package and container analytics for understanding open source adoption
+
+### Privacy-Friendly Analytics
+
+- [Plausible](https://plausible.io) - privacy-friendly web analytics that works without cookies
+- [Koala](https://getkoala.com) - visitor identification and intent signal platform for B2B software
+- [HockeyStack](https://www.hockeystack.com) - B2B marketing attribution connecting website activity to pipeline
+- [Clearbit](https://clearbit.com) - data enrichment for identifying companies visiting your docs and marketing pages
+
 ### Frameworks
 
 - [The Orbit Model](https://github.com/orbit-love/orbit-model) - Orbit (Josh Dzielak, Patrick Woods)
   Open source framework for measuring developer community gravity across four orbit levels. Reference doc only: Orbit.app SaaS was acquired by PostHog in 2023.
 - [AAARRRP: A Developer Relations Strategy Framework](https://www.leggetter.co.uk/2016/02/03/defining-developer-relations.html) - Phil Leggetter
   Extends AARRR with two extra Rs for DevRel (Referral, Reputation). Useful when building a DevRel metric tree.
+- [The Developer Advocacy Handbook](https://developer-advocacy.com) - Christian Heilmann
+  Free online guide to developer advocacy practices and strategy.
 - [RocketBlocks Product Marketing Guide](https://www.rocketblocks.me/guide/product-marketing/overview.php) - RocketBlocks
   Free PMM career guide covering day-to-day, B2B vs B2C PMM, career path. Useful as a PMM role baseline.
+
+### Open Source Marketing
+
+- [GitHub Sponsors](https://github.com/sponsors) - built-in sponsorship for funding open source maintainers
+- [Open Collective](https://opencollective.com) - transparent fiscal hosting platform for open source project funding
+- [Tidelift](https://tidelift.com) - connecting enterprise subscribers with open source maintainers for commercial support
+
+## Market Research & Developer Surveys
+
+Data sources for understanding developer audiences, tools, and trends.
+
+- [Stack Overflow Developer Survey](https://survey.stackoverflow.co) - Stack Overflow
+  Annual survey covering developer tools, technologies, compensation, and work preferences. The largest developer survey.
+- [GitHub Octoverse](https://octoverse.github.com) - GitHub
+  Annual report on open source development activity and language trends across GitHub.
+- [State of JS](https://stateofjs.com) - Sacha Greif and contributors
+  Annual survey tracking JavaScript ecosystem trends, frameworks, and developer satisfaction.
+- [DORA State of DevOps Report](https://dora.dev) - Google
+  Annual research on DevOps practices, team performance, and software delivery metrics.
+- [State of Developer Relations (2024 Report)](https://www.stateofdeveloperrelations.com/2024devrelreport) - DevRel.Agency
+  11th annual practitioner survey of DevRel programs with budget, headcount, and metric benchmarks.
+- [State of CSS](https://stateofcss.com) - Sacha Greif and contributors
+  Annual survey on CSS features, tooling, and developer preferences.
+
+## Internal Handbooks
+
+Public marketing handbooks from developer-focused companies. The best way to learn how a real PMM org operates.
+
+- [GitLab Marketing Handbook](https://about.gitlab.com/handbook/marketing/) - GitLab
+  The most transparent public marketing handbook in SaaS. Covers GTM, demand gen, ABM, field marketing, and PMM.
+- [PostHog Marketing Handbook](https://posthog.com/handbook/growth/marketing) - PostHog
+  How a profitable open source dev tool runs marketing. Covers content, growth, and experiments.
+- [Resend's Handbook](https://resend.com/handbook) - Resend
+  How a modern developer-first email API company operates publicly.
 
 ## Books
 
@@ -290,7 +363,7 @@ The tools that show up again and again in working PMM stacks.
   Whole-product, beachhead, and the adoption lifecycle. Old, still load-bearing.
 - 📕 [Made to Stick: Why Some Ideas Survive and Others Die](https://heathbrothers.com/books/made-to-stick/) - Chip and Dan Heath
   The canonical book on sticky messaging, including the SUCCESs framework. Cited by every B2B messaging trainer.
-- 📕 [Building a StoryBrand](https://www.amazon.com/Building-StoryBrand-Clarify-Message-Customers/dp/1400200399) - Donald Miller
+- 📕 [Building a StoryBrand](https://www.amazon.com/Building-StoryBrand-Donald-Miller/dp/0718033329) - Donald Miller
   The SB7 framework for messaging.
 - 📕 [LOVED: How to Rethink Marketing for Tech Products](https://www.amazon.com/LOVED-Rethink-Marketing-Tech-Products/dp/1119703646) - Martina Lauchengco
   SVPG take on product marketing specifically.
@@ -328,6 +401,10 @@ The tools that show up again and again in working PMM stacks.
   Not PMM specific, but the mindset behind evidence-based marketing.
 - 📕 [The Developer's Guide To Content Creation](https://www.stephaniemorillo.co/product-page/the-developer-s-guide-to-content-creation) - Stephanie Morillo
   Practical content creation guide for technical audiences from an ex-AWS and Microsoft technical writer.
+- 📕 [Contagious: Why Things Catch On](https://www.amazon.com/Contagious-Things-Catch-Jonah-Berger/dp/1451686587) - Jonah Berger
+  The science of virality. The STEPPS framework behind why people share.
+- 📕 [Everybody Writes: Your Go-To Guide to Creating Ridiculously Good Content](https://annhandley.com/everybodywrites/) - Ann Handley
+  Practical content writing guide. Cited as required reading by content teams everywhere.
 
 ### Pricing
 
@@ -352,6 +429,10 @@ The tools that show up again and again in working PMM stacks.
   Comprehensive DevRel program-building guide by two industry veterans, covers strategy, hiring, and measurement.
 - 📕 [The Developer Facing Startup: Alchemist Accelerator's GTM Playbook for Early-Stage Developer-Facing Startups](https://www.amazon.com/Developer-Facing-Startup-market-developer-facing/dp/B0D4KGHQML) - Adam Frankl
   Practitioner-written GTM playbook specifically for dev-facing startups by the ex-Vercel CMO.
+- 📕 [Developer Experience](https://dx.addy.ie/) - Addy Osmani
+  Free online book on DX by Google's engineering lead. Covers performance, accessibility, and the craft of building for developers.
+- 📕 [Developer Marketing and Relations: The Essential Guide](https://www.amazon.com/Developer-Marketing-Relations-Essential-Guide/dp/B08KH3T5TN) - SlashData
+  Comprehensive guide from the team behind the State of Developer Relations report.
 
 ### Community
 
