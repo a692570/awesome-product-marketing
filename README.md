@@ -109,8 +109,8 @@ Battle cards, decks, training, and the hard work of making reps say the right th
   Community and content for revenue teams.
 - [Competitive Battlecards 101: Product Overview Battlecard Template](https://klue.com/blog/competitive-battlecards-101-product-overview-battlecard) - Klue
   How to build the product overview battlecard with research from public sources and review sites.
-- [Selling to Developers: Open Source Business Models](https://a16z.com/2016/04/13/selling-to-developers-open-source-business-models/) - a16z
-  Foundational podcast episode on dev sales motions and OSS business models. Cited by every dev startup.
+- [Emerging Developer Patterns for the AI Era](https://a16z.com/nine-emerging-developer-patterns-for-the-ai-era) - Yoko Li, a16z
+  Current a16z take on how AI changes developer behavior and what that means for dev marketing (May 2025).
 - [How GitHub Built a $7.5B Sales Machine](https://firstmark.medium.com/setting-up-your-sales-machine-565219192e64) - FirstMark
   Detailed sales machine case study on GitHub's transition from PLG to enterprise, post Microsoft acquisition.
 - [Introducing Enterprise Sales to a Product-Led Growth Organization](https://www.bvp.com/atlas/introducing-enterprise-sales-to-a-product-led-growth-organization) - Bessemer
@@ -159,8 +159,8 @@ Battle cards, decks, training, and the hard work of making reps say the right th
   Definitive benchmarking report on cloud growth to $100M ARR. The reference for SaaS growth ratios PMMs use in board decks.
 - [Community-Led Growth: The Product-Led Growth Expansion Pack](https://corinneriley.medium.com/community-led-growth-the-product-led-growth-expansion-pack-b474ab9a7940) - Corinne Riley
   Canonical CLG article that names community-led growth as the next expansion of PLG.
-- [Best Practices for Paid Marketing to Developers](https://www.moesif.com/blog/developer-marketing/paid-ads/Best-Practices-for-Paid-Marketing-To-Developers/) - Moesif
-  Practitioner guide to running paid dev ads that do not get filtered out by the developer audience's ad sensitivity.
+- [AI Coding Tool Marketing: How to Reach Developers in the Cursor and Copilot Era](https://business.daily.dev/resources/ai-coding-tool-marketing-how-to-reach-developers-cursor-copilot-era) - Daniela Torres, daily.dev
+  How AI coding tools change dev marketing, with 2026 Cursor $2B ARR and Claude Code market share data.
 
 ## Customer Evidence & Stories
 
@@ -195,28 +195,30 @@ Marketing to people who hate marketing.
   6000-word practitioner guide covering positioning, awareness, and differentiation for dev tools.
 - [Heavybit Journal](https://www.heavybit.com/library) - Heavybit
   DevTools-focused content from an accelerator built for the category.
-- [On Developer Marketing](https://leerob.io/blog/developer-marketing) - Lee Robinson
-  Vercel's ex-Head of DevRel on what actually works in dev marketing. Concise, named practitioner.
+- [On Developer Marketing](https://leerob.substack.com/p/on-developer-marketing) - Lee Robinson
+  Vercel/Cursor practitioner on what actually works in dev marketing (May 2024).
 - [Dev Tool Marketing for Early-Stage Startups: Lessons Learned from PostHog](https://posthog.com/founders/dev-marketing-for-startups) - PostHog
   First-principles dev marketing lessons from a profitable open source dev tool, written by the team that shipped them.
 - [I Interviewed 100 DevTools Founders and This Is What I Learned](https://blog.scalingdevtools.com/i-interviewed-100-devtools-founders/) - Jack Bridger
   Patterns from 100+ interviews with dev tool founders, organized into repeatable GTM plays.
-- [Marketing to Developers: Core Values and Tactical Tips from GitLab's Former CMO](https://openviewpartners.com/blog/marketing-to-developers/) - Kyle Lacy, OpenView
-  Canonical dev marketing piece from his GitLab CMO tenure. Cited in nearly every B2D article since.
+- [What You Should Know About Developer Marketing (2026)](https://hackmamba.io/developer-marketing/what-you-should-know-about-developer-marketing) - Hackmamba
+  Current comprehensive guide covering dev marketing, DevRel, and DevX as overlapping disciplines.
 - [How Stripe Creates the Best Documentation in the Industry](https://www.mintlify.com/blog/stripe-docs) - Mintlify
   Deep dive into Stripe's docs culture, Markdoc syntax, and why their docs feel like products, not manuals.
 - [The Stripe Developer Experience and Docs Teardown](https://www.moesif.com/blog/best-practices/api-product-management/the-stripe-developer-experience-and-docs-teardown) - Moesif
   The three-column layout, live code execution, and what makes Stripe's DX the gold standard.
 - [The Case for Developer Experience](https://future.a16z.com/the-case-for-developer-experience/) - Sonya Mann, a16z Future
   Foundational article on why DX matters for selling to developers, written for the a16z audience.
-- [Notes from Amir Shevat on Measuring & Managing Developer Relations](https://dev.to/swyx/notes-from-amir-shevat-on-measuring-managing-developer-relations-4geo) - swyx
-  Notes from a16z's former head of platform on DevRel measurement. Shevat ran Slack's platform and is the most-cited DevRel leader.
-- [The Developer-Led Landscape](https://tylerjewell.substack.com/p/the-developer-led-landscape-20-08-28) - Tyler Jewell
-  Map of developer-led companies and their GTM patterns, by an investor and operator in dev tooling.
-- [State of Developer Relations](https://www.stateofdeveloperrelations.com/) - State of Developer Relations / Hoopy
-  Annual practitioner survey of DevRel programs with budget, headcount, and metric benchmarks. The only systematic data source on DevRel salaries and structure.
-- [B2D Go to Market Challenges](https://tomtunguz.com/b2d-go-to-market/) - Tomasz Tunguz
-  Tunguz's primer on B2D GTM. Useful when explaining dev GTM tradeoffs to execs without dev context.
+- [How to Measure the Value of Developer Relations](https://maida.kim/how-to-measure-the-value-of-developer-relations) - Kim Maida
+  DevRel measurement framework from an Auth0/Okta DevRel practitioner (updated June 2025).
+- [The Developer-Led Landscape (8th Edition)](https://tylerjewell.substack.com/p/developer-led-landscape-software) - Tyler Jewell
+  Map of 1,500+ developer-led companies and their GTM patterns (July 2023, latest edition).
+- [State of Developer Relations (2024 Report)](https://www.stateofdeveloperrelations.com/2024devrelreport) - DevRel.Agency
+  11th annual practitioner survey of DevRel programs with budget, headcount, and metric benchmarks. The only systematic data source on DevRel salaries and structure.
+- [The GTM for Developer Tools Is Breaking in Two Places at Once](https://newsletter.thelongcommit.com/p/the-gtm-for-developer-tools-is-breaking) - Juan Cruz Martinez, The Long Commit
+  How Cursor/Claude Code agent-picks-the-SDK behavior breaks traditional dev-tool GTM (May 2026).
+- [How to Build a Developer-Led GTM Strategy in 2026](https://hackmamba.io/developer-marketing/gtm-strategy-for-devtools) - Mohammed Tahir, Hackmamba
+  Hybrid GTM and modern B2D sales motions for 2026.
 
 ## Metrics, Analytics & Attribution
 
@@ -270,7 +272,7 @@ The tools that show up again and again in working PMM stacks.
 ### Frameworks
 
 - [The Orbit Model](https://github.com/orbit-love/orbit-model) - Orbit (Josh Dzielak, Patrick Woods)
-  Open source framework for measuring developer community gravity across four orbit levels. Now the default mental model for OSS community PMMs.
+  Open source framework for measuring developer community gravity across four orbit levels. Reference doc only: Orbit.app SaaS was acquired by PostHog in 2023.
 - [AAARRRP: A Developer Relations Strategy Framework](https://www.leggetter.co.uk/2016/02/03/defining-developer-relations.html) - Phil Leggetter
   Extends AARRR with two extra Rs for DevRel (Referral, Reputation). Useful when building a DevRel metric tree.
 - [RocketBlocks Product Marketing Guide](https://www.rocketblocks.me/guide/product-marketing/overview.php) - RocketBlocks
@@ -288,7 +290,7 @@ The tools that show up again and again in working PMM stacks.
   Whole-product, beachhead, and the adoption lifecycle. Old, still load-bearing.
 - 📕 [Made to Stick: Why Some Ideas Survive and Others Die](https://heathbrothers.com/books/made-to-stick/) - Chip and Dan Heath
   The canonical book on sticky messaging, including the SUCCESs framework. Cited by every B2B messaging trainer.
-- 📕 [Building a StoryBrand](https://www.amazon.com/Building-StoryBrand-Clarify-Message-Customers/dp/0718039859) - Donald Miller
+- 📕 [Building a StoryBrand](https://www.amazon.com/Building-StoryBrand-Clarify-Message-Customers/dp/1400200399) - Donald Miller
   The SB7 framework for messaging.
 - 📕 [LOVED: How to Rethink Marketing for Tech Products](https://www.amazon.com/LOVED-Rethink-Marketing-Tech-Products/dp/1119703646) - Martina Lauchengco
   SVPG take on product marketing specifically.
@@ -363,7 +365,11 @@ The tools that show up again and again in working PMM stacks.
 ### Developer Marketing
 
 - [Developer Marketing at Auth0](https://www.youtube.com/watch?v=_mfkJI-jahg) - Gonto (Martin Gontovnikoff)
-  Canonical Auth0 developer marketing talk by former CTO. Auth0's dev marketing motion is widely copied.
+  Canonical Auth0 developer marketing talk. Auth0's dev marketing motion is widely copied.
+- [On Developer Marketing (YouTube Interview)](https://www.youtube.com/watch?v=MWwH-12N5TA) - Lee Robinson, interviewed by Peter Yang
+  Vercel/Cursor practitioner deep dive on dev marketing tactics (Aug 2024).
+- [DevRelCon Talk Library](https://www.youtube.com/channel/UCabc3QtCLKsNeTOx9cqDSlQ) - DevRelCon / Hoopy
+  400+ talks from DevRelCon conferences (NYC, London, Berlin). Updated through 2025. DevRelCon NYC 2026 scheduled for July 2026.
 - [Successful DevRel: No Matter the Org Chart](https://www.youtube.com/watch?v=Rd-_Au7igJ8) - Bear Douglas
   Practical talk on how to structure DevRel regardless of where it sits in the org, by former Slack and Twitter DevRel lead.
 - [The Developer Relations Bill of Rights](https://www.youtube.com/watch?v=wQOByc0DGW4) - Anil Dash
@@ -394,8 +400,8 @@ The tools that show up again and again in working PMM stacks.
 
 ### Content Marketing
 
-- [Lessons from Twilio: Content Marketing to Developers](https://www.heavybit.com/library/video/lessons-from-twilio-content-marketing-to-developers/) - Heavybit Library
-  Heavybit video on Twilio's developer content marketing playbook. Twilio's content motion is the most-imitated in B2D.
+- [Lessons from Twilio: The Developer Content Playbook that Fuels PLG at Scale](https://www.decibel.vc/articles/the-developer-content-playbook-that-fuels-twilios-plg-at-scale) - Decibel VC
+  How Twilio's content marketing drives PLG. Twilio's content motion is the most-imitated in B2D.
 
 ## Communities & Newsletters
 
@@ -429,8 +435,8 @@ The tools that show up again and again in working PMM stacks.
   Podcast on dev product marketing by two practitioners. The most operator-flavored dev marketing podcast.
 - [DX Tips: The DevTools Magazine](https://dx.tips/) - swyx
   Swyx's weekly dev tools magazine. Cross-cuts AI engineering, dev tooling, and DX trends.
-- [Developer Led Substack](https://developerled.substack.com/) - Konrad Sopala
-  Substack on DevRel, communities, dev marketing, and GTM.
+- [Developer Led Growth](https://reodotdev.substack.com) - Reo.Dev
+  Substack on developer-led GTM, dev sales motions, and modern B2D pipeline.
 - [Console](https://console.dev/) - Console
   Weekly curated newsletter highlighting new dev tools. Useful for keeping up with what dev tools PMMs are launching.
 - [Software Lead Weekly](https://softwareleadweekly.com/) - Oren Ellenbogen
