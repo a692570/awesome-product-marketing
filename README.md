@@ -174,8 +174,8 @@ Battle cards, decks, training, and the hard work of making reps say the right th
 
 Marketing to people who hate marketing.
 
-- [Developer Marketing Does Not Exist](https://medium.com/@adamduvander/developer-marketing-does-not-exist-7b353cd91e0d) - Adam DuVander
-  The foundational argument. Devs are not a persona, they are a relationship.
+- [Developer Marketing Does Not Exist: an Authentic Guide](https://www.amazon.com/Developer-Marketing-Does-Not-Exist/dp/173702960X) - Adam DuVander
+  The foundational argument turned into a book. Devs are not a persona, they are a relationship.
 - [Developer Marketing Guide (by a Dev Tool Startup CMO)](https://www.markepear.dev/blog/developer-marketing-guide) - Markepear
   6000-word practitioner guide covering positioning, awareness, and differentiation for dev tools.
 - [Heavybit Journal](https://www.heavybit.com/library) - Heavybit
@@ -184,8 +184,10 @@ Marketing to people who hate marketing.
   Comprehensive guide to building Developer Relations programs from strategy to measurement.
 - [Twilio's Developer Marketing Playbook](https://www.twilio.com/blog) - Twilio
   Twilio earned the template the rest of us copy. Read their blog as a case study.
-- [Stripe's Documentation as Marketing](https://stripe.com/blog) - Stripe
-  If you build for developers, docs are your product. Stripe is the proof.
+- [How Stripe Creates the Best Documentation in the Industry](https://www.mintlify.com/blog/stripe-docs) - Mintlify
+  Deep dive into Stripe's docs culture, Markdoc syntax, and why their docs feel like products, not manuals.
+- [The Stripe Developer Experience and Docs Teardown](https://www.moesif.com/blog/best-practices/api-product-management/the-stripe-developer-experience-and-docs-teardown) - Moesif
+  The three-column layout, live code execution, and what makes Stripe's DX the gold standard.
 
 ## Metrics, Analytics & Attribution
 
@@ -211,7 +213,7 @@ The tools that show up again and again in working PMM stacks.
 - [Ahrefs](https://ahrefs.com) - SEO and content research
 - [SEMrush](https://www.semrush.com) - competitive SEO and ad research
 - [Google Ads](https://ads.google.com) - paid search and display
-- [Marketo (Adobe)](https://business.adobe.com/products/marketo/adobe-marketo.html) - B2B marketing automation
+- [Marketo (Adobe)](https://business.adobe.com/products/marketo/adobe-marketo-engagement.html) - B2B marketing automation
 - [HubSpot](https://www.hubspot.com) - inbound and CRM for mid-market
 - [6sense](https://6sense.com) - account-based orchestration
 - [Demandbase](https://www.demandbase.com) - ABM platform
