@@ -133,6 +133,8 @@ Battle cards, decks, training, and the hard work of making reps say the right th
   Lenny's most-shared research piece on discovery paths. Cited by every PMM planning channel mix.
 - [How to Write Better Technical Content](https://draft.dev/learn/technical-content) - Draft.dev
   Practitioner guide by the technical content agency most dev tool companies use.
+- [The Technical Content Manager's Playbook](https://draft.dev/playbook) - Draft.dev
+  Full playbook for running a technical content program: sourcing writers, managing editorial, measuring impact.
 - [There Are Four Kinds of Keyword Research](https://sparktoro.com/blog/there-are-four-kinds-of-keyword-research-make-sure-youre-doing-the-right-ones/) - Rand Fishkin, SparkToro
   Fishkin's keyword research taxonomy. Useful when building a dev content SEO program.
 
@@ -224,6 +226,17 @@ Marketing to people who hate marketing.
   How Cursor/Claude Code agent-picks-the-SDK behavior breaks traditional dev-tool GTM (May 2026).
 - [How to Build a Developer-Led GTM Strategy in 2026](https://hackmamba.io/developer-marketing/gtm-strategy-for-devtools) - Mohammed Tahir, Hackmamba
   Hybrid GTM and modern B2D sales motions for 2026.
+- [Building Vibrant Developer Communities](https://www.heavybit.com/library/blog/building-vibrant-developer-communities/) - Heavybit
+  Panel of DevRel experts on building and maintaining active developer communities.
+- [Swag for Devs](https://github.com/swapagarwal/swag-for-dev) - Swap Agarwal
+  Curated list of verified swag opportunities for developers. Useful for event marketing and community campaigns.
+
+### Developer Newsletter Discovery
+
+- [140+ Dev-Centric Newsletters](https://bitreach.notion.site/Developer-Newsletters-1320315a0f314e76b2016b39359cb560) - Jack Bridger, BitReach
+  Comprehensive index of developer-focused newsletters for sponsorship and audience research.
+- [Awesome Newsletters (Developer Section)](https://github.com/zudochkin/awesome-newsletters) - zudochkin
+  GitHub repo of curated developer newsletters organized by programming language and topic.
 
 ## Metrics, Analytics & Attribution
 
