@@ -195,6 +195,10 @@ Battle cards, decks, training, and the hard work of making reps say the right th
   B2C, B2B, and enterprise pricing models with API-driven testing.
 - [Where Freemium Thrives and Dies](https://productled.com/freemium-business-model/) - Wes Bush, ProductLed
   Practitioner essay on freemium economics, written by the PLG book author. Useful for pricing page decisions.
+- [The State of Usage-Based Pricing: 2nd Edition](https://openviewpartners.com/blog/state-of-usage-based-pricing) - Kyle Poyar, OpenView
+  Data-backed analysis of UBP adoption across SaaS. 61% of SaaS companies use some form of usage-based pricing. The reference for deciding whether to shift from seat-based to consumption-based.
+- [Willingness to Pay: How to Research and Improve It](https://www.paddle.com/resources/willingness-to-pay) - Paddle
+  WTP methodology for SaaS: how to measure it, how to use it for tier design, and why copying competitor prices is the wrong default.
 
 ## Developer Marketing
 
@@ -392,6 +396,8 @@ Public marketing handbooks from developer-focused companies. The best way to lea
   How a profitable open source dev tool runs marketing. Covers content, growth, and experiments.
 - [Resend's Handbook](https://resend.com/handbook) - Resend
   How a modern developer-first email API company operates publicly.
+- [Sourcegraph Product Marketing Handbook](https://github.com/sourcegraph/handbook/blob/main/content/departments/marketing/product-marketing/index.md) - Sourcegraph
+  Public PMM handbook from a dev tool company. Covers team structure, developer vs decision-maker audience split, launch tiers, and GTM templates. Archived but still a strong reference.
 
 ## Books
 
@@ -503,6 +509,8 @@ Public marketing handbooks from developer-focused companies. The best way to lea
   Woodward built GitHub's DevRel program. This is the buildout talk from the inside.
 - [Activating Developers to Drive Your Advocacy Program](https://www.youtube.com/watch?v=xUbUV46DZEM) - Brian Douglas
   GitHub's Brian Douglas on building advocacy programs that turn users into evangelists.
+- [The Marketing Engineer](https://podcasts.apple.com/us/podcast/the-marketing-engineer/id1896897707) - Profound
+  Podcast for marketers who build. Practitioners who pair creativity with systems thinking. Episodes with Matt Swulinski (Wispr Flow), Reema Batta (Figma), Holly Chen (Samsara). Launched June 2026.
 
 ### Developer Experience
 
