@@ -87,8 +87,8 @@ Build ICP from observed buying behavior, not from brainstormed segmentation.
   Practical ICP definition and build guide.
 - [How to Create an Ideal Customer Profile: Step-by-Step Guide](https://hginsights.com/blog/how-to-create-an-ideal-customer-profile-icp/) - HG Insights
   Firmographics, technographics, behavioral traits, and the review cadence.
-- [The Many Flavors of Developer-Focused Software](https://openviewpartners.com/blog/flavors-developer-focused-software) - OpenView
-  Taxonomy of dev-focused software by GTM motion. Useful ICP framework for any PMM segmenting dev buyers.
+- [Open Source to PLG: A Winning Strategy for Developer Tool Companies](https://www.productmarketingalliance.com/developer-marketing/open-source-to-plg) - Steffi Li, Product Marketing Alliance
+  Taxonomy of dev-focused software by GTM motion: open source, PLG, and sales-led. Useful ICP framework for any PMM segmenting dev buyers.
 
 ## Product Launches
 
