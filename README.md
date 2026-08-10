@@ -238,8 +238,6 @@ Marketing to people who hate marketing.
   Hybrid GTM and modern B2D sales motions for 2026.
 - [Building Vibrant Developer Communities](https://www.heavybit.com/library/blog/building-vibrant-developer-communities/) - Heavybit
   Panel of DevRel experts on building and maintaining active developer communities.
-- [Swag for Devs](https://github.com/swapagarwal/swag-for-dev) - Swap Agarwal
-  Curated list of verified swag opportunities for developers. Useful for event marketing and community campaigns.
 
 ### Developer Newsletter Discovery
 
