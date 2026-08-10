@@ -128,13 +128,23 @@ Build ICP from observed buying behavior, not from brainstormed segmentation.
   Stage-by-stage guide covering positioning, messaging, and challenges.
 - [How to Successfully Launch on Product Hunt](https://www.lennysnewsletter.com/p/how-to-successfully-launch-on-product) - Lenny's Newsletter
   Launch playbook with timing, community building, and day-of strategy.
+- [Product Hunt Launch Guide 2026: Checklist](https://smollaunch.com/guides/launching-on-product-hunt) - Smollaunch
+  Step-by-step PH launch guide with real results: upvotes, signups, conversion rates. Includes waitlist strategy (400+ supporters before launch) and case studies from Dub.co and Lovable AI.
 - [Go To Market Strategy & Planning (Complete Guide)](https://www.reforge.com/blog/go-to-market-strategy-guide) - Reforge
   GTM planning phases: goals, product-market fit assessment, channel strategy, and campaign activity.
 - [YC's Launch Guide](https://www.ycombinator.com/library/6Q-how-to-launch) - Y Combinator
   Read this if you are launching to developers. Short and correct.
+- [Launch HN Instructions](https://news.ycombinator.com/yli.html) - Y Combinator / Hacker News
+  The official guide for Launch HN posts. Be humble, remove signup barriers, drop marketing language. Required reading before posting on HN.
 - [Product Launch Strategy: A Comprehensive Guide for Success](https://www.productboard.com/blog/product-launch-strategy-a-comprehensive-guide-for-success) - Productboard
 - [How We Launch at Supabase](https://supabase.com/blog/supabase-how-we-launch) - Supabase
   Practitioner-written Supabase launch playbook. Highly cited by dev tool founders copying the launch tactic.
+- [Product Launch Plan Template for B2B SaaS](https://discover.gtmplaybook.co/product-launch-plan-template-b2b-saas) - James Doman-Pipe, GTM Playbook
+  Complete B2B SaaS launch framework: cross-functional alignment, success metrics, go/no-go gates, and 30/90-day retrospective template. Written by a PMM practitioner.
+- [Go Viral on X: 5 Levers to 1M+ Views](https://forkoff.xyz/blog/founder-growth/go-viral-on-twitter-2026) - FORKOFF
+  The 5-lever X launch playbook: creative quality, wave-riding, debate-principal tagging, cluster seeding, recap-bait. Full stack hits 1M+ views at 38% first-attempt rate, 71% by attempt three. Data-backed, not generic advice.
+- [Twitter Launch Strategy 2026: Thread Playbook](https://smollaunch.com/guides/twitter-launch-strategy) - Smollaunch
+  Thread hooks, launch sequences, and engagement loops that turn followers into signups. For makers launching on X.
 - [HyperFrames Launches](https://github.com/heygen-com/hyperframes-launches) - HeyGen
   Open source repo of real launch videos built with HyperFrames. Each subdirectory is a standalone composition you can preview, render, or remix. The reference for code-as-video launch content.
 - [HyperFrames](https://hyperframes.heygen.com/) - HeyGen
@@ -209,6 +219,8 @@ Battle cards, decks, training, and the hard work of making reps say the right th
   How AI coding tools change dev marketing, with 2026 Cursor $2B ARR and Claude Code market share data.
 - [Tokenmaxxing: How Top Builders Use AI To Do The Work Of 400 Engineers](https://www.ycombinator.com/library/Pa-tokenmaxxing-how-top-builders-use-ai-to-do-the-work-of-400-engineers) - Y Combinator
   YC practitioner writeup on how top builders use AI to multiply output. Cited in Lenny's podcast with Anthropic's Dianne Penn as the framing for how AI reshapes the dev team and the dev buyer.
+- [Build in Public: The Complete Playbook for SaaS Founders](https://www.vibrantsnap.com/blog/build-in-public-complete-guide-founders) - Vibrantsnap
+  18 months of building in public, analysis of 50+ founders' BIP journeys, and revenue data. What to share, when to share it, and how to turn BIP content into signups. SaaS founders who build in public grow audiences 3x faster.
 
 ## Customer Evidence & Stories
 
