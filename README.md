@@ -2,7 +2,7 @@
 
 # Awesome Product Marketing
 
-A curated and opinionated list of resources for Product Marketing Managers at high-growth and developer-focused companies.
+A curated and opinionated list of resources for Product Marketing Managers at high-growth and developer-focused companies, updated for the AI era.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/a692570/awesome-product-marketing/pulls) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
@@ -24,6 +24,7 @@ Positioning &middot; Competitive Intelligence &middot; ICP &amp; Segmentation &m
 - [Customer Evidence & Stories](#customer-evidence--stories)
 - [Pricing & Packaging](#pricing--packaging)
 - [Developer Marketing](#developer-marketing)
+- [Marketing in the AI Era](#marketing-in-the-ai-era)
 - [Metrics, Analytics & Attribution](#metrics-analytics--attribution)
 - [Tools & Stack](#tools--stack)
 - [Market Research & Developer Surveys](#market-research--developer-surveys)
@@ -102,9 +103,6 @@ Build ICP from observed buying behavior, not from brainstormed segmentation.
 - [Product Launch Strategy: A Comprehensive Guide for Success](https://www.productboard.com/blog/product-launch-strategy-a-comprehensive-guide-for-success) - Productboard
 - [How We Launch at Supabase](https://supabase.com/blog/supabase-how-we-launch) - Supabase
   Practitioner-written Supabase launch playbook. Highly cited by dev tool founders copying the launch tactic.
-- [Launching Developer Tools on Product Hunt](https://ronakganatra.com/posts/successfully-launch-dev-tools-on-producthunt) - Ronak Ganatra
-  Practitioner guide from someone who launched dev tools on Product Hunt. The post-launch playbook most dev tool companies follow.
-
 ## Sales Enablement
 
 Battle cards, decks, training, and the hard work of making reps say the right thing.
@@ -239,6 +237,27 @@ Marketing to people who hate marketing.
   Comprehensive index of developer-focused newsletters for sponsorship and audience research.
 - [Awesome Newsletters (Developer Section)](https://github.com/zudochkin/awesome-newsletters) - zudochkin
   GitHub repo of curated developer newsletters organized by programming language and topic.
+
+## Marketing in the AI Era
+
+How AI changes the practice of product marketing itself: agent-friendly content, AI-native GTM motions, answer-engine optimization, and the new developer buying behavior.
+
+- [The GTM for Developer Tools Is Breaking in Two Places at Once](https://newsletter.thelongcommit.com/p/the-gtm-for-developer-tools-is-breaking) - Juan Cruz Martinez, The Long Commit
+  How Cursor/Claude Code agent-picks-the-SDK behavior breaks traditional dev-tool GTM (May 2026). The canonical piece on this shift.
+- [AI Coding Tool Marketing: How to Reach Developers in the Cursor and Copilot Era](https://business.daily.dev/resources/ai-coding-tool-marketing-how-to-reach-developers-cursor-copilot-era) - Daniela Torres, daily.dev
+  How AI coding tools change dev marketing, with 2026 Cursor $2B ARR and Claude Code market share data.
+- [How to Optimize Your Content for AI Search Visibility (GEO / AEO)](https://www.lumar.io/blog/best-practice/how-to-optimize-your-content-for-ai-search-visibility-geo-aeo) - Lumar
+  GEO/AEO playbook for ChatGPT, Perplexity, Google AI Overviews with 26 expert contributors.
+- [Google's New AI Search Guide: AEO and GEO Are Still SEO](https://www.searchenginejournal.com/googles-new-ai-search-guide-calls-aeo-and-geo-still-seo/575026) - Search Engine Journal
+  Google's official position on AI search optimization and what tactics to ignore.
+- [Nine Emerging Developer Patterns for the AI Era](https://a16z.com/nine-emerging-developer-patterns-for-the-ai-era) - Yoko Li, a16z
+  How AI changes developer behavior and what that means for dev marketing (May 2025).
+- [How to Build a Developer-Led GTM Strategy in 2026](https://hackmamba.io/developer-marketing/gtm-strategy-for-devtools) - Mohammed Tahir, Hackmamba
+  Hybrid GTM and modern B2D sales motions for 2026, including AI-native pipeline paths.
+- [How Marc Lou Made His Entire SaaS Readable by AI Agents](https://x.com/marclou/status/2076687096279171344) - Marc Lou, X
+  Added 8,831 URLs to his sitemap, set text/plain content-type headers, and 24 hours later ChatGPT could fetch them. The new distribution surface is agent fetch, not human browse.
+- [Prompt Marketing: The New Channel Nobody Has Named Yet](https://www.lennysnewsletter.com) - Emerging practice
+  When buyers ask AI assistants for recommendations instead of searching Google, your product needs to show up in the answer. This is not SEO. It is prompt-level visibility.
 
 ## Metrics, Analytics & Attribution
 
@@ -523,8 +542,6 @@ Public marketing handbooks from developer-focused companies. The best way to lea
   Conversational marketing and pipeline.
 - [Elena Verna](https://www.elenaverna.com) - Elena Verna
   B2B growth and PLG.
-- [Developer Marketing Community (Slack)](https://marketingto.dev/) - Ronak Ganatra
-  The most active community of practitioner dev marketers, run by Ronak Ganatra.
 - [DevRel Collective (Slack)](https://devrelcollective.fun/) - DevRel Collective
   Long-running DevRel Slack community. Open source tools list curated by the community.
 - [Write the Docs](https://www.writethedocs.org/) - Write the Docs
