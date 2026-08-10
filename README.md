@@ -102,7 +102,6 @@ Build ICP from observed buying behavior, not from brainstormed segmentation.
 - [Product Launch Strategy: A Comprehensive Guide for Success](https://www.productboard.com/blog/product-launch-strategy-a-comprehensive-guide-for-success) - Productboard
 - [How We Launch at Supabase](https://supabase.com/blog/supabase-how-we-launch) - Supabase
   Practitioner-written Supabase launch playbook. Highly cited by dev tool founders copying the launch tactic.
-
 ## Sales Enablement
 
 Battle cards, decks, training, and the hard work of making reps say the right thing.
