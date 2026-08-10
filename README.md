@@ -195,8 +195,8 @@ Battle cards, decks, training, and the hard work of making reps say the right th
   B2C, B2B, and enterprise pricing models with API-driven testing.
 - [Where Freemium Thrives and Dies](https://productled.com/freemium-business-model/) - Wes Bush, ProductLed
   Practitioner essay on freemium economics, written by the PLG book author. Useful for pricing page decisions.
-- [The State of Usage-Based Pricing: 2nd Edition](https://openviewpartners.com/blog/state-of-usage-based-pricing) - Kyle Poyar, OpenView
-  Data-backed analysis of UBP adoption across SaaS. 61% of SaaS companies use some form of usage-based pricing. The reference for deciding whether to shift from seat-based to consumption-based.
+- [The State of Usage-Based Pricing in SaaS](https://www.growthunhinged.com/p/the-state-of-usage-based-pricing) - Kyle Poyar, Growth Unhinged
+  Kyle Poyar's definitive analysis of UBP adoption. The author who put usage-based pricing on the map for SaaS. His Substack is the reference for pricing strategy decisions.
 - [Willingness to Pay: How to Research and Improve It](https://www.paddle.com/resources/willingness-to-pay) - Paddle
   WTP methodology for SaaS: how to measure it, how to use it for tier design, and why copying competitor prices is the wrong default.
 
