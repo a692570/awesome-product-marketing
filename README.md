@@ -489,6 +489,11 @@ Public marketing handbooks from developer-focused companies. The best way to lea
 
 ## Videos & Talks
 
+### Positioning & Messaging
+
+- [Obviously Awesome: How to Nail Product Positioning](https://www.youtube.com/watch?v=ZLi5q7Ln1jE) - April Dunford, Traction Conf 2019
+  The canonical positioning talk. Dunford walks through her methodology with real repositioning examples. Watch this before reading the book.
+
 ### Developer Marketing
 
 - [Developer Marketing at Auth0](https://www.youtube.com/watch?v=_mfkJI-jahg) - Gonto (Martin Gontovnikoff)
@@ -528,6 +533,8 @@ Public marketing handbooks from developer-focused companies. The best way to lea
 
 - [Aligning DevRel and Sales for Growth: Q&A with Twilio CMO Sara Varni](https://www.heavybit.com/library/blog/aligning-devrel-and-sales-for-growth-qa-twilio-cmo-sara-varni/) - Heavybit Library
   Twilio CMO on the hardest integration problem for any dev-focused company: DevRel and sales alignment.
+- [30 Minutes to President's Club](https://podcasts.apple.com/lv/podcast/30-minutes-to-presidents-club-no-nonsense-sales/id1510861233) - Armand Farrokh, Nick Cegelski, Mark Kosoglow
+  The #1 sales podcast. 30-minute tactical episodes from top sellers at Gong, Outreach, Slack. For PMMs who need to understand what sales actually does so enablement hits.
 
 ### Content Marketing
 
@@ -574,6 +581,16 @@ Public marketing handbooks from developer-focused companies. The best way to lea
   Newsletter for engineering managers and technical leaders. Useful for PMMs building content for engineering managers as a buyer persona.
 - [Developer Markepear Newsletter](https://www.developermarkepear.com/) - Flo Merian
   Newsletter with real developer marketing campaign breakdowns. The closest thing to a swipe file subscription for B2D marketers.
+- [Growth Unhinged](https://www.growthunhinged.com) - Kyle Poyar
+  SaaS pricing, PLG, and public company benchmarks from the most-cited pricing practitioner. His UBP analysis defined the usage-based pricing conversation.
+- [MKT1 Newsletter](https://newsletter.mkt1.co) - Emily Kramer
+  B2B startup marketing strategy and execution. 83K subscribers. Covers org design, annual planning, AI-enabled marketing. Emily led marketing at Asana and Carta.
+- [Dear Marketers](https://podcasts.apple.com/us/podcast/dear-marketers-with-emily-kramer-friends/id1794866629) - Emily Kramer, MKT1
+  B2B startup marketing advice podcast. Each episode answers a real marketer question on launches, org design, campaigns, and sales alignment.
+- [The Official SaaStr Podcast](https://podcasts.apple.com/us/podcast/saastr/id1089973241) - Jason Lemkin
+  Longest-running SaaS podcast. Founders, CROs, and CEOs who built the modern SaaS playbook. $0 to $100M ARR territory.
+- [The GTMnow Podcast](https://podcasts.apple.com/us/podcast/the-gtmnow-podcast/id1369291464) - GTMfund
+  Weekly interviews with top 1% GTM execs, VCs, and founders. Seed through Series B go-to-market strategy.
 
 ## Follow
 
