@@ -2,11 +2,11 @@
 
 # Awesome Product Marketing
 
-A curated and opinionated list of resources for Product Marketing Managers at high-growth and developer-focused companies, updated for the AI era.
+A curated and opinionated list of resources for Product Marketing Managers at AI, high-growth, and developer-focused companies. Built for PMMs who ship AI products, market to AI buyers, and use AI to do the work.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/a692570/awesome-product-marketing/pulls) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-Positioning &middot; Competitive Intelligence &middot; ICP &amp; Segmentation &middot; Launches &middot; Sales Enablement &middot; Content &middot; Growth &middot; Customer Evidence &middot; Pricing &middot; Developer Marketing &middot; Metrics &middot; Stack &middot; Market Research &middot; Internal Handbooks &middot; Books &middot; Videos &middot; Communities
+Positioning &middot; Competitive Intelligence &middot; ICP &amp; Segmentation &middot; Launches &middot; Sales Enablement &middot; Content &middot; Growth &middot; Customer Evidence &middot; Pricing &middot; Developer Marketing &middot; Metrics &middot; Stack &middot; AI Marketing &middot; Market Research &middot; Internal Handbooks &middot; Books &middot; Videos &middot; Communities
 
 </div>
 
@@ -393,6 +393,15 @@ The tools that show up again and again in working PMM stacks.
 - [GitHub Sponsors](https://github.com/sponsors) - built-in sponsorship for funding open source maintainers
 - [Open Collective](https://opencollective.com) - transparent fiscal hosting platform for open source project funding
 - [SonarSource (formerly Tidelift)](https://www.sonarsource.com/solutions/security/?tidelift=tidelift-redirect) - connecting enterprise subscribers with open source maintainers for commercial support. Tidelift was absorbed into SonarSource.
+
+### AI Marketing Tools & Agents
+
+Tools PMMs use to ship faster with AI, and the platforms reshaping the marketing stack.
+
+- [The New PMM Stack: How AI Fits Across Research, Positioning, and GTM](https://www.productmarketingalliance.com/the-new-pmm-stack) - Jay Cameron, Product Marketing Alliance
+  Framework for where AI belongs in the PMM workflow: signal, speed, and scale. Human for meaning. The clearest breakdown of AI-enabled product marketing roles.
+- [How To Create a Killer Go-To-Market Strategy for your AI Product](https://www.youtube.com/watch?v=r96qDzfC7Jk) - TK Kader
+  GTM positioning for AI products: copilot, prediction engine, and agent. The Iron Man suit metaphor and how to position AI features so buyers understand the value.
 
 ## Market Research & Developer Surveys
 
