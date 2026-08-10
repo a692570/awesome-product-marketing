@@ -151,6 +151,8 @@ Build ICP from observed buying behavior, not from brainstormed segmentation.
   Compose videos by writing HTML, CSS, and JS. Open source under Apache 2.0. Lets AI agents generate launch videos, demo videos, and product walkthroughs without a timeline editor. CLI tool at [github.com/heygen-com/hyperframes](https://github.com/heygen-com/hyperframes).
 - [Remotion](https://www.remotion.dev/) - Remotion
   React-based video creation. The veteran code-as-video framework, ~46K GitHub stars. Pairs with HyperFrames for data-driven and template-driven video pipelines.
+- [How to Predict Virality with Meta's TRIBE v2](https://x.com/fuckgrowth/status/2041580077826371733) - f*ckgrowth, X
+  Meta open-sourced TRIBE v2, a brain encoding model trained on 1,000+ hours of fMRI from 720 people. It predicts how 70,000 brain regions light up when watching a video. This thread walks through running a video draft through it, re-editing based on neural engagement data, and getting 221K views. Free Colab notebook, no code required.
 
 ## Sales Enablement
 
