@@ -4,292 +4,169 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Awesome Product Marketing — Curated PMM Resources for the AI Era</title>
-  <meta name="description" content="A curated and opinionated list of 223 resources for Product Marketing Managers at high-growth and developer-focused companies, updated for the AI era.">
+  <meta name="description" content="A curated and opinionated list of 223 resources for product marketing managers at developer-focused companies, updated for the AI era.">
   <meta property="og:title" content="Awesome Product Marketing">
   <meta property="og:description" content="A curated and opinionated list of 223 resources for PMMs at developer-focused companies, updated for the AI era.">
   <meta property="og:type" content="website">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css" rel="stylesheet">
   <style>
     :root {
-      --bg: #0a0a0a;
-      --bg-card: #131313;
-      --bg-card-hover: #1a1a1a;
-      --text: #e5e5e5;
-      --text-muted: #888;
-      --text-bright: #fff;
-      --accent: #00e3aa;
-      --accent-dim: #00b388;
-      --border: #222;
-      --radius: 12px;
-      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+      --bg: #000000;
+      --bg-surface: #131209;
+      --bg-surface-hover: #1F1F1F;
+      --bg-nav: rgba(0, 0, 0, 0.8);
+      --text-primary: oklch(0.98 0 0);
+      --text-secondary: oklch(0.72 0 0);
+      --text-muted: oklch(0.55 0 0);
+      --accent: oklch(0.72 0.15 165);
+      --accent-hover: oklch(0.78 0.18 165);
+      --border: oklch(0.22 0 0);
+      --border-hover: oklch(0.30 0 0);
+      --s-25: 2px; --s-50: 4px; --s-75: 8px; --s-100: 12px;
+      --s-200: 16px; --s-300: 24px; --s-400: 32px; --s-500: 40px;
+      --s-600: 48px; --s-700: 64px; --s-800: 80px; --s-900: 96px;
+      --radius: 12px; --radius-sm: 8px; --radius-full: 100px;
+      --ease: cubic-bezier(0.32, 0.72, 0, 1);
+      --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+      --font: "Geist", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+      --max-w: 1200px;
     }
-
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
     html { scroll-behavior: smooth; }
-
     body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: var(--font);
-      line-height: 1.6;
+      background: var(--bg); color: var(--text-secondary);
+      font-family: var(--font); line-height: 1.6;
       -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
     }
-
     a { color: inherit; text-decoration: none; }
+    ::selection { background: oklch(0.72 0.15 165 / 0.25); color: var(--text-primary); }
 
-    /* Hero */
-    .hero {
-      text-align: center;
-      padding: 120px 24px 80px;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
+    .hero { text-align: center; padding: var(--s-900) var(--s-300) var(--s-700); max-width: 680px; margin: 0 auto; }
     .hero h1 {
-      font-size: clamp(2.5rem, 6vw, 4rem);
-      font-weight: 700;
-      letter-spacing: -0.03em;
-      line-height: 1.05;
-      margin-bottom: 24px;
-      background: linear-gradient(to right, #fff, #888);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
+      font-size: clamp(2.5rem, 6vw, 4rem); font-weight: 700;
+      letter-spacing: -0.03em; line-height: 1.05; margin-bottom: var(--s-300);
+      text-wrap: balance;
+      background: linear-gradient(to right, var(--text-primary), oklch(0.55 0 0));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
     }
-
-    .hero p {
-      font-size: 1.25rem;
-      color: var(--text-muted);
-      max-width: 600px;
-      margin: 0 auto 40px;
-      line-height: 1.5;
-    }
-
-    .hero-stats {
-      display: flex;
-      justify-content: center;
-      gap: 48px;
-      flex-wrap: wrap;
-    }
-
-    .hero-stat {
-      text-align: center;
-    }
-
-    .hero-stat-num {
-      font-size: 2rem;
-      font-weight: 700;
-      color: var(--accent);
-    }
-
-    .hero-stat-label {
-      font-size: 0.875rem;
-      color: var(--text-muted);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-
+    .hero p { font-size: 1.25rem; color: var(--text-secondary); max-width: 560px; margin: 0 auto var(--s-500); line-height: 1.5; text-wrap: pretty; }
+    .hero-stats { display: flex; justify-content: center; gap: var(--s-700); flex-wrap: wrap; }
+    .hero-stat-num { font-size: 2rem; font-weight: 600; color: var(--accent); font-variant-numeric: tabular-nums; }
+    .hero-stat-label { font-size: 0.8125rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-top: var(--s-50); }
     .hero-cta {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: var(--accent);
-      color: #000;
-      font-weight: 600;
-      padding: 12px 24px;
-      border-radius: 8px;
-      margin-top: 40px;
-      transition: background 0.2s, transform 0.1s;
+      display: inline-flex; align-items: center; gap: var(--s-75);
+      background: var(--accent); color: #000; font-weight: 600; font-size: 1rem;
+      padding: var(--s-75) var(--s-300); border-radius: var(--radius-sm);
+      margin-top: var(--s-500);
+      transition: background 200ms var(--ease-out), transform 100ms var(--ease);
     }
+    .hero-cta:hover { background: var(--accent-hover); }
+    .hero-cta:active { transform: scale(0.96); }
 
-    .hero-cta:hover { background: var(--accent-dim); transform: translateY(-1px); }
+    .tagline { text-align: center; padding: var(--s-800) var(--s-300); max-width: 680px; margin: 0 auto; }
+    .tagline-text {
+      font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 600;
+      line-height: 1.2; letter-spacing: -0.02em; text-wrap: balance;
+      color: oklch(0.40 0 0);
+    }
+    .tagline-word { display: inline-block; transition: color 600ms var(--ease); color: oklch(0.40 0 0); }
+    .tagline-word.active { color: var(--text-primary); }
 
-    /* Nav */
     .nav {
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      background: rgba(10, 10, 10, 0.85);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border);
-      padding: 12px 24px;
+      position: sticky; top: 0; z-index: 100;
+      background: var(--bg-nav); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border); padding: var(--s-100) var(--s-300);
     }
-
     .nav-inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      display: flex;
-      gap: 20px;
-      overflow-x: auto;
-      scrollbar-width: thin;
-      padding-bottom: 4px;
+      max-width: var(--max-w); margin: 0 auto;
+      display: flex; gap: var(--s-100); overflow-x: auto;
+      scrollbar-width: thin; scrollbar-color: var(--border) transparent; padding-bottom: var(--s-50);
     }
-
-    .nav-inner::-webkit-scrollbar { height: 4px; }
+    .nav-inner::-webkit-scrollbar { height: 3px; }
     .nav-inner::-webkit-scrollbar-track { background: transparent; }
-    .nav-inner::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
-
+    .nav-inner::-webkit-scrollbar-thumb { background: var(--border); border-radius: var(--radius-full); }
     .nav a {
-      font-size: 0.8125rem;
-      color: var(--text-muted);
-      white-space: nowrap;
-      padding: 6px 10px;
-      border-radius: 6px;
-      transition: color 0.2s, background 0.2s;
+      font-size: 0.8125rem; color: var(--text-muted); white-space: nowrap;
+      padding: var(--s-50) var(--s-100); border-radius: var(--radius-sm);
+      transition: color 200ms var(--ease-out), background 200ms var(--ease-out);
     }
+    .nav a:hover { color: var(--accent); background: var(--bg-surface); }
 
-    .nav a:hover { color: var(--accent); background: var(--bg-card); }
-
-    /* Main */
-    main {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 24px 80px;
+    main { max-width: var(--max-w); margin: 0 auto; padding: 0 var(--s-300) var(--s-800); }
+    .category {
+      margin-bottom: var(--s-800); opacity: 0;
+      transform: translateY(16px); filter: blur(8px);
+      transition: opacity 800ms var(--ease), transform 800ms var(--ease), filter 800ms var(--ease);
     }
-
-    .category-section {
-      margin-bottom: 64px;
-      opacity: 0;
-      transform: translateY(24px);
-      transition: opacity 0.6s cubic-bezier(0.32, 0.72, 0, 1), transform 0.6s cubic-bezier(0.32, 0.72, 0, 1);
+    .category.visible { opacity: 1; transform: translateY(0); filter: blur(0); }
+    .cat-header { display: flex; align-items: center; gap: var(--s-100); margin-bottom: var(--s-75); }
+    .cat-icon { width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; color: var(--accent); }
+    .cat-icon i { font-size: 1.25rem; }
+    .cat-header h2 { font-size: 1.5rem; font-weight: 600; color: var(--text-primary); letter-spacing: -0.01em; text-wrap: balance; }
+    .cat-badge {
+      font-size: 0.75rem; font-weight: 500; color: var(--text-muted);
+      background: var(--bg-surface); border: 1px solid var(--border);
+      padding: var(--s-25) var(--s-100); border-radius: var(--radius-full);
+      font-variant-numeric: tabular-nums;
     }
-
-    .category-section.visible { opacity: 1; transform: translateY(0); }
-
-    .category-header {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      margin-bottom: 8px;
+    .cat-desc { font-size: 0.9375rem; color: var(--text-secondary); margin-bottom: var(--s-300); max-width: 560px; text-wrap: pretty; }
+    .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: var(--s-100); }
+    .card {
+      display: block; background: var(--bg-surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: var(--s-200) var(--s-300);
+      transition: background 200ms var(--ease-out), border-color 200ms var(--ease-out), transform 100ms var(--ease);
     }
+    .card:hover { background: var(--bg-surface-hover); border-color: var(--border-hover); transform: translateY(-2px); }
+    .card:active { transform: scale(0.98); }
+    .card-title { font-size: 0.9375rem; font-weight: 600; color: var(--text-primary); margin-bottom: var(--s-50); line-height: 1.35; }
+    .card-desc { font-size: 0.8125rem; color: var(--text-muted); line-height: 1.5; text-wrap: pretty; }
 
-    .category-icon { font-size: 1.5rem; }
+    footer { text-align: center; padding: var(--s-600) var(--s-300); border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.875rem; }
+    footer a { color: var(--accent); font-weight: 500; transition: color 200ms var(--ease-out); }
+    footer a:hover { color: var(--accent-hover); }
+    .footer-links { display: flex; justify-content: center; gap: var(--s-300); margin-top: var(--s-100); }
 
-    .category-header h2 {
-      font-size: 1.5rem;
-      font-weight: 600;
-      color: var(--text-bright);
-      letter-spacing: -0.01em;
-    }
-
-    .category-count {
-      font-size: 0.75rem;
-      color: var(--text-muted);
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      padding: 2px 8px;
-      border-radius: 100px;
-    }
-
-    .category-desc {
-      font-size: 0.9375rem;
-      color: var(--text-muted);
-      margin-bottom: 20px;
-      max-width: 600px;
-    }
-
-    .resource-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-      gap: 12px;
-    }
-
-    .resource-link {
-      display: block;
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 16px 20px;
-      transition: background 0.2s, border-color 0.2s, transform 0.1s;
-    }
-
-    .resource-link:hover {
-      background: var(--bg-card-hover);
-      border-color: #333;
-      transform: translateY(-2px);
-    }
-
-    .resource-title {
-      font-size: 0.9375rem;
-      font-weight: 600;
-      color: var(--text-bright);
-      margin-bottom: 4px;
-    }
-
-    .resource-desc {
-      font-size: 0.8125rem;
-      color: var(--text-muted);
-      line-height: 1.45;
-    }
-
-    /* Footer */
-    footer {
-      text-align: center;
-      padding: 48px 24px;
-      border-top: 1px solid var(--border);
-      color: var(--text-muted);
-      font-size: 0.875rem;
-    }
-
-    footer a {
-      color: var(--accent);
-      font-weight: 500;
-    }
-
-    footer a:hover { text-decoration: underline; }
-
-    .footer-links {
-      display: flex;
-      justify-content: center;
-      gap: 24px;
-      margin-top: 12px;
-    }
-
-    /* Mobile */
     @media (max-width: 640px) {
-      .hero { padding: 80px 20px 60px; }
+      .hero { padding: var(--s-700) var(--s-200) var(--s-600); }
       .hero h1 { font-size: 2rem; }
       .hero p { font-size: 1.0625rem; }
-      .resource-grid { grid-template-columns: 1fr; }
-      .hero-stats { gap: 32px; }
+      .card-grid { grid-template-columns: 1fr; }
+      .hero-stats { gap: var(--s-400); }
+      .tagline { padding: var(--s-600) var(--s-200); }
+      .tagline-text { font-size: 1.5rem; }
     }
-
-    /* Reduced motion */
     @media (prefers-reduced-motion: reduce) {
-      .category-section { opacity: 1; transform: none; }
+      .category { opacity: 1; transform: none; filter: none; }
+      .tagline-word { transition: none; color: var(--text-primary); }
       html { scroll-behavior: auto; }
+      * { transition-duration: 0ms !important; }
     }
   </style>
 </head>
 <body>
-
   <header class="hero">
-    <h1>Awesome Product Marketing</h1>
-    <p>A curated and opinionated list of resources for Product Marketing Managers at high-growth and developer-focused companies, updated for the AI era.</p>
+    <h1>Awesome product marketing</h1>
+    <p>A curated and opinionated list of resources for product marketing managers at high-growth and developer-focused companies, updated for the AI era.</p>
     <div class="hero-stats">
-      <div class="hero-stat">
-        <div class="hero-stat-num">223</div>
-        <div class="hero-stat-label">Resources</div>
-      </div>
-      <div class="hero-stat">
-        <div class="hero-stat-num">18</div>
-        <div class="hero-stat-label">Categories</div>
-      </div>
-      <div class="hero-stat">
-        <div class="hero-stat-num">32</div>
-        <div class="hero-stat-label">Books</div>
-      </div>
+      <div><div class="hero-stat-num">223</div><div class="hero-stat-label">Resources</div></div>
+      <div><div class="hero-stat-num">18</div><div class="hero-stat-label">Categories</div></div>
+      <div><div class="hero-stat-num">32</div><div class="hero-stat-label">Books</div></div>
     </div>
-    <a href="https://github.com/a692570/awesome-product-marketing" class="hero-cta" target="_blank" rel="noopener">
-      View on GitHub →
-    </a>
+    <a href="https://github.com/a692570/awesome-product-marketing" class="hero-cta" target="_blank" rel="noopener">View on GitHub</a>
   </header>
+
+  <section class="tagline">
+    <p class="tagline-text" id="tagline">The PMM reading list for companies that ship to developers.</p>
+  </section>
 
   <nav class="nav">
     <div class="nav-inner">
-            <a href="#positioning-messaging">Positioning &amp; Messaging</a>
+      <a href="#positioning-messaging">Positioning &amp; Messaging</a>
       <a href="#market-competitive-intelligence">Market &amp; Competitive Intelligence</a>
       <a href="#icp-segmentation">ICP &amp; Segmentation</a>
       <a href="#product-launches">Product Launches</a>
@@ -311,1077 +188,1077 @@
   </nav>
 
   <main>
-      <section class="category-section" id="positioning-messaging">
-        <div class="category-header">
-          <span class="category-icon">🎯</span>
-          <h2>Positioning &amp; Messaging</h2>
-          <span class="category-count">9</span>
-        </div>
-        <p class="category-desc">The core craft. Everything downstream depends on getting this right.</p>
-        <div class="resource-grid">
-            <a href="https://www.heinzmarketing.com/blog/five-components-of-effective-positioning-an-obviously-awesome-book-summary-part-2" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Five Components of Effective Positioning</div>
-              <div class="resource-desc">Heinz Marketing</div>
-            </a>
-            <a href="https://www.lennysnewsletter.com/p/a-guide-to-advanced-b2b-positioning" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">A Guide to Advanced B2B Positioning</div>
-              <div class="resource-desc">April Dunford, via Lenny&#x27;s Newsletter</div>
-            </a>
-            <a href="https://www.productmarketingalliance.com/what-is-product-marketing/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">What is Product Marketing? The 2026 Guide</div>
-              <div class="resource-desc">Product Marketing Alliance</div>
-            </a>
-            <a href="https://www.productmarketingalliance.com/product-positioning-template-framework" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Product Positioning Template &amp; Framework</div>
-              <div class="resource-desc">Product Marketing Alliance</div>
-            </a>
-            <a href="https://www.productmarketingalliance.com/a-practical-guide-to-creating-a-winning-positioning-and-messaging-strategy" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">A Practical Guide to Creating a Winning Positioning and Messaging Strategy</div>
-              <div class="resource-desc">Product Marketing Alliance</div>
-            </a>
-            <a href="https://www.pragmaticinstitute.com/framework/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">The Pragmatic Framework</div>
-              <div class="resource-desc">Pragmatic Institute</div>
-            </a>
-            <a href="https://www.nfx.com/post/the-four-types-of-defensibility/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">The Four Types of Defensibility</div>
-              <div class="resource-desc">NFX (James Currier)</div>
-            </a>
-            <a href="https://staysaasy.com/product/2021/08/29/narratives-in-enterprise-saas.html" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Selling to the Enterprise: Crafting Product Narratives</div>
-              <div class="resource-desc">StaySaaSy</div>
-            </a>
-            <a href="https://www.strategyzer.com/canvas/value-proposition-canvas" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Value Prop Canvas</div>
-              <div class="resource-desc">Strategyzer</div>
-            </a>
-        </div>
-      </section>
-      <section class="category-section" id="market-competitive-intelligence">
-        <div class="category-header">
-          <span class="category-icon">🔍</span>
-          <h2>Market &amp; Competitive Intelligence</h2>
-          <span class="category-count">8</span>
-        </div>
-        <p class="category-desc">Knowing the battlefield before you write a single word.</p>
-        <div class="resource-grid">
-            <a href="https://www.productmarketingalliance.com/8-tips-for-effective-win-loss-analysis" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">8 Tips for Effective Win/Loss Analysis</div>
-              <div class="resource-desc">Product Marketing Alliance</div>
-            </a>
-            <a href="https://www.klue.com/blog" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Klue Blog</div>
-              <div class="resource-desc">Klue</div>
-            </a>
-            <a href="https://www.crayon.co/blog" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Crayon Blog</div>
-              <div class="resource-desc">Crayon</div>
-            </a>
-            <a href="https://www.reforge.com/blog/competitive-marketing-growth" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">How to Grow By Stealing Market Share</div>
-              <div class="resource-desc">Reforge</div>
-            </a>
-            <a href="https://www.klue.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Klue</div>
-              <div class="resource-desc">competitive enablement platform</div>
-            </a>
-            <a href="https://www.crayon.co" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Crayon</div>
-              <div class="resource-desc">competitive intelligence tracking</div>
-            </a>
-            <a href="https://www.kompyte.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Kompyte</div>
-              <div class="resource-desc">competitor tracking and battlecards</div>
-            </a>
-            <a href="https://visualping.io" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Visualping</div>
-              <div class="resource-desc">free, monitors any page for changes, good for pricing intel</div>
-            </a>
-        </div>
-      </section>
-      <section class="category-section" id="icp-segmentation">
-        <div class="category-header">
-          <span class="category-icon">👥</span>
-          <h2>ICP &amp; Segmentation</h2>
-          <span class="category-count">3</span>
-        </div>
-        <p class="category-desc">Build ICP from observed buying behavior, not from brainstormed segmentation.</p>
-        <div class="resource-grid">
-            <a href="https://www.salesforce.com/sales/ideal-customer-profile" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">What&#x27;s an Ideal Customer Profile (ICP)? How to Identify and Win Your Best Customers</div>
-              <div class="resource-desc">Salesforce</div>
-            </a>
-            <a href="https://hginsights.com/blog/how-to-create-an-ideal-customer-profile-icp/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">How to Create an Ideal Customer Profile: Step-by-Step Guide</div>
-              <div class="resource-desc">HG Insights</div>
-            </a>
-            <a href="https://openviewpartners.com/blog/flavors-developer-focused-software" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">The Many Flavors of Developer-Focused Software</div>
-              <div class="resource-desc">OpenView</div>
-            </a>
-        </div>
-      </section>
-      <section class="category-section" id="product-launches">
-        <div class="category-header">
-          <span class="category-icon">🚀</span>
-          <h2>Product Launches</h2>
-          <span class="category-count">6</span>
-        </div>
-        <p class="category-desc">How to ship and announce without wasting the moment.</p>
-        <div class="resource-grid">
-            <a href="https://www.productmarketingalliance.com/a-visual-guide-to-product-launches" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">How to Launch a Product: A Visual Guide to Product Launches</div>
-              <div class="resource-desc">Product Marketing Alliance</div>
-            </a>
-            <a href="https://www.lennysnewsletter.com/p/how-to-successfully-launch-on-product" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">How to Successfully Launch on Product Hunt</div>
-              <div class="resource-desc">Lenny&#x27;s Newsletter</div>
-            </a>
-            <a href="https://www.reforge.com/blog/go-to-market-strategy-guide" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Go To Market Strategy &amp; Planning (Complete Guide)</div>
-              <div class="resource-desc">Reforge</div>
-            </a>
-            <a href="https://www.ycombinator.com/library/6Q-how-to-launch" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">YC&#x27;s Launch Guide</div>
-              <div class="resource-desc">Y Combinator</div>
-            </a>
-            <a href="https://www.productboard.com/blog/product-launch-strategy-a-comprehensive-guide-for-success" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Product Launch Strategy: A Comprehensive Guide for Success</div>
-              <div class="resource-desc">Productboard</div>
-            </a>
-            <a href="https://supabase.com/blog/supabase-how-we-launch" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">How We Launch at Supabase</div>
-              <div class="resource-desc">Supabase</div>
-            </a>
-        </div>
-      </section>
-      <section class="category-section" id="sales-enablement">
-        <div class="category-header">
-          <span class="category-icon">⚔️</span>
-          <h2>Sales Enablement</h2>
-          <span class="category-count">6</span>
-        </div>
-        <p class="category-desc">Battle cards, decks, training, and the hard work of making reps say the right thing.</p>
-        <div class="resource-grid">
-            <a href="https://www.gong.io/blog" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Gong Blog / Gong Labs</div>
-              <div class="resource-desc">Gong</div>
-            </a>
-            <a href="https://gtmnow.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">GTMnow (formerly Sales Hacker)</div>
-              <div class="resource-desc">GTMnow</div>
-            </a>
-            <a href="https://klue.com/blog/competitive-battlecards-101-product-overview-battlecard" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Competitive Battlecards 101: Product Overview Battlecard Template</div>
-              <div class="resource-desc">Klue</div>
-            </a>
-            <a href="https://a16z.com/nine-emerging-developer-patterns-for-the-ai-era" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Emerging Developer Patterns for the AI Era</div>
-              <div class="resource-desc">Yoko Li, a16z</div>
-            </a>
-            <a href="https://firstmark.medium.com/setting-up-your-sales-machine-565219192e64" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">How GitHub Built a $7.5B Sales Machine</div>
-              <div class="resource-desc">FirstMark</div>
-            </a>
-            <a href="https://www.bvp.com/atlas/introducing-enterprise-sales-to-a-product-led-growth-organization" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Introducing Enterprise Sales to a Product-Led Growth Organization</div>
-              <div class="resource-desc">Bessemer</div>
-            </a>
-        </div>
-      </section>
-      <section class="category-section" id="content-thought-leadership">
-        <div class="category-header">
-          <span class="category-icon">✍️</span>
-          <h2>Content &amp; Thought Leadership</h2>
-          <span class="category-count">12</span>
-        </div>
-        <p class="category-desc">Earn attention with substance, not volume.</p>
-        <div class="resource-grid">
-            <a href="https://developers.google.com/tech-writing" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Google Technical Writing</div>
-              <div class="resource-desc">Google</div>
-            </a>
-            <a href="https://www.contentmarketinginstitute.com/what-is-content-marketing/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">The Content Marketing Handbook</div>
-              <div class="resource-desc">Content Marketing Institute</div>
-            </a>
-            <a href="https://blog.hubspot.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">HubSpot Blog</div>
-              <div class="resource-desc">HubSpot</div>
-            </a>
-            <a href="https://www.lennysnewsletter.com/p/content-driven-growth-strategy" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Content Driven Growth</div>
-              <div class="resource-desc">Lenny Rachitsky</div>
-            </a>
-            <a href="https://www.lennysnewsletter.com/p/how-people-discover-new-products" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">How People Discover New Products</div>
-              <div class="resource-desc">Lenny Rachitsky</div>
-            </a>
-            <a href="https://draft.dev/learn/technical-content" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">How to Write Better Technical Content</div>
-              <div class="resource-desc">Draft.dev</div>
-            </a>
-            <a href="https://draft.dev/playbook" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">The Technical Content Manager&#x27;s Playbook</div>
-              <div class="resource-desc">Draft.dev</div>
-            </a>
-            <a href="https://sparktoro.com/blog/there-are-four-kinds-of-keyword-research-make-sure-youre-doing-the-right-ones/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">There Are Four Kinds of Keyword Research</div>
-              <div class="resource-desc">Rand Fishkin, SparkToro</div>
-            </a>
-            <a href="https://ahrefs.com/blog" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Ahrefs Blog</div>
-              <div class="resource-desc">Ahrefs</div>
-            </a>
-            <a href="https://www.lumar.io/blog/best-practice/how-to-optimize-your-content-for-ai-search-visibility-geo-aeo" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">How to Optimize Your Content for AI Search Visibility (GEO / AEO)</div>
-              <div class="resource-desc">Lumar</div>
-            </a>
-            <a href="https://www.searchenginejournal.com/googles-new-ai-search-guide-calls-aeo-and-geo-still-seo/575026" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Google&#x27;s New AI Search Guide: AEO and GEO Are Still SEO</div>
-              <div class="resource-desc">Search Engine Journal</div>
-            </a>
-            <a href="https://developers.google.com/search/docs" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Google Search Central Documentation</div>
-              <div class="resource-desc">Google</div>
-            </a>
-        </div>
-      </section>
-      <section class="category-section" id="demand-generation-growth">
-        <div class="category-header">
-          <span class="category-icon">📈</span>
-          <h2>Demand Generation &amp; Growth</h2>
-          <span class="category-count">9</span>
-        </div>
-        <p class="category-desc">Pipeline engines, PLG motions, and the frameworks that scale them.</p>
-        <div class="resource-grid">
-            <a href="https://www.reforge.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Reforge Programs</div>
-              <div class="resource-desc">Reforge</div>
-            </a>
-            <a href="https://www.elenaverna.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Elena Verna&#x27;s B2B Growth Content</div>
-              <div class="resource-desc">Elena Verna</div>
-            </a>
-            <a href="https://www.drift.com/blog" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">The B2B Marketing Lab</div>
-              <div class="resource-desc">Drift</div>
-            </a>
-            <a href="https://www.reforge.com/blog/racecar-growth-framework" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">The Racecar Growth Framework</div>
-              <div class="resource-desc">Reforge</div>
-            </a>
-            <a href="https://productled.com/blog/product-led-growth-strategy-playbook/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">How to Build a Product-Led Growth Strategy</div>
-              <div class="resource-desc">Wes Bush, ProductLed</div>
-            </a>
-            <a href="https://www.nfx.com/post/traction-tactics/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Traction Tactics Behind Square, PayPal, Waze, Twilio &amp; More</div>
-              <div class="resource-desc">NFX</div>
-            </a>
-            <a href="https://www.bvp.com/atlas/scaling-to-100-million" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Scaling to $100 Million: How Cloud Companies Grow to $100M ARR</div>
-              <div class="resource-desc">Bessemer Venture Partners</div>
-            </a>
-            <a href="https://corinneriley.medium.com/community-led-growth-the-product-led-growth-expansion-pack-b474ab9a7940" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Community-Led Growth: The Product-Led Growth Expansion Pack</div>
-              <div class="resource-desc">Corinne Riley</div>
-            </a>
-            <a href="https://business.daily.dev/resources/ai-coding-tool-marketing-how-to-reach-developers-cursor-copilot-era" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">AI Coding Tool Marketing: How to Reach Developers in the Cursor and Copilot Era</div>
-              <div class="resource-desc">Daniela Torres, daily.dev</div>
-            </a>
-        </div>
-      </section>
-      <section class="category-section" id="customer-evidence-stories">
-        <div class="category-header">
-          <span class="category-icon">📊</span>
-          <h2>Customer Evidence &amp; Stories</h2>
-          <span class="category-count">7</span>
-        </div>
-        <p class="category-desc">Proof that lands because it is real.</p>
-        <div class="resource-grid">
-            <a href="https://www.drift.com/blog/customer-story" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">The Anatomy of a Great Customer Story</div>
-              <div class="resource-desc">Drift</div>
-            </a>
-            <a href="https://www.g2.com/categories" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">G2 Case Studies &amp; Reviews</div>
-              <div class="resource-desc">G2</div>
-            </a>
-            <a href="https://www.decibel.vc/content/from-open-source-to-enterprise-how-vercel-built-a-product-led-motion" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">From Open-Source to Enterprise: How Vercel Built a Product-Led Motion on top of NextJS</div>
-              <div class="resource-desc">Decibel VC</div>
-            </a>
-            <a href="https://review.firstround.com/workos-path-to-product-market-fit/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">WorkOS&#x27;s Path to Product-Market Fit</div>
-              <div class="resource-desc">First Round Review</div>
-            </a>
-            <a href="https://review.firstround.com/vercels-path-to-product-market-fit/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Vercel&#x27;s Path to Product-Market Fit</div>
-              <div class="resource-desc">First Round Review</div>
-            </a>
-            <a href="https://tomtunguz.com/claire-hughes-johnson-notes/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">How Stripe Scaled: Notes from Office Hours with Claire Hughes Johnson</div>
-              <div class="resource-desc">Tomasz Tunguz</div>
-            </a>
-            <a href="https://lethain.com/stripe-product-led-developer-centric-growth/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Stripe&#x27;s Model of Product-Led, Developer-Centric Growth</div>
-              <div class="resource-desc">Will Larson</div>
-            </a>
-        </div>
-      </section>
-      <section class="category-section" id="pricing-packaging">
-        <div class="category-header">
-          <span class="category-icon">💰</span>
-          <h2>Pricing &amp; Packaging</h2>
-          <span class="category-count">3</span>
-        </div>
-        <p class="category-desc">The lever most PMMs avoid and the one that moves revenue most.</p>
-        <div class="resource-grid">
-            <a href="https://www.paddle.com/blog" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Paddle Blog (formerly ProfitWell)</div>
-              <div class="resource-desc">Paddle</div>
-            </a>
-            <a href="https://www.paddle.com/blog/saas-pricing-models-strategies-fltr" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">A Guide to SaaS Pricing Models and Strategies</div>
-              <div class="resource-desc">Paddle</div>
-            </a>
-            <a href="https://productled.com/freemium-business-model/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Where Freemium Thrives and Dies</div>
-              <div class="resource-desc">Wes Bush, ProductLed</div>
-            </a>
-        </div>
-      </section>
-      <section class="category-section" id="developer-marketing">
-        <div class="category-header">
-          <span class="category-icon">🛠️</span>
-          <h2>Developer Marketing</h2>
-          <span class="category-count">18</span>
-        </div>
-        <p class="category-desc">Marketing to people who hate marketing.</p>
-        <div class="resource-grid">
-            <a href="https://www.markepear.dev/blog/developer-marketing-guide" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Developer Marketing Guide (by a Dev Tool Startup CMO)</div>
-              <div class="resource-desc">Markepear</div>
-            </a>
-            <a href="https://www.heavybit.com/library" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Heavybit Journal</div>
-              <div class="resource-desc">Heavybit</div>
-            </a>
-            <a href="https://leerob.substack.com/p/on-developer-marketing" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">On Developer Marketing</div>
-              <div class="resource-desc">Lee Robinson</div>
-            </a>
-            <a href="https://posthog.com/founders/dev-marketing-for-startups" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Dev Tool Marketing for Early-Stage Startups: Lessons Learned from PostHog</div>
-              <div class="resource-desc">PostHog</div>
-            </a>
-            <a href="https://blog.scalingdevtools.com/i-interviewed-100-devtools-founders/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">I Interviewed 100 DevTools Founders and This Is What I Learned</div>
-              <div class="resource-desc">Jack Bridger</div>
-            </a>
-            <a href="https://hackmamba.io/developer-marketing/what-you-should-know-about-developer-marketing" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">What You Should Know About Developer Marketing (2026)</div>
-              <div class="resource-desc">Hackmamba</div>
-            </a>
-            <a href="https://www.mintlify.com/blog/stripe-docs" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">How Stripe Creates the Best Documentation in the Industry</div>
-              <div class="resource-desc">Mintlify</div>
-            </a>
-            <a href="https://www.moesif.com/blog/best-practices/api-product-management/the-stripe-developer-experience-and-docs-teardown" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">The Stripe Developer Experience and Docs Teardown</div>
-              <div class="resource-desc">Moesif</div>
-            </a>
-            <a href="https://future.a16z.com/the-case-for-developer-experience/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">The Case for Developer Experience</div>
-              <div class="resource-desc">Sonya Mann, a16z Future</div>
-            </a>
-            <a href="https://maida.kim/how-to-measure-the-value-of-developer-relations" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">How to Measure the Value of Developer Relations</div>
-              <div class="resource-desc">Kim Maida</div>
-            </a>
-            <a href="https://tylerjewell.substack.com/p/developer-led-landscape-software" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">The Developer-Led Landscape (8th Edition)</div>
-              <div class="resource-desc">Tyler Jewell</div>
-            </a>
-            <a href="https://www.stateofdeveloperrelations.com/2024devrelreport" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">State of Developer Relations (2024 Report)</div>
-              <div class="resource-desc">DevRel.Agency</div>
-            </a>
-            <a href="https://newsletter.thelongcommit.com/p/the-gtm-for-developer-tools-is-breaking" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">The GTM for Developer Tools Is Breaking in Two Places at Once</div>
-              <div class="resource-desc">Juan Cruz Martinez, The Long Commit</div>
-            </a>
-            <a href="https://hackmamba.io/developer-marketing/gtm-strategy-for-devtools" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">How to Build a Developer-Led GTM Strategy in 2026</div>
-              <div class="resource-desc">Mohammed Tahir, Hackmamba</div>
-            </a>
-            <a href="https://www.heavybit.com/library/blog/building-vibrant-developer-communities/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Building Vibrant Developer Communities</div>
-              <div class="resource-desc">Heavybit</div>
-            </a>
-            <a href="https://github.com/swapagarwal/swag-for-dev" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Swag for Devs</div>
-              <div class="resource-desc">Swap Agarwal</div>
-            </a>
-            <a href="https://bitreach.notion.site/Developer-Newsletters-1320315a0f314e76b2016b39359cb560" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">140+ Dev-Centric Newsletters</div>
-              <div class="resource-desc">Jack Bridger, BitReach</div>
-            </a>
-            <a href="https://github.com/zudochkin/awesome-newsletters" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Awesome Newsletters (Developer Section)</div>
-              <div class="resource-desc">zudochkin</div>
-            </a>
-        </div>
-      </section>
-      <section class="category-section" id="marketing-in-the-ai-era">
-        <div class="category-header">
-          <span class="category-icon">🤖</span>
-          <h2>Marketing in the AI Era</h2>
-          <span class="category-count">8</span>
-        </div>
-        <p class="category-desc">How AI changes the practice of product marketing itself: agent-friendly content, AI-native GTM motions, answer-engine optimization, and the new developer buying behavior.</p>
-        <div class="resource-grid">
-            <a href="https://newsletter.thelongcommit.com/p/the-gtm-for-developer-tools-is-breaking" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">The GTM for Developer Tools Is Breaking in Two Places at Once</div>
-              <div class="resource-desc">Juan Cruz Martinez, The Long Commit</div>
-            </a>
-            <a href="https://business.daily.dev/resources/ai-coding-tool-marketing-how-to-reach-developers-cursor-copilot-era" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">AI Coding Tool Marketing: How to Reach Developers in the Cursor and Copilot Era</div>
-              <div class="resource-desc">Daniela Torres, daily.dev</div>
-            </a>
-            <a href="https://www.lumar.io/blog/best-practice/how-to-optimize-your-content-for-ai-search-visibility-geo-aeo" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">How to Optimize Your Content for AI Search Visibility (GEO / AEO)</div>
-              <div class="resource-desc">Lumar</div>
-            </a>
-            <a href="https://www.searchenginejournal.com/googles-new-ai-search-guide-calls-aeo-and-geo-still-seo/575026" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Google&#x27;s New AI Search Guide: AEO and GEO Are Still SEO</div>
-              <div class="resource-desc">Search Engine Journal</div>
-            </a>
-            <a href="https://a16z.com/nine-emerging-developer-patterns-for-the-ai-era" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Nine Emerging Developer Patterns for the AI Era</div>
-              <div class="resource-desc">Yoko Li, a16z</div>
-            </a>
-            <a href="https://hackmamba.io/developer-marketing/gtm-strategy-for-devtools" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">How to Build a Developer-Led GTM Strategy in 2026</div>
-              <div class="resource-desc">Mohammed Tahir, Hackmamba</div>
-            </a>
-            <a href="https://x.com/marclou/status/2076687096279171344" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">How Marc Lou Made His Entire SaaS Readable by AI Agents</div>
-              <div class="resource-desc">Marc Lou, X</div>
-            </a>
-            <a href="https://www.lennysnewsletter.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Prompt Marketing: The New Channel Nobody Has Named Yet</div>
-              <div class="resource-desc">Emerging practice</div>
-            </a>
-        </div>
-      </section>
-      <section class="category-section" id="metrics-analytics-attribution">
-        <div class="category-header">
-          <span class="category-icon">📐</span>
-          <h2>Metrics, Analytics &amp; Attribution</h2>
-          <span class="category-count">9</span>
-        </div>
-        <p class="category-desc">What to measure, what to ignore, and how to prove it.</p>
-        <div class="resource-grid">
-            <a href="https://www.reforge.com/guides/identifying-the-right-metric-for-marketing-measurement" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Identifying the Right Metric for Marketing Measurement</div>
-              <div class="resource-desc">Reforge</div>
-            </a>
-            <a href="https://www.amplitude.com/blog/product-analytics" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Product Analytics: A Guide</div>
-              <div class="resource-desc">Amplitude</div>
-            </a>
-            <a href="https://www.amplitude.com/blog/north-star-metric" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">North Star Metric Guide</div>
-              <div class="resource-desc">Amplitude</div>
-            </a>
-            <a href="https://www.poweredbysearch.com/blog/b2b-marketing-attribution" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">B2B Marketing Attribution: A Practical Guide for SaaS Companies</div>
-              <div class="resource-desc">Powered by Search</div>
-            </a>
-            <a href="https://improvado.io/blog/marketing-attribution-models" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Marketing Attribution Models: The Ultimate Guide for 2026</div>
-              <div class="resource-desc">Improvado</div>
-            </a>
-            <a href="https://amplitude.com/explore/digital-marketing/marketing-attribution-guide" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">A Quick Guide to Marketing Attribution</div>
-              <div class="resource-desc">Amplitude</div>
-            </a>
-            <a href="https://www.reforge.com/blog/the-product-strategy-stack" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">The Product Strategy Stack</div>
-              <div class="resource-desc">Brian Balfour, Reforge</div>
-            </a>
-            <a href="https://sparktoro.com/blog/saas-churn-and-short-term-customers-the-contrarian-view/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">SaaS Churn and Short-Term Customers: The Contrarian View</div>
-              <div class="resource-desc">Rand Fishkin, SparkToro</div>
-            </a>
-            <a href="https://sparktoro.com/blog/how-to-measure-hard-to-measure-marketing-channels" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">How to Measure Hard-to-Measure Marketing Channels</div>
-              <div class="resource-desc">Rand Fishkin, SparkToro</div>
-            </a>
-        </div>
-      </section>
-      <section class="category-section" id="tools-stack">
-        <div class="category-header">
-          <span class="category-icon">🧰</span>
-          <h2>Tools &amp; Stack</h2>
-          <span class="category-count">52</span>
-        </div>
-        <p class="category-desc">The tools that show up again and again in working PMM stacks.</p>
-        <div class="resource-grid">
-            <a href="https://www.notion.so" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Notion</div>
-              <div class="resource-desc">docs, wikis, launch trackers</div>
-            </a>
-            <a href="https://www.figma.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Figma</div>
-              <div class="resource-desc">decks, one-pagers, creative collaboration</div>
-            </a>
-            <a href="https://workspace.google.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Google Workspace</div>
-              <div class="resource-desc">sheets, docs, slides</div>
-            </a>
-            <a href="https://www.loom.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Loom</div>
-              <div class="resource-desc">async sales enablement video</div>
-            </a>
-            <a href="https://www.highspot.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Highspot</div>
-              <div class="resource-desc">sales enablement content management</div>
-            </a>
-            <a href="https://seismic.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Seismic</div>
-              <div class="resource-desc">sales enablement at scale</div>
-            </a>
-            <a href="https://www.gong.io" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Gong</div>
-              <div class="resource-desc">call intelligence, win/loss data</div>
-            </a>
-            <a href="https://www.klue.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Klue</div>
-              <div class="resource-desc">competitive enablement</div>
-            </a>
-            <a href="https://www.crayon.co" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Crayon</div>
-              <div class="resource-desc">competitive intelligence</div>
-            </a>
-            <a href="https://ahrefs.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Ahrefs</div>
-              <div class="resource-desc">SEO and content research</div>
-            </a>
-            <a href="https://www.semrush.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">SEMrush</div>
-              <div class="resource-desc">competitive SEO and ad research</div>
-            </a>
-            <a href="https://ads.google.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Google Ads</div>
-              <div class="resource-desc">paid search and display</div>
-            </a>
-            <a href="https://business.adobe.com/products/marketo.html" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Marketo (Adobe)</div>
-              <div class="resource-desc">B2B marketing automation</div>
-            </a>
-            <a href="https://www.hubspot.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">HubSpot</div>
-              <div class="resource-desc">inbound and CRM for mid-market</div>
-            </a>
-            <a href="https://6sense.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">6sense</div>
-              <div class="resource-desc">account-based orchestration</div>
-            </a>
-            <a href="https://www.demandbase.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Demandbase</div>
-              <div class="resource-desc">ABM platform</div>
-            </a>
-            <a href="https://www.tableau.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Tableau</div>
-              <div class="resource-desc">BI and reporting</div>
-            </a>
-            <a href="https://chat.openai.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">ChatGPT</div>
-            </a>
-            <a href="https://www.grammarly.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Grammarly</div>
-              <div class="resource-desc">editing at scale</div>
-            </a>
-            <a href="https://www.commonroom.io/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Common Room</div>
-              <div class="resource-desc">community intelligence platform aggregating dev engagement signals across GitHub, Slack, Discord, Twitter. Used by PostHog, Snowflake for dark-funnel account mapping.</div>
-            </a>
-            <a href="https://posthog.com/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">PostHog</div>
-              <div class="resource-desc">open source product analytics with feature flags and A/B testing. The default analytics stack for dev-focused PLG companies.</div>
-            </a>
-            <a href="https://www.stainless.com/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Stainless</div>
-              <div class="resource-desc">SDK generation tool used by OpenAI, Cloudflare, and LangChain for typed client SDKs.</div>
-            </a>
-            <a href="https://www.speakeasy.com/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Speakeasy</div>
-              <div class="resource-desc">SDK generation from OpenAPI specs. Used by API-first companies to ship idiomatic client libraries.</div>
-            </a>
-            <a href="https://getdx.com/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">DX</div>
-              <div class="resource-desc">survey platform for measuring developer experience and engineering productivity. Used by Spotify, Verizon, Walmart.</div>
-            </a>
-            <a href="https://mktto.dev/examples" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Developer Marketing Examples</div>
-              <div class="resource-desc">Flo Merian</div>
-            </a>
-            <a href="https://www.buysellads.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Carbon Ads (BuySellAds)</div>
-              <div class="resource-desc">ad marketplace connecting advertisers with developer and tech publisher inventory</div>
-            </a>
-            <a href="https://business.daily.dev" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">daily.dev Ads</div>
-              <div class="resource-desc">native advertising platform for reaching developers through in-feed and email digest placements</div>
-            </a>
-            <a href="https://www.ethicalads.io" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">EthicalAds</div>
-              <div class="resource-desc">privacy-focused ad network for developer sites, run by the Read the Docs team</div>
-            </a>
-            <a href="https://stackoverflow.co/advertising" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Stack Overflow Advertising</div>
-              <div class="resource-desc">targeting developers by technology tags</div>
-            </a>
-            <a href="https://tldr.tech" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">TLDR</div>
-              <div class="resource-desc">daily newsletter covering tech, startups, and programming with topic-specific editions</div>
-            </a>
-            <a href="https://changelog.com/news" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Changelog</div>
-              <div class="resource-desc">weekly newsletter covering open source and software development news</div>
-            </a>
-            <a href="https://bytes.dev" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Bytes</div>
-              <div class="resource-desc">twice-weekly JavaScript and web development newsletter</div>
-            </a>
-            <a href="https://mintlify.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Mintlify</div>
-              <div class="resource-desc">documentation platform with built-in analytics, optimized for developer tools and APIs</div>
-            </a>
-            <a href="https://readme.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">ReadMe</div>
-              <div class="resource-desc">API documentation and developer hub platform with usage analytics</div>
-            </a>
-            <a href="https://docusaurus.io" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Docusaurus</div>
-              <div class="resource-desc">open source documentation site generator by Meta, widely used for technical docs</div>
-            </a>
-            <a href="https://starlight.astro.build" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Starlight</div>
-              <div class="resource-desc">documentation site builder powered by Astro</div>
-            </a>
-            <a href="https://nextra.site" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Nextra</div>
-              <div class="resource-desc">documentation site framework built on Next.js with MDX support</div>
-            </a>
-            <a href="https://codesandbox.io" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">CodeSandbox</div>
-              <div class="resource-desc">browser-based development environment for instant, shareable demos</div>
-            </a>
-            <a href="https://stackblitz.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">StackBlitz</div>
-              <div class="resource-desc">browser-based IDE for running full Node.js projects instantly</div>
-            </a>
-            <a href="https://replit.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Replit</div>
-              <div class="resource-desc">online coding environment for interactive tutorials and demos</div>
-            </a>
-            <a href="https://about.scarf.sh" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Scarf</div>
-              <div class="resource-desc">package and container analytics for understanding open source adoption</div>
-            </a>
-            <a href="https://plausible.io" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Plausible</div>
-              <div class="resource-desc">privacy-friendly web analytics that works without cookies</div>
-            </a>
-            <a href="https://getkoala.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Koala</div>
-              <div class="resource-desc">visitor identification and intent signal platform for B2B software</div>
-            </a>
-            <a href="https://www.hockeystack.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">HockeyStack</div>
-              <div class="resource-desc">B2B marketing attribution connecting website activity to pipeline</div>
-            </a>
-            <a href="https://clearbit.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Clearbit</div>
-              <div class="resource-desc">data enrichment for identifying companies visiting your docs and marketing pages</div>
-            </a>
-            <a href="https://github.com/orbit-love/orbit-model" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">The Orbit Model</div>
-              <div class="resource-desc">Orbit (Josh Dzielak, Patrick Woods)</div>
-            </a>
-            <a href="https://www.leggetter.co.uk/2016/02/03/defining-developer-relations.html" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">AAARRRP: A Developer Relations Strategy Framework</div>
-              <div class="resource-desc">Phil Leggetter</div>
-            </a>
-            <a href="https://developer-advocacy.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">The Developer Advocacy Handbook</div>
-              <div class="resource-desc">Christian Heilmann</div>
-            </a>
-            <a href="https://www.rocketblocks.me/guide/product-marketing/overview.php" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">RocketBlocks Product Marketing Guide</div>
-              <div class="resource-desc">RocketBlocks</div>
-            </a>
-            <a href="https://github.com/sponsors" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">GitHub Sponsors</div>
-              <div class="resource-desc">built-in sponsorship for funding open source maintainers</div>
-            </a>
-            <a href="https://opencollective.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Open Collective</div>
-              <div class="resource-desc">transparent fiscal hosting platform for open source project funding</div>
-            </a>
-            <a href="https://www.sonarsource.com/solutions/security/?tidelift=tidelift-redirect" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">SonarSource (formerly Tidelift)</div>
-              <div class="resource-desc">connecting enterprise subscribers with open source maintainers for commercial support. Tidelift was absorbed into SonarSource.</div>
-            </a>
-        </div>
-      </section>
-      <section class="category-section" id="market-research-developer-surveys">
-        <div class="category-header">
-          <span class="category-icon">📋</span>
-          <h2>Market Research &amp; Developer Surveys</h2>
-          <span class="category-count">6</span>
-        </div>
-        <p class="category-desc">Data sources for understanding developer audiences, tools, and trends.</p>
-        <div class="resource-grid">
-            <a href="https://survey.stackoverflow.co" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Stack Overflow Developer Survey</div>
-              <div class="resource-desc">Stack Overflow</div>
-            </a>
-            <a href="https://octoverse.github.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">GitHub Octoverse</div>
-              <div class="resource-desc">GitHub</div>
-            </a>
-            <a href="https://stateofjs.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">State of JS</div>
-              <div class="resource-desc">Sacha Greif and contributors</div>
-            </a>
-            <a href="https://dora.dev" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">DORA State of DevOps Report</div>
-              <div class="resource-desc">Google</div>
-            </a>
-            <a href="https://www.stateofdeveloperrelations.com/2024devrelreport" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">State of Developer Relations (2024 Report)</div>
-              <div class="resource-desc">DevRel.Agency</div>
-            </a>
-            <a href="https://stateofcss.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">State of CSS</div>
-              <div class="resource-desc">Sacha Greif and contributors</div>
-            </a>
-        </div>
-      </section>
-      <section class="category-section" id="internal-handbooks">
-        <div class="category-header">
-          <span class="category-icon">📖</span>
-          <h2>Internal Handbooks</h2>
-          <span class="category-count">3</span>
-        </div>
-        <p class="category-desc">Public marketing handbooks from developer-focused companies. The best way to learn how a real PMM org operates.</p>
-        <div class="resource-grid">
-            <a href="https://about.gitlab.com/handbook/marketing/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">GitLab Marketing Handbook</div>
-              <div class="resource-desc">GitLab</div>
-            </a>
-            <a href="https://posthog.com/handbook/growth/marketing" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">PostHog Marketing Handbook</div>
-              <div class="resource-desc">PostHog</div>
-            </a>
-            <a href="https://resend.com/handbook" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Resend&#x27;s Handbook</div>
-              <div class="resource-desc">Resend</div>
-            </a>
-        </div>
-      </section>
-      <section class="category-section" id="books">
-        <div class="category-header">
-          <span class="category-icon">📚</span>
-          <h2>Books</h2>
-          <span class="category-count">32</span>
-        </div>
-        <p class="category-desc">The reading list. Foundational and current.</p>
-        <div class="resource-grid">
-            <a href="https://www.amazon.com/dp/1999023056" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 Obviously Awesome: How to Nail Product Positioning so Customers Get It, Buy It, Love It</div>
-              <div class="resource-desc">April Dunford</div>
-            </a>
-            <a href="https://www.goodreads.com/book/show/138566.Positioning" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 Positioning: The Battle for Your Mind</div>
-              <div class="resource-desc">Al Ries and Jack Trout</div>
-            </a>
-            <a href="https://www.amazon.com/Crossing-Chasm-2nd-Geoffrey-Moore/dp/0060517123" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 Crossing the Chasm</div>
-              <div class="resource-desc">Geoffrey Moore</div>
-            </a>
-            <a href="https://heathbrothers.com/books/made-to-stick/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 Made to Stick: Why Some Ideas Survive and Others Die</div>
-              <div class="resource-desc">Chip and Dan Heath</div>
-            </a>
-            <a href="https://www.amazon.com/Building-StoryBrand-Donald-Miller/dp/0718033329" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 Building a StoryBrand</div>
-              <div class="resource-desc">Donald Miller</div>
-            </a>
-            <a href="https://www.amazon.com/LOVED-Rethink-Marketing-Tech-Products/dp/1119703646" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 LOVED: How to Rethink Marketing for Tech Products</div>
-              <div class="resource-desc">Martina Lauchengco</div>
-            </a>
-            <a href="https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 Inspired: How to Create Tech Products Customers Love</div>
-              <div class="resource-desc">Marty Cagan</div>
-            </a>
-            <a href="https://www.amazon.com/Mom-Test-customers-business-everyone/dp/B01H4G2J1U" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 The Mom Test: How to Talk to Customers</div>
-              <div class="resource-desc">Rob Fitzpatrick</div>
-            </a>
-            <a href="https://www.amazon.com/Hooked-Build-Habit-Forming-Products/dp/1591847788" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 Hooked: How to Build Habit-Forming Products</div>
-              <div class="resource-desc">Nir Eyal</div>
-            </a>
-            <a href="https://www.amazon.com/Lean-Startup-Eric-Ries/dp/0307887898" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 The Lean Startup</div>
-              <div class="resource-desc">Eric Ries</div>
-            </a>
-            <a href="https://www.amazon.com/dp/1591844355" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 The Challenger Sale: Taking Control of the Customer Conversation</div>
-              <div class="resource-desc">Matthew Dixon</div>
-            </a>
-            <a href="https://www.amazon.com/dp/0070511136" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 SPIN Selling</div>
-              <div class="resource-desc">Neil Rackham</div>
-            </a>
-            <a href="https://www.amazon.com/Hacking-Growth-Fastest-Growing-Companies-Breakout/dp/045149721X" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 Hacking Growth</div>
-              <div class="resource-desc">Sean Ellis &amp; Morgan Brown</div>
-            </a>
-            <a href="https://productled.com/book/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 Product-Led Growth: How to Build a Product That Sells Itself</div>
-              <div class="resource-desc">Wes Bush</div>
-            </a>
-            <a href="https://www.amazon.com/They-Ask-You-Answer-Revolutionary/dp/1119610141" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 They Ask, You Answer</div>
-              <div class="resource-desc">Marcus Sheridan</div>
-            </a>
-            <a href="https://www.amazon.com/Show-Your-Work-Austin-Kleon/dp/076117897X" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 Show Your Work</div>
-              <div class="resource-desc">Austin Kleon</div>
-            </a>
-            <a href="https://www.stephaniemorillo.co/product-page/the-developer-s-guide-to-content-creation" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 The Developer&#x27;s Guide To Content Creation</div>
-              <div class="resource-desc">Stephanie Morillo</div>
-            </a>
-            <a href="https://www.amazon.com/Contagious-Things-Catch-Jonah-Berger/dp/1451686587" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 Contagious: Why Things Catch On</div>
-              <div class="resource-desc">Jonah Berger</div>
-            </a>
-            <a href="https://annhandley.com/everybodywrites/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 Everybody Writes: Your Go-To Guide to Creating Ridiculously Good Content</div>
-              <div class="resource-desc">Ann Handley</div>
-            </a>
-            <a href="https://www.amazon.com/Monetizing-Innovation-Companies-Design-Product/dp/1119240867" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 Monetizing Innovation: How Smart Companies Design the Product Around the Price</div>
-              <div class="resource-desc">Madhavan Ramanujam &amp; Georg Tacke</div>
-            </a>
-            <a href="https://www.goodreads.com/book/show/56093931-the-pricing-roadmap" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 The Pricing Roadmap: How to Design B2B SaaS Pricing Models That Your Customers Will Love</div>
-              <div class="resource-desc">Ulrik Lehrskov-Schmidt</div>
-            </a>
-            <a href="https://www.amazon.com/Developer-Marketing-Does-Not-Exist/dp/173702960X" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 Developer Marketing Does Not Exist: an Authentic Guide</div>
-              <div class="resource-desc">Adam DuVander</div>
-            </a>
-            <a href="https://www.strategicnerds.com/book" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 Picks and Shovels: Marketing to Developers During the AI Gold Rush</div>
-              <div class="resource-desc">Prashant Sridharan</div>
-            </a>
-            <a href="https://www.askyourdeveloper.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 Ask Your Developer: How to Harness the Power of Software Developers and Win in the 21st Century</div>
-              <div class="resource-desc">Jeff Lawson</div>
-            </a>
-            <a href="https://press.stripe.com/working-in-public" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 Working in Public: The Making and Maintenance of Open Source Software</div>
-              <div class="resource-desc">Nadia Eghbal</div>
-            </a>
-            <a href="https://www.persea-consulting.com/book" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 The Business Value of Developer Relations</div>
-              <div class="resource-desc">Mary Thengvall</div>
-            </a>
-            <a href="https://www.devrelbook.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 Developer Relations: How to Build and Grow a Successful Developer Program</div>
-              <div class="resource-desc">Caroline Lewko and James Parton</div>
-            </a>
-            <a href="https://www.amazon.com/Developer-Facing-Startup-market-developer-facing/dp/B0D4KGHQML" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 The Developer Facing Startup: Alchemist Accelerator&#x27;s GTM Playbook for Early-Stage Developer-Facing Startups</div>
-              <div class="resource-desc">Adam Frankl</div>
-            </a>
-            <a href="https://dx.addy.ie/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 Developer Experience</div>
-              <div class="resource-desc">Addy Osmani</div>
-            </a>
-            <a href="https://www.amazon.com/Developer-Marketing-Relations-Essential-Guide/dp/B08KH3T5TN" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 Developer Marketing and Relations: The Essential Guide</div>
-              <div class="resource-desc">SlashData</div>
-            </a>
-            <a href="https://www.jonobacon.com/books/artofcommunity" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 The Art of Community: Building the New Age of Participation</div>
-              <div class="resource-desc">Jono Bacon</div>
-            </a>
-            <a href="https://www.amazon.com/Business-Belonging-Community-Competitive-Advantage/dp/1119766125" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">📕 The Business of Belonging: How to Make Community Your Competitive Advantage</div>
-              <div class="resource-desc">David Spinks</div>
-            </a>
-        </div>
-      </section>
-      <section class="category-section" id="videos-talks">
-        <div class="category-header">
-          <span class="category-icon">🎬</span>
-          <h2>Videos &amp; Talks</h2>
-          <span class="category-count">13</span>
-        </div>
-        <p class="category-desc">Watch the practitioners, not the pundits.</p>
-        <div class="resource-grid">
-            <a href="https://www.youtube.com/watch?v=_mfkJI-jahg" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Developer Marketing at Auth0</div>
-              <div class="resource-desc">Gonto (Martin Gontovnikoff)</div>
-            </a>
-            <a href="https://www.youtube.com/watch?v=MWwH-12N5TA" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">On Developer Marketing (YouTube Interview)</div>
-              <div class="resource-desc">Lee Robinson, interviewed by Peter Yang</div>
-            </a>
-            <a href="https://www.youtube.com/channel/UCabc3QtCLKsNeTOx9cqDSlQ" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">DevRelCon Talk Library</div>
-              <div class="resource-desc">DevRelCon / Hoopy</div>
-            </a>
-            <a href="https://www.youtube.com/watch?v=Rd-_Au7igJ8" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Successful DevRel: No Matter the Org Chart</div>
-              <div class="resource-desc">Bear Douglas</div>
-            </a>
-            <a href="https://www.youtube.com/watch?v=wQOByc0DGW4" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">The Developer Relations Bill of Rights</div>
-              <div class="resource-desc">Anil Dash</div>
-            </a>
-            <a href="https://www.youtube.com/watch?v=neB2aleEJ4c" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Going 0 to 60 with DevRel at GitHub</div>
-              <div class="resource-desc">Martin Woodward</div>
-            </a>
-            <a href="https://www.youtube.com/watch?v=xUbUV46DZEM" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Activating Developers to Drive Your Advocacy Program</div>
-              <div class="resource-desc">Brian Douglas</div>
-            </a>
-            <a href="https://www.youtube.com/watch?v=765wLWVcyS0" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Friction Logging 101</div>
-              <div class="resource-desc">Emma Haruka Iwao</div>
-            </a>
-            <a href="https://www.youtube.com/watch?v=G6QsYtjVJbY" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">The Seven Deadly Sins of Developer Onboarding</div>
-              <div class="resource-desc">Cristiano Betta</div>
-            </a>
-            <a href="https://www.youtube.com/watch?v=2e4WSZtzsKI" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Measuring the Health of your OSS Community</div>
-              <div class="resource-desc">Jono Bacon</div>
-            </a>
-            <a href="https://www.youtube.com/watch?v=jg1zhJU37oI" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">DevRel Metrics with Product Goals</div>
-              <div class="resource-desc">Derric Gilling</div>
-            </a>
-            <a href="https://www.heavybit.com/library/blog/aligning-devrel-and-sales-for-growth-qa-twilio-cmo-sara-varni/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Aligning DevRel and Sales for Growth: Q&amp;A with Twilio CMO Sara Varni</div>
-              <div class="resource-desc">Heavybit Library</div>
-            </a>
-            <a href="https://www.decibel.vc/articles/the-developer-content-playbook-that-fuels-twilios-plg-at-scale" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Lessons from Twilio: The Developer Content Playbook that Fuels PLG at Scale</div>
-              <div class="resource-desc">Decibel VC</div>
-            </a>
-        </div>
-      </section>
-      <section class="category-section" id="communities-newsletters">
-        <div class="category-header">
-          <span class="category-icon">💬</span>
-          <h2>Communities &amp; Newsletters</h2>
-          <span class="category-count">19</span>
-        </div>
-        <p class="category-desc">Where PMMs and dev marketers actually hang out.</p>
-        <div class="resource-grid">
-            <a href="https://www.productmarketingalliance.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Product Marketing Alliance</div>
-              <div class="resource-desc">PMA</div>
-            </a>
-            <a href="https://www.lennysnewsletter.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Lenny&#x27;s Newsletter</div>
-              <div class="resource-desc">Lenny Rachitsky</div>
-            </a>
-            <a href="https://www.reforge.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Reforge</div>
-              <div class="resource-desc">Reforge</div>
-            </a>
-            <a href="https://www.pavilion.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Pavilion</div>
-              <div class="resource-desc">Pavilion</div>
-            </a>
-            <a href="https://www.marketingprofs.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">MarketingProfs</div>
-              <div class="resource-desc">MarketingProfs</div>
-            </a>
-            <a href="https://review.firstround.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">First Round Review</div>
-              <div class="resource-desc">First Round Capital</div>
-            </a>
-            <a href="https://a16z.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">a16z Blog</div>
-              <div class="resource-desc">Andreessen Horowitz</div>
-            </a>
-            <a href="https://www.drift.com/blog" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Drift Blog</div>
-              <div class="resource-desc">Drift</div>
-            </a>
-            <a href="https://www.elenaverna.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Elena Verna</div>
-              <div class="resource-desc">Elena Verna</div>
-            </a>
-            <a href="https://devrelcollective.fun/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">DevRel Collective (Slack)</div>
-              <div class="resource-desc">DevRel Collective</div>
-            </a>
-            <a href="https://www.writethedocs.org/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Write the Docs</div>
-              <div class="resource-desc">Write the Docs</div>
-            </a>
-            <a href="https://cmxhub.com/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">CMX</div>
-              <div class="resource-desc">CMX</div>
-            </a>
-            <a href="https://www.scalingdevtools.com/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Scaling DevTools Podcast</div>
-              <div class="resource-desc">Jack Bridger, BitReach</div>
-            </a>
-            <a href="https://codetomarket.fm/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Code to Market Podcast</div>
-              <div class="resource-desc">Hank Taylor and Gonto</div>
-            </a>
-            <a href="https://dx.tips/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">DX Tips: The DevTools Magazine</div>
-              <div class="resource-desc">swyx</div>
-            </a>
-            <a href="https://reodotdev.substack.com" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Developer Led Growth</div>
-              <div class="resource-desc">Reo.Dev</div>
-            </a>
-            <a href="https://console.dev/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Console</div>
-              <div class="resource-desc">Console</div>
-            </a>
-            <a href="https://softwareleadweekly.com/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Software Lead Weekly</div>
-              <div class="resource-desc">Oren Ellenbogen</div>
-            </a>
-            <a href="https://www.developermarkepear.com/" class="resource-link" target="_blank" rel="noopener">
-              <div class="resource-title">Developer Markepear Newsletter</div>
-              <div class="resource-desc">Flo Merian</div>
-            </a>
-        </div>
-      </section>
+    <section class="category" id="positioning-messaging" data-reveal>
+      <div class="cat-header">
+        <div class="cat-icon" data-icon="target"></div>
+        <h2>Positioning &amp; Messaging</h2>
+        <span class="cat-badge">9</span>
+      </div>
+      <p class="cat-desc">The core craft. Everything downstream depends on getting this right.</p>
+      <div class="card-grid">
+            <a href="https://www.heinzmarketing.com/blog/five-components-of-effective-positioning-an-obviously-awesome-book-summary-part-2" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Five Components of Effective Positioning</div>
+              <div class="card-desc">Heinz Marketing</div>
+            </a>
+            <a href="https://www.lennysnewsletter.com/p/a-guide-to-advanced-b2b-positioning" class="card" target="_blank" rel="noopener">
+              <div class="card-title">A Guide to Advanced B2B Positioning</div>
+              <div class="card-desc">April Dunford, via Lenny&#x27;s Newsletter</div>
+            </a>
+            <a href="https://www.productmarketingalliance.com/what-is-product-marketing/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">What is Product Marketing? The 2026 Guide</div>
+              <div class="card-desc">Product Marketing Alliance</div>
+            </a>
+            <a href="https://www.productmarketingalliance.com/product-positioning-template-framework" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Product Positioning Template &amp; Framework</div>
+              <div class="card-desc">Product Marketing Alliance</div>
+            </a>
+            <a href="https://www.productmarketingalliance.com/a-practical-guide-to-creating-a-winning-positioning-and-messaging-strategy" class="card" target="_blank" rel="noopener">
+              <div class="card-title">A Practical Guide to Creating a Winning Positioning and Messaging Strategy</div>
+              <div class="card-desc">Product Marketing Alliance</div>
+            </a>
+            <a href="https://www.pragmaticinstitute.com/framework/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The Pragmatic Framework</div>
+              <div class="card-desc">Pragmatic Institute</div>
+            </a>
+            <a href="https://www.nfx.com/post/the-four-types-of-defensibility/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The Four Types of Defensibility</div>
+              <div class="card-desc">NFX (James Currier)</div>
+            </a>
+            <a href="https://staysaasy.com/product/2021/08/29/narratives-in-enterprise-saas.html" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Selling to the Enterprise: Crafting Product Narratives</div>
+              <div class="card-desc">StaySaaSy</div>
+            </a>
+            <a href="https://www.strategyzer.com/canvas/value-proposition-canvas" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Value Prop Canvas</div>
+              <div class="card-desc">Strategyzer</div>
+            </a>
+      </div>
+    </section>
+    <section class="category" id="market-competitive-intelligence" data-reveal>
+      <div class="cat-header">
+        <div class="cat-icon" data-icon="magnifying-glass"></div>
+        <h2>Market &amp; Competitive Intelligence</h2>
+        <span class="cat-badge">8</span>
+      </div>
+      <p class="cat-desc">Knowing the battlefield before you write a single word.</p>
+      <div class="card-grid">
+            <a href="https://www.productmarketingalliance.com/8-tips-for-effective-win-loss-analysis" class="card" target="_blank" rel="noopener">
+              <div class="card-title">8 Tips for Effective Win/Loss Analysis</div>
+              <div class="card-desc">Product Marketing Alliance</div>
+            </a>
+            <a href="https://www.klue.com/blog" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Klue Blog</div>
+              <div class="card-desc">Klue</div>
+            </a>
+            <a href="https://www.crayon.co/blog" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Crayon Blog</div>
+              <div class="card-desc">Crayon</div>
+            </a>
+            <a href="https://www.reforge.com/blog/competitive-marketing-growth" class="card" target="_blank" rel="noopener">
+              <div class="card-title">How to Grow By Stealing Market Share</div>
+              <div class="card-desc">Reforge</div>
+            </a>
+            <a href="https://www.klue.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Klue</div>
+              <div class="card-desc">competitive enablement platform</div>
+            </a>
+            <a href="https://www.crayon.co" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Crayon</div>
+              <div class="card-desc">competitive intelligence tracking</div>
+            </a>
+            <a href="https://www.kompyte.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Kompyte</div>
+              <div class="card-desc">competitor tracking and battlecards</div>
+            </a>
+            <a href="https://visualping.io" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Visualping</div>
+              <div class="card-desc">free, monitors any page for changes, good for pricing intel</div>
+            </a>
+      </div>
+    </section>
+    <section class="category" id="icp-segmentation" data-reveal>
+      <div class="cat-header">
+        <div class="cat-icon" data-icon="users"></div>
+        <h2>ICP &amp; Segmentation</h2>
+        <span class="cat-badge">3</span>
+      </div>
+      <p class="cat-desc">Build ICP from observed buying behavior, not from brainstormed segmentation.</p>
+      <div class="card-grid">
+            <a href="https://www.salesforce.com/sales/ideal-customer-profile" class="card" target="_blank" rel="noopener">
+              <div class="card-title">What&#x27;s an Ideal Customer Profile (ICP)? How to Identify and Win Your Best Customers</div>
+              <div class="card-desc">Salesforce</div>
+            </a>
+            <a href="https://hginsights.com/blog/how-to-create-an-ideal-customer-profile-icp/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">How to Create an Ideal Customer Profile: Step-by-Step Guide</div>
+              <div class="card-desc">HG Insights</div>
+            </a>
+            <a href="https://openviewpartners.com/blog/flavors-developer-focused-software" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The Many Flavors of Developer-Focused Software</div>
+              <div class="card-desc">OpenView</div>
+            </a>
+      </div>
+    </section>
+    <section class="category" id="product-launches" data-reveal>
+      <div class="cat-header">
+        <div class="cat-icon" data-icon="rocket"></div>
+        <h2>Product Launches</h2>
+        <span class="cat-badge">6</span>
+      </div>
+      <p class="cat-desc">How to ship and announce without wasting the moment.</p>
+      <div class="card-grid">
+            <a href="https://www.productmarketingalliance.com/a-visual-guide-to-product-launches" class="card" target="_blank" rel="noopener">
+              <div class="card-title">How to Launch a Product: A Visual Guide to Product Launches</div>
+              <div class="card-desc">Product Marketing Alliance</div>
+            </a>
+            <a href="https://www.lennysnewsletter.com/p/how-to-successfully-launch-on-product" class="card" target="_blank" rel="noopener">
+              <div class="card-title">How to Successfully Launch on Product Hunt</div>
+              <div class="card-desc">Lenny&#x27;s Newsletter</div>
+            </a>
+            <a href="https://www.reforge.com/blog/go-to-market-strategy-guide" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Go To Market Strategy &amp; Planning (Complete Guide)</div>
+              <div class="card-desc">Reforge</div>
+            </a>
+            <a href="https://www.ycombinator.com/library/6Q-how-to-launch" class="card" target="_blank" rel="noopener">
+              <div class="card-title">YC&#x27;s Launch Guide</div>
+              <div class="card-desc">Y Combinator</div>
+            </a>
+            <a href="https://www.productboard.com/blog/product-launch-strategy-a-comprehensive-guide-for-success" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Product Launch Strategy: A Comprehensive Guide for Success</div>
+              <div class="card-desc">Productboard</div>
+            </a>
+            <a href="https://supabase.com/blog/supabase-how-we-launch" class="card" target="_blank" rel="noopener">
+              <div class="card-title">How We Launch at Supabase</div>
+              <div class="card-desc">Supabase</div>
+            </a>
+      </div>
+    </section>
+    <section class="category" id="sales-enablement" data-reveal>
+      <div class="cat-header">
+        <div class="cat-icon" data-icon="swords"></div>
+        <h2>Sales Enablement</h2>
+        <span class="cat-badge">6</span>
+      </div>
+      <p class="cat-desc">Battle cards, decks, training, and the hard work of making reps say the right thing.</p>
+      <div class="card-grid">
+            <a href="https://www.gong.io/blog" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Gong Blog / Gong Labs</div>
+              <div class="card-desc">Gong</div>
+            </a>
+            <a href="https://gtmnow.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">GTMnow (formerly Sales Hacker)</div>
+              <div class="card-desc">GTMnow</div>
+            </a>
+            <a href="https://klue.com/blog/competitive-battlecards-101-product-overview-battlecard" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Competitive Battlecards 101: Product Overview Battlecard Template</div>
+              <div class="card-desc">Klue</div>
+            </a>
+            <a href="https://a16z.com/nine-emerging-developer-patterns-for-the-ai-era" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Emerging Developer Patterns for the AI Era</div>
+              <div class="card-desc">Yoko Li, a16z</div>
+            </a>
+            <a href="https://firstmark.medium.com/setting-up-your-sales-machine-565219192e64" class="card" target="_blank" rel="noopener">
+              <div class="card-title">How GitHub Built a $7.5B Sales Machine</div>
+              <div class="card-desc">FirstMark</div>
+            </a>
+            <a href="https://www.bvp.com/atlas/introducing-enterprise-sales-to-a-product-led-growth-organization" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Introducing Enterprise Sales to a Product-Led Growth Organization</div>
+              <div class="card-desc">Bessemer</div>
+            </a>
+      </div>
+    </section>
+    <section class="category" id="content-thought-leadership" data-reveal>
+      <div class="cat-header">
+        <div class="cat-icon" data-icon="pencil-simple"></div>
+        <h2>Content &amp; Thought Leadership</h2>
+        <span class="cat-badge">12</span>
+      </div>
+      <p class="cat-desc">Earn attention with substance, not volume.</p>
+      <div class="card-grid">
+            <a href="https://developers.google.com/tech-writing" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Google Technical Writing</div>
+              <div class="card-desc">Google</div>
+            </a>
+            <a href="https://www.contentmarketinginstitute.com/what-is-content-marketing/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The Content Marketing Handbook</div>
+              <div class="card-desc">Content Marketing Institute</div>
+            </a>
+            <a href="https://blog.hubspot.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">HubSpot Blog</div>
+              <div class="card-desc">HubSpot</div>
+            </a>
+            <a href="https://www.lennysnewsletter.com/p/content-driven-growth-strategy" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Content Driven Growth</div>
+              <div class="card-desc">Lenny Rachitsky</div>
+            </a>
+            <a href="https://www.lennysnewsletter.com/p/how-people-discover-new-products" class="card" target="_blank" rel="noopener">
+              <div class="card-title">How People Discover New Products</div>
+              <div class="card-desc">Lenny Rachitsky</div>
+            </a>
+            <a href="https://draft.dev/learn/technical-content" class="card" target="_blank" rel="noopener">
+              <div class="card-title">How to Write Better Technical Content</div>
+              <div class="card-desc">Draft.dev</div>
+            </a>
+            <a href="https://draft.dev/playbook" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The Technical Content Manager&#x27;s Playbook</div>
+              <div class="card-desc">Draft.dev</div>
+            </a>
+            <a href="https://sparktoro.com/blog/there-are-four-kinds-of-keyword-research-make-sure-youre-doing-the-right-ones/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">There Are Four Kinds of Keyword Research</div>
+              <div class="card-desc">Rand Fishkin, SparkToro</div>
+            </a>
+            <a href="https://ahrefs.com/blog" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Ahrefs Blog</div>
+              <div class="card-desc">Ahrefs</div>
+            </a>
+            <a href="https://www.lumar.io/blog/best-practice/how-to-optimize-your-content-for-ai-search-visibility-geo-aeo" class="card" target="_blank" rel="noopener">
+              <div class="card-title">How to Optimize Your Content for AI Search Visibility (GEO / AEO)</div>
+              <div class="card-desc">Lumar</div>
+            </a>
+            <a href="https://www.searchenginejournal.com/googles-new-ai-search-guide-calls-aeo-and-geo-still-seo/575026" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Google&#x27;s New AI Search Guide: AEO and GEO Are Still SEO</div>
+              <div class="card-desc">Search Engine Journal</div>
+            </a>
+            <a href="https://developers.google.com/search/docs" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Google Search Central Documentation</div>
+              <div class="card-desc">Google</div>
+            </a>
+      </div>
+    </section>
+    <section class="category" id="demand-generation-growth" data-reveal>
+      <div class="cat-header">
+        <div class="cat-icon" data-icon="chart-line-up"></div>
+        <h2>Demand Generation &amp; Growth</h2>
+        <span class="cat-badge">9</span>
+      </div>
+      <p class="cat-desc">Pipeline engines, PLG motions, and the frameworks that scale them.</p>
+      <div class="card-grid">
+            <a href="https://www.reforge.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Reforge Programs</div>
+              <div class="card-desc">Reforge</div>
+            </a>
+            <a href="https://www.elenaverna.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Elena Verna&#x27;s B2B Growth Content</div>
+              <div class="card-desc">Elena Verna</div>
+            </a>
+            <a href="https://www.drift.com/blog" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The B2B Marketing Lab</div>
+              <div class="card-desc">Drift</div>
+            </a>
+            <a href="https://www.reforge.com/blog/racecar-growth-framework" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The Racecar Growth Framework</div>
+              <div class="card-desc">Reforge</div>
+            </a>
+            <a href="https://productled.com/blog/product-led-growth-strategy-playbook/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">How to Build a Product-Led Growth Strategy</div>
+              <div class="card-desc">Wes Bush, ProductLed</div>
+            </a>
+            <a href="https://www.nfx.com/post/traction-tactics/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Traction Tactics Behind Square, PayPal, Waze, Twilio &amp; More</div>
+              <div class="card-desc">NFX</div>
+            </a>
+            <a href="https://www.bvp.com/atlas/scaling-to-100-million" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Scaling to $100 Million: How Cloud Companies Grow to $100M ARR</div>
+              <div class="card-desc">Bessemer Venture Partners</div>
+            </a>
+            <a href="https://corinneriley.medium.com/community-led-growth-the-product-led-growth-expansion-pack-b474ab9a7940" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Community-Led Growth: The Product-Led Growth Expansion Pack</div>
+              <div class="card-desc">Corinne Riley</div>
+            </a>
+            <a href="https://business.daily.dev/resources/ai-coding-tool-marketing-how-to-reach-developers-cursor-copilot-era" class="card" target="_blank" rel="noopener">
+              <div class="card-title">AI Coding Tool Marketing: How to Reach Developers in the Cursor and Copilot Era</div>
+              <div class="card-desc">Daniela Torres, daily.dev</div>
+            </a>
+      </div>
+    </section>
+    <section class="category" id="customer-evidence-stories" data-reveal>
+      <div class="cat-header">
+        <div class="cat-icon" data-icon="chart-bar"></div>
+        <h2>Customer Evidence &amp; Stories</h2>
+        <span class="cat-badge">7</span>
+      </div>
+      <p class="cat-desc">Proof that lands because it is real.</p>
+      <div class="card-grid">
+            <a href="https://www.drift.com/blog/customer-story" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The Anatomy of a Great Customer Story</div>
+              <div class="card-desc">Drift</div>
+            </a>
+            <a href="https://www.g2.com/categories" class="card" target="_blank" rel="noopener">
+              <div class="card-title">G2 Case Studies &amp; Reviews</div>
+              <div class="card-desc">G2</div>
+            </a>
+            <a href="https://www.decibel.vc/content/from-open-source-to-enterprise-how-vercel-built-a-product-led-motion" class="card" target="_blank" rel="noopener">
+              <div class="card-title">From Open-Source to Enterprise: How Vercel Built a Product-Led Motion on top of NextJS</div>
+              <div class="card-desc">Decibel VC</div>
+            </a>
+            <a href="https://review.firstround.com/workos-path-to-product-market-fit/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">WorkOS&#x27;s Path to Product-Market Fit</div>
+              <div class="card-desc">First Round Review</div>
+            </a>
+            <a href="https://review.firstround.com/vercels-path-to-product-market-fit/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Vercel&#x27;s Path to Product-Market Fit</div>
+              <div class="card-desc">First Round Review</div>
+            </a>
+            <a href="https://tomtunguz.com/claire-hughes-johnson-notes/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">How Stripe Scaled: Notes from Office Hours with Claire Hughes Johnson</div>
+              <div class="card-desc">Tomasz Tunguz</div>
+            </a>
+            <a href="https://lethain.com/stripe-product-led-developer-centric-growth/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Stripe&#x27;s Model of Product-Led, Developer-Centric Growth</div>
+              <div class="card-desc">Will Larson</div>
+            </a>
+      </div>
+    </section>
+    <section class="category" id="pricing-packaging" data-reveal>
+      <div class="cat-header">
+        <div class="cat-icon" data-icon="currency-dollar"></div>
+        <h2>Pricing &amp; Packaging</h2>
+        <span class="cat-badge">3</span>
+      </div>
+      <p class="cat-desc">The lever most PMMs avoid and the one that moves revenue most.</p>
+      <div class="card-grid">
+            <a href="https://www.paddle.com/blog" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Paddle Blog (formerly ProfitWell)</div>
+              <div class="card-desc">Paddle</div>
+            </a>
+            <a href="https://www.paddle.com/blog/saas-pricing-models-strategies-fltr" class="card" target="_blank" rel="noopener">
+              <div class="card-title">A Guide to SaaS Pricing Models and Strategies</div>
+              <div class="card-desc">Paddle</div>
+            </a>
+            <a href="https://productled.com/freemium-business-model/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Where Freemium Thrives and Dies</div>
+              <div class="card-desc">Wes Bush, ProductLed</div>
+            </a>
+      </div>
+    </section>
+    <section class="category" id="developer-marketing" data-reveal>
+      <div class="cat-header">
+        <div class="cat-icon" data-icon="wrench"></div>
+        <h2>Developer Marketing</h2>
+        <span class="cat-badge">18</span>
+      </div>
+      <p class="cat-desc">Marketing to people who hate marketing.</p>
+      <div class="card-grid">
+            <a href="https://www.markepear.dev/blog/developer-marketing-guide" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Developer Marketing Guide (by a Dev Tool Startup CMO)</div>
+              <div class="card-desc">Markepear</div>
+            </a>
+            <a href="https://www.heavybit.com/library" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Heavybit Journal</div>
+              <div class="card-desc">Heavybit</div>
+            </a>
+            <a href="https://leerob.substack.com/p/on-developer-marketing" class="card" target="_blank" rel="noopener">
+              <div class="card-title">On Developer Marketing</div>
+              <div class="card-desc">Lee Robinson</div>
+            </a>
+            <a href="https://posthog.com/founders/dev-marketing-for-startups" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Dev Tool Marketing for Early-Stage Startups: Lessons Learned from PostHog</div>
+              <div class="card-desc">PostHog</div>
+            </a>
+            <a href="https://blog.scalingdevtools.com/i-interviewed-100-devtools-founders/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">I Interviewed 100 DevTools Founders and This Is What I Learned</div>
+              <div class="card-desc">Jack Bridger</div>
+            </a>
+            <a href="https://hackmamba.io/developer-marketing/what-you-should-know-about-developer-marketing" class="card" target="_blank" rel="noopener">
+              <div class="card-title">What You Should Know About Developer Marketing (2026)</div>
+              <div class="card-desc">Hackmamba</div>
+            </a>
+            <a href="https://www.mintlify.com/blog/stripe-docs" class="card" target="_blank" rel="noopener">
+              <div class="card-title">How Stripe Creates the Best Documentation in the Industry</div>
+              <div class="card-desc">Mintlify</div>
+            </a>
+            <a href="https://www.moesif.com/blog/best-practices/api-product-management/the-stripe-developer-experience-and-docs-teardown" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The Stripe Developer Experience and Docs Teardown</div>
+              <div class="card-desc">Moesif</div>
+            </a>
+            <a href="https://future.a16z.com/the-case-for-developer-experience/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The Case for Developer Experience</div>
+              <div class="card-desc">Sonya Mann, a16z Future</div>
+            </a>
+            <a href="https://maida.kim/how-to-measure-the-value-of-developer-relations" class="card" target="_blank" rel="noopener">
+              <div class="card-title">How to Measure the Value of Developer Relations</div>
+              <div class="card-desc">Kim Maida</div>
+            </a>
+            <a href="https://tylerjewell.substack.com/p/developer-led-landscape-software" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The Developer-Led Landscape (8th Edition)</div>
+              <div class="card-desc">Tyler Jewell</div>
+            </a>
+            <a href="https://www.stateofdeveloperrelations.com/2024devrelreport" class="card" target="_blank" rel="noopener">
+              <div class="card-title">State of Developer Relations (2024 Report)</div>
+              <div class="card-desc">DevRel.Agency</div>
+            </a>
+            <a href="https://newsletter.thelongcommit.com/p/the-gtm-for-developer-tools-is-breaking" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The GTM for Developer Tools Is Breaking in Two Places at Once</div>
+              <div class="card-desc">Juan Cruz Martinez, The Long Commit</div>
+            </a>
+            <a href="https://hackmamba.io/developer-marketing/gtm-strategy-for-devtools" class="card" target="_blank" rel="noopener">
+              <div class="card-title">How to Build a Developer-Led GTM Strategy in 2026</div>
+              <div class="card-desc">Mohammed Tahir, Hackmamba</div>
+            </a>
+            <a href="https://www.heavybit.com/library/blog/building-vibrant-developer-communities/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Building Vibrant Developer Communities</div>
+              <div class="card-desc">Heavybit</div>
+            </a>
+            <a href="https://github.com/swapagarwal/swag-for-dev" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Swag for Devs</div>
+              <div class="card-desc">Swap Agarwal</div>
+            </a>
+            <a href="https://bitreach.notion.site/Developer-Newsletters-1320315a0f314e76b2016b39359cb560" class="card" target="_blank" rel="noopener">
+              <div class="card-title">140+ Dev-Centric Newsletters</div>
+              <div class="card-desc">Jack Bridger, BitReach</div>
+            </a>
+            <a href="https://github.com/zudochkin/awesome-newsletters" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Awesome Newsletters (Developer Section)</div>
+              <div class="card-desc">zudochkin</div>
+            </a>
+      </div>
+    </section>
+    <section class="category" id="marketing-in-the-ai-era" data-reveal>
+      <div class="cat-header">
+        <div class="cat-icon" data-icon="robot"></div>
+        <h2>Marketing in the AI Era</h2>
+        <span class="cat-badge">8</span>
+      </div>
+      <p class="cat-desc">How AI changes the practice of product marketing itself.</p>
+      <div class="card-grid">
+            <a href="https://newsletter.thelongcommit.com/p/the-gtm-for-developer-tools-is-breaking" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The GTM for Developer Tools Is Breaking in Two Places at Once</div>
+              <div class="card-desc">Juan Cruz Martinez, The Long Commit</div>
+            </a>
+            <a href="https://business.daily.dev/resources/ai-coding-tool-marketing-how-to-reach-developers-cursor-copilot-era" class="card" target="_blank" rel="noopener">
+              <div class="card-title">AI Coding Tool Marketing: How to Reach Developers in the Cursor and Copilot Era</div>
+              <div class="card-desc">Daniela Torres, daily.dev</div>
+            </a>
+            <a href="https://www.lumar.io/blog/best-practice/how-to-optimize-your-content-for-ai-search-visibility-geo-aeo" class="card" target="_blank" rel="noopener">
+              <div class="card-title">How to Optimize Your Content for AI Search Visibility (GEO / AEO)</div>
+              <div class="card-desc">Lumar</div>
+            </a>
+            <a href="https://www.searchenginejournal.com/googles-new-ai-search-guide-calls-aeo-and-geo-still-seo/575026" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Google&#x27;s New AI Search Guide: AEO and GEO Are Still SEO</div>
+              <div class="card-desc">Search Engine Journal</div>
+            </a>
+            <a href="https://a16z.com/nine-emerging-developer-patterns-for-the-ai-era" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Nine Emerging Developer Patterns for the AI Era</div>
+              <div class="card-desc">Yoko Li, a16z</div>
+            </a>
+            <a href="https://hackmamba.io/developer-marketing/gtm-strategy-for-devtools" class="card" target="_blank" rel="noopener">
+              <div class="card-title">How to Build a Developer-Led GTM Strategy in 2026</div>
+              <div class="card-desc">Mohammed Tahir, Hackmamba</div>
+            </a>
+            <a href="https://x.com/marclou/status/2076687096279171344" class="card" target="_blank" rel="noopener">
+              <div class="card-title">How Marc Lou Made His Entire SaaS Readable by AI Agents</div>
+              <div class="card-desc">Marc Lou, X</div>
+            </a>
+            <a href="https://www.lennysnewsletter.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Prompt Marketing: The New Channel Nobody Has Named Yet</div>
+              <div class="card-desc">Emerging practice</div>
+            </a>
+      </div>
+    </section>
+    <section class="category" id="metrics-analytics-attribution" data-reveal>
+      <div class="cat-header">
+        <div class="cat-icon" data-icon="ruler"></div>
+        <h2>Metrics, Analytics &amp; Attribution</h2>
+        <span class="cat-badge">9</span>
+      </div>
+      <p class="cat-desc">What to measure, what to ignore, and how to prove it.</p>
+      <div class="card-grid">
+            <a href="https://www.reforge.com/guides/identifying-the-right-metric-for-marketing-measurement" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Identifying the Right Metric for Marketing Measurement</div>
+              <div class="card-desc">Reforge</div>
+            </a>
+            <a href="https://www.amplitude.com/blog/product-analytics" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Product Analytics: A Guide</div>
+              <div class="card-desc">Amplitude</div>
+            </a>
+            <a href="https://www.amplitude.com/blog/north-star-metric" class="card" target="_blank" rel="noopener">
+              <div class="card-title">North Star Metric Guide</div>
+              <div class="card-desc">Amplitude</div>
+            </a>
+            <a href="https://www.poweredbysearch.com/blog/b2b-marketing-attribution" class="card" target="_blank" rel="noopener">
+              <div class="card-title">B2B Marketing Attribution: A Practical Guide for SaaS Companies</div>
+              <div class="card-desc">Powered by Search</div>
+            </a>
+            <a href="https://improvado.io/blog/marketing-attribution-models" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Marketing Attribution Models: The Ultimate Guide for 2026</div>
+              <div class="card-desc">Improvado</div>
+            </a>
+            <a href="https://amplitude.com/explore/digital-marketing/marketing-attribution-guide" class="card" target="_blank" rel="noopener">
+              <div class="card-title">A Quick Guide to Marketing Attribution</div>
+              <div class="card-desc">Amplitude</div>
+            </a>
+            <a href="https://www.reforge.com/blog/the-product-strategy-stack" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The Product Strategy Stack</div>
+              <div class="card-desc">Brian Balfour, Reforge</div>
+            </a>
+            <a href="https://sparktoro.com/blog/saas-churn-and-short-term-customers-the-contrarian-view/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">SaaS Churn and Short-Term Customers: The Contrarian View</div>
+              <div class="card-desc">Rand Fishkin, SparkToro</div>
+            </a>
+            <a href="https://sparktoro.com/blog/how-to-measure-hard-to-measure-marketing-channels" class="card" target="_blank" rel="noopener">
+              <div class="card-title">How to Measure Hard-to-Measure Marketing Channels</div>
+              <div class="card-desc">Rand Fishkin, SparkToro</div>
+            </a>
+      </div>
+    </section>
+    <section class="category" id="tools-stack" data-reveal>
+      <div class="cat-header">
+        <div class="cat-icon" data-icon="toolbox"></div>
+        <h2>Tools &amp; Stack</h2>
+        <span class="cat-badge">52</span>
+      </div>
+      <p class="cat-desc">The tools that show up again and again in working PMM stacks.</p>
+      <div class="card-grid">
+            <a href="https://www.notion.so" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Notion</div>
+              <div class="card-desc">docs, wikis, launch trackers</div>
+            </a>
+            <a href="https://www.figma.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Figma</div>
+              <div class="card-desc">decks, one-pagers, creative collaboration</div>
+            </a>
+            <a href="https://workspace.google.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Google Workspace</div>
+              <div class="card-desc">sheets, docs, slides</div>
+            </a>
+            <a href="https://www.loom.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Loom</div>
+              <div class="card-desc">async sales enablement video</div>
+            </a>
+            <a href="https://www.highspot.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Highspot</div>
+              <div class="card-desc">sales enablement content management</div>
+            </a>
+            <a href="https://seismic.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Seismic</div>
+              <div class="card-desc">sales enablement at scale</div>
+            </a>
+            <a href="https://www.gong.io" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Gong</div>
+              <div class="card-desc">call intelligence, win/loss data</div>
+            </a>
+            <a href="https://www.klue.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Klue</div>
+              <div class="card-desc">competitive enablement</div>
+            </a>
+            <a href="https://www.crayon.co" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Crayon</div>
+              <div class="card-desc">competitive intelligence</div>
+            </a>
+            <a href="https://ahrefs.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Ahrefs</div>
+              <div class="card-desc">SEO and content research</div>
+            </a>
+            <a href="https://www.semrush.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">SEMrush</div>
+              <div class="card-desc">competitive SEO and ad research</div>
+            </a>
+            <a href="https://ads.google.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Google Ads</div>
+              <div class="card-desc">paid search and display</div>
+            </a>
+            <a href="https://business.adobe.com/products/marketo.html" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Marketo (Adobe)</div>
+              <div class="card-desc">B2B marketing automation</div>
+            </a>
+            <a href="https://www.hubspot.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">HubSpot</div>
+              <div class="card-desc">inbound and CRM for mid-market</div>
+            </a>
+            <a href="https://6sense.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">6sense</div>
+              <div class="card-desc">account-based orchestration</div>
+            </a>
+            <a href="https://www.demandbase.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Demandbase</div>
+              <div class="card-desc">ABM platform</div>
+            </a>
+            <a href="https://www.tableau.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Tableau</div>
+              <div class="card-desc">BI and reporting</div>
+            </a>
+            <a href="https://chat.openai.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">ChatGPT</div>
+            </a>
+            <a href="https://www.grammarly.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Grammarly</div>
+              <div class="card-desc">editing at scale</div>
+            </a>
+            <a href="https://www.commonroom.io/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Common Room</div>
+              <div class="card-desc">community intelligence platform aggregating dev engagement signals across GitHub, Slack, Discord, Twitter. Used by PostHog, Snowflake for dark-funnel account mapping.</div>
+            </a>
+            <a href="https://posthog.com/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">PostHog</div>
+              <div class="card-desc">open source product analytics with feature flags and A/B testing. The default analytics stack for dev-focused PLG companies.</div>
+            </a>
+            <a href="https://www.stainless.com/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Stainless</div>
+              <div class="card-desc">SDK generation tool used by OpenAI, Cloudflare, and LangChain for typed client SDKs.</div>
+            </a>
+            <a href="https://www.speakeasy.com/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Speakeasy</div>
+              <div class="card-desc">SDK generation from OpenAPI specs. Used by API-first companies to ship idiomatic client libraries.</div>
+            </a>
+            <a href="https://getdx.com/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">DX</div>
+              <div class="card-desc">survey platform for measuring developer experience and engineering productivity. Used by Spotify, Verizon, Walmart.</div>
+            </a>
+            <a href="https://mktto.dev/examples" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Developer Marketing Examples</div>
+              <div class="card-desc">Flo Merian</div>
+            </a>
+            <a href="https://www.buysellads.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Carbon Ads (BuySellAds)</div>
+              <div class="card-desc">ad marketplace connecting advertisers with developer and tech publisher inventory</div>
+            </a>
+            <a href="https://business.daily.dev" class="card" target="_blank" rel="noopener">
+              <div class="card-title">daily.dev Ads</div>
+              <div class="card-desc">native advertising platform for reaching developers through in-feed and email digest placements</div>
+            </a>
+            <a href="https://www.ethicalads.io" class="card" target="_blank" rel="noopener">
+              <div class="card-title">EthicalAds</div>
+              <div class="card-desc">privacy-focused ad network for developer sites, run by the Read the Docs team</div>
+            </a>
+            <a href="https://stackoverflow.co/advertising" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Stack Overflow Advertising</div>
+              <div class="card-desc">targeting developers by technology tags</div>
+            </a>
+            <a href="https://tldr.tech" class="card" target="_blank" rel="noopener">
+              <div class="card-title">TLDR</div>
+              <div class="card-desc">daily newsletter covering tech, startups, and programming with topic-specific editions</div>
+            </a>
+            <a href="https://changelog.com/news" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Changelog</div>
+              <div class="card-desc">weekly newsletter covering open source and software development news</div>
+            </a>
+            <a href="https://bytes.dev" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Bytes</div>
+              <div class="card-desc">twice-weekly JavaScript and web development newsletter</div>
+            </a>
+            <a href="https://mintlify.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Mintlify</div>
+              <div class="card-desc">documentation platform with built-in analytics, optimized for developer tools and APIs</div>
+            </a>
+            <a href="https://readme.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">ReadMe</div>
+              <div class="card-desc">API documentation and developer hub platform with usage analytics</div>
+            </a>
+            <a href="https://docusaurus.io" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Docusaurus</div>
+              <div class="card-desc">open source documentation site generator by Meta, widely used for technical docs</div>
+            </a>
+            <a href="https://starlight.astro.build" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Starlight</div>
+              <div class="card-desc">documentation site builder powered by Astro</div>
+            </a>
+            <a href="https://nextra.site" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Nextra</div>
+              <div class="card-desc">documentation site framework built on Next.js with MDX support</div>
+            </a>
+            <a href="https://codesandbox.io" class="card" target="_blank" rel="noopener">
+              <div class="card-title">CodeSandbox</div>
+              <div class="card-desc">browser-based development environment for instant, shareable demos</div>
+            </a>
+            <a href="https://stackblitz.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">StackBlitz</div>
+              <div class="card-desc">browser-based IDE for running full Node.js projects instantly</div>
+            </a>
+            <a href="https://replit.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Replit</div>
+              <div class="card-desc">online coding environment for interactive tutorials and demos</div>
+            </a>
+            <a href="https://about.scarf.sh" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Scarf</div>
+              <div class="card-desc">package and container analytics for understanding open source adoption</div>
+            </a>
+            <a href="https://plausible.io" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Plausible</div>
+              <div class="card-desc">privacy-friendly web analytics that works without cookies</div>
+            </a>
+            <a href="https://getkoala.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Koala</div>
+              <div class="card-desc">visitor identification and intent signal platform for B2B software</div>
+            </a>
+            <a href="https://www.hockeystack.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">HockeyStack</div>
+              <div class="card-desc">B2B marketing attribution connecting website activity to pipeline</div>
+            </a>
+            <a href="https://clearbit.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Clearbit</div>
+              <div class="card-desc">data enrichment for identifying companies visiting your docs and marketing pages</div>
+            </a>
+            <a href="https://github.com/orbit-love/orbit-model" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The Orbit Model</div>
+              <div class="card-desc">Orbit (Josh Dzielak, Patrick Woods)</div>
+            </a>
+            <a href="https://www.leggetter.co.uk/2016/02/03/defining-developer-relations.html" class="card" target="_blank" rel="noopener">
+              <div class="card-title">AAARRRP: A Developer Relations Strategy Framework</div>
+              <div class="card-desc">Phil Leggetter</div>
+            </a>
+            <a href="https://developer-advocacy.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The Developer Advocacy Handbook</div>
+              <div class="card-desc">Christian Heilmann</div>
+            </a>
+            <a href="https://www.rocketblocks.me/guide/product-marketing/overview.php" class="card" target="_blank" rel="noopener">
+              <div class="card-title">RocketBlocks Product Marketing Guide</div>
+              <div class="card-desc">RocketBlocks</div>
+            </a>
+            <a href="https://github.com/sponsors" class="card" target="_blank" rel="noopener">
+              <div class="card-title">GitHub Sponsors</div>
+              <div class="card-desc">built-in sponsorship for funding open source maintainers</div>
+            </a>
+            <a href="https://opencollective.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Open Collective</div>
+              <div class="card-desc">transparent fiscal hosting platform for open source project funding</div>
+            </a>
+            <a href="https://www.sonarsource.com/solutions/security/?tidelift=tidelift-redirect" class="card" target="_blank" rel="noopener">
+              <div class="card-title">SonarSource (formerly Tidelift)</div>
+              <div class="card-desc">connecting enterprise subscribers with open source maintainers for commercial support. Tidelift was absorbed into SonarSource.</div>
+            </a>
+      </div>
+    </section>
+    <section class="category" id="market-research-developer-surveys" data-reveal>
+      <div class="cat-header">
+        <div class="cat-icon" data-icon="clipboard-text"></div>
+        <h2>Market Research &amp; Developer Surveys</h2>
+        <span class="cat-badge">6</span>
+      </div>
+      <p class="cat-desc">Data sources for understanding developer audiences, tools, and trends.</p>
+      <div class="card-grid">
+            <a href="https://survey.stackoverflow.co" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Stack Overflow Developer Survey</div>
+              <div class="card-desc">Stack Overflow</div>
+            </a>
+            <a href="https://octoverse.github.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">GitHub Octoverse</div>
+              <div class="card-desc">GitHub</div>
+            </a>
+            <a href="https://stateofjs.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">State of JS</div>
+              <div class="card-desc">Sacha Greif and contributors</div>
+            </a>
+            <a href="https://dora.dev" class="card" target="_blank" rel="noopener">
+              <div class="card-title">DORA State of DevOps Report</div>
+              <div class="card-desc">Google</div>
+            </a>
+            <a href="https://www.stateofdeveloperrelations.com/2024devrelreport" class="card" target="_blank" rel="noopener">
+              <div class="card-title">State of Developer Relations (2024 Report)</div>
+              <div class="card-desc">DevRel.Agency</div>
+            </a>
+            <a href="https://stateofcss.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">State of CSS</div>
+              <div class="card-desc">Sacha Greif and contributors</div>
+            </a>
+      </div>
+    </section>
+    <section class="category" id="internal-handbooks" data-reveal>
+      <div class="cat-header">
+        <div class="cat-icon" data-icon="book-open"></div>
+        <h2>Internal Handbooks</h2>
+        <span class="cat-badge">3</span>
+      </div>
+      <p class="cat-desc">Public marketing handbooks from developer-focused companies.</p>
+      <div class="card-grid">
+            <a href="https://about.gitlab.com/handbook/marketing/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">GitLab Marketing Handbook</div>
+              <div class="card-desc">GitLab</div>
+            </a>
+            <a href="https://posthog.com/handbook/growth/marketing" class="card" target="_blank" rel="noopener">
+              <div class="card-title">PostHog Marketing Handbook</div>
+              <div class="card-desc">PostHog</div>
+            </a>
+            <a href="https://resend.com/handbook" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Resend&#x27;s Handbook</div>
+              <div class="card-desc">Resend</div>
+            </a>
+      </div>
+    </section>
+    <section class="category" id="books" data-reveal>
+      <div class="cat-header">
+        <div class="cat-icon" data-icon="books"></div>
+        <h2>Books</h2>
+        <span class="cat-badge">32</span>
+      </div>
+      <p class="cat-desc">The reading list. Foundational and current.</p>
+      <div class="card-grid">
+            <a href="https://www.amazon.com/dp/1999023056" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Obviously Awesome: How to Nail Product Positioning so Customers Get It, Buy It, Love It</div>
+              <div class="card-desc">April Dunford</div>
+            </a>
+            <a href="https://www.goodreads.com/book/show/138566.Positioning" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Positioning: The Battle for Your Mind</div>
+              <div class="card-desc">Al Ries and Jack Trout</div>
+            </a>
+            <a href="https://www.amazon.com/Crossing-Chasm-2nd-Geoffrey-Moore/dp/0060517123" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Crossing the Chasm</div>
+              <div class="card-desc">Geoffrey Moore</div>
+            </a>
+            <a href="https://heathbrothers.com/books/made-to-stick/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Made to Stick: Why Some Ideas Survive and Others Die</div>
+              <div class="card-desc">Chip and Dan Heath</div>
+            </a>
+            <a href="https://www.amazon.com/Building-StoryBrand-Donald-Miller/dp/0718033329" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Building a StoryBrand</div>
+              <div class="card-desc">Donald Miller</div>
+            </a>
+            <a href="https://www.amazon.com/LOVED-Rethink-Marketing-Tech-Products/dp/1119703646" class="card" target="_blank" rel="noopener">
+              <div class="card-title">LOVED: How to Rethink Marketing for Tech Products</div>
+              <div class="card-desc">Martina Lauchengco</div>
+            </a>
+            <a href="https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Inspired: How to Create Tech Products Customers Love</div>
+              <div class="card-desc">Marty Cagan</div>
+            </a>
+            <a href="https://www.amazon.com/Mom-Test-customers-business-everyone/dp/B01H4G2J1U" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The Mom Test: How to Talk to Customers</div>
+              <div class="card-desc">Rob Fitzpatrick</div>
+            </a>
+            <a href="https://www.amazon.com/Hooked-Build-Habit-Forming-Products/dp/1591847788" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Hooked: How to Build Habit-Forming Products</div>
+              <div class="card-desc">Nir Eyal</div>
+            </a>
+            <a href="https://www.amazon.com/Lean-Startup-Eric-Ries/dp/0307887898" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The Lean Startup</div>
+              <div class="card-desc">Eric Ries</div>
+            </a>
+            <a href="https://www.amazon.com/dp/1591844355" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The Challenger Sale: Taking Control of the Customer Conversation</div>
+              <div class="card-desc">Matthew Dixon</div>
+            </a>
+            <a href="https://www.amazon.com/dp/0070511136" class="card" target="_blank" rel="noopener">
+              <div class="card-title">SPIN Selling</div>
+              <div class="card-desc">Neil Rackham</div>
+            </a>
+            <a href="https://www.amazon.com/Hacking-Growth-Fastest-Growing-Companies-Breakout/dp/045149721X" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Hacking Growth</div>
+              <div class="card-desc">Sean Ellis &amp; Morgan Brown</div>
+            </a>
+            <a href="https://productled.com/book/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Product-Led Growth: How to Build a Product That Sells Itself</div>
+              <div class="card-desc">Wes Bush</div>
+            </a>
+            <a href="https://www.amazon.com/They-Ask-You-Answer-Revolutionary/dp/1119610141" class="card" target="_blank" rel="noopener">
+              <div class="card-title">They Ask, You Answer</div>
+              <div class="card-desc">Marcus Sheridan</div>
+            </a>
+            <a href="https://www.amazon.com/Show-Your-Work-Austin-Kleon/dp/076117897X" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Show Your Work</div>
+              <div class="card-desc">Austin Kleon</div>
+            </a>
+            <a href="https://www.stephaniemorillo.co/product-page/the-developer-s-guide-to-content-creation" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The Developer&#x27;s Guide To Content Creation</div>
+              <div class="card-desc">Stephanie Morillo</div>
+            </a>
+            <a href="https://www.amazon.com/Contagious-Things-Catch-Jonah-Berger/dp/1451686587" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Contagious: Why Things Catch On</div>
+              <div class="card-desc">Jonah Berger</div>
+            </a>
+            <a href="https://annhandley.com/everybodywrites/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Everybody Writes: Your Go-To Guide to Creating Ridiculously Good Content</div>
+              <div class="card-desc">Ann Handley</div>
+            </a>
+            <a href="https://www.amazon.com/Monetizing-Innovation-Companies-Design-Product/dp/1119240867" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Monetizing Innovation: How Smart Companies Design the Product Around the Price</div>
+              <div class="card-desc">Madhavan Ramanujam &amp; Georg Tacke</div>
+            </a>
+            <a href="https://www.goodreads.com/book/show/56093931-the-pricing-roadmap" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The Pricing Roadmap: How to Design B2B SaaS Pricing Models That Your Customers Will Love</div>
+              <div class="card-desc">Ulrik Lehrskov-Schmidt</div>
+            </a>
+            <a href="https://www.amazon.com/Developer-Marketing-Does-Not-Exist/dp/173702960X" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Developer Marketing Does Not Exist: an Authentic Guide</div>
+              <div class="card-desc">Adam DuVander</div>
+            </a>
+            <a href="https://www.strategicnerds.com/book" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Picks and Shovels: Marketing to Developers During the AI Gold Rush</div>
+              <div class="card-desc">Prashant Sridharan</div>
+            </a>
+            <a href="https://www.askyourdeveloper.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Ask Your Developer: How to Harness the Power of Software Developers and Win in the 21st Century</div>
+              <div class="card-desc">Jeff Lawson</div>
+            </a>
+            <a href="https://press.stripe.com/working-in-public" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Working in Public: The Making and Maintenance of Open Source Software</div>
+              <div class="card-desc">Nadia Eghbal</div>
+            </a>
+            <a href="https://www.persea-consulting.com/book" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The Business Value of Developer Relations</div>
+              <div class="card-desc">Mary Thengvall</div>
+            </a>
+            <a href="https://www.devrelbook.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Developer Relations: How to Build and Grow a Successful Developer Program</div>
+              <div class="card-desc">Caroline Lewko and James Parton</div>
+            </a>
+            <a href="https://www.amazon.com/Developer-Facing-Startup-market-developer-facing/dp/B0D4KGHQML" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The Developer Facing Startup: Alchemist Accelerator&#x27;s GTM Playbook for Early-Stage Developer-Facing Startups</div>
+              <div class="card-desc">Adam Frankl</div>
+            </a>
+            <a href="https://dx.addy.ie/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Developer Experience</div>
+              <div class="card-desc">Addy Osmani</div>
+            </a>
+            <a href="https://www.amazon.com/Developer-Marketing-Relations-Essential-Guide/dp/B08KH3T5TN" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Developer Marketing and Relations: The Essential Guide</div>
+              <div class="card-desc">SlashData</div>
+            </a>
+            <a href="https://www.jonobacon.com/books/artofcommunity" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The Art of Community: Building the New Age of Participation</div>
+              <div class="card-desc">Jono Bacon</div>
+            </a>
+            <a href="https://www.amazon.com/Business-Belonging-Community-Competitive-Advantage/dp/1119766125" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The Business of Belonging: How to Make Community Your Competitive Advantage</div>
+              <div class="card-desc">David Spinks</div>
+            </a>
+      </div>
+    </section>
+    <section class="category" id="videos-talks" data-reveal>
+      <div class="cat-header">
+        <div class="cat-icon" data-icon="play"></div>
+        <h2>Videos &amp; Talks</h2>
+        <span class="cat-badge">13</span>
+      </div>
+      <p class="cat-desc">Watch the practitioners, not the pundits.</p>
+      <div class="card-grid">
+            <a href="https://www.youtube.com/watch?v=_mfkJI-jahg" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Developer Marketing at Auth0</div>
+              <div class="card-desc">Gonto (Martin Gontovnikoff)</div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=MWwH-12N5TA" class="card" target="_blank" rel="noopener">
+              <div class="card-title">On Developer Marketing (YouTube Interview)</div>
+              <div class="card-desc">Lee Robinson, interviewed by Peter Yang</div>
+            </a>
+            <a href="https://www.youtube.com/channel/UCabc3QtCLKsNeTOx9cqDSlQ" class="card" target="_blank" rel="noopener">
+              <div class="card-title">DevRelCon Talk Library</div>
+              <div class="card-desc">DevRelCon / Hoopy</div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=Rd-_Au7igJ8" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Successful DevRel: No Matter the Org Chart</div>
+              <div class="card-desc">Bear Douglas</div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=wQOByc0DGW4" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The Developer Relations Bill of Rights</div>
+              <div class="card-desc">Anil Dash</div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=neB2aleEJ4c" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Going 0 to 60 with DevRel at GitHub</div>
+              <div class="card-desc">Martin Woodward</div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=xUbUV46DZEM" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Activating Developers to Drive Your Advocacy Program</div>
+              <div class="card-desc">Brian Douglas</div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=765wLWVcyS0" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Friction Logging 101</div>
+              <div class="card-desc">Emma Haruka Iwao</div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=G6QsYtjVJbY" class="card" target="_blank" rel="noopener">
+              <div class="card-title">The Seven Deadly Sins of Developer Onboarding</div>
+              <div class="card-desc">Cristiano Betta</div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=2e4WSZtzsKI" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Measuring the Health of your OSS Community</div>
+              <div class="card-desc">Jono Bacon</div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=jg1zhJU37oI" class="card" target="_blank" rel="noopener">
+              <div class="card-title">DevRel Metrics with Product Goals</div>
+              <div class="card-desc">Derric Gilling</div>
+            </a>
+            <a href="https://www.heavybit.com/library/blog/aligning-devrel-and-sales-for-growth-qa-twilio-cmo-sara-varni/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Aligning DevRel and Sales for Growth: Q&amp;A with Twilio CMO Sara Varni</div>
+              <div class="card-desc">Heavybit Library</div>
+            </a>
+            <a href="https://www.decibel.vc/articles/the-developer-content-playbook-that-fuels-twilios-plg-at-scale" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Lessons from Twilio: The Developer Content Playbook that Fuels PLG at Scale</div>
+              <div class="card-desc">Decibel VC</div>
+            </a>
+      </div>
+    </section>
+    <section class="category" id="communities-newsletters" data-reveal>
+      <div class="cat-header">
+        <div class="cat-icon" data-icon="chat-circle"></div>
+        <h2>Communities &amp; Newsletters</h2>
+        <span class="cat-badge">19</span>
+      </div>
+      <p class="cat-desc">Where PMMs and dev marketers actually hang out.</p>
+      <div class="card-grid">
+            <a href="https://www.productmarketingalliance.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Product Marketing Alliance</div>
+              <div class="card-desc">PMA</div>
+            </a>
+            <a href="https://www.lennysnewsletter.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Lenny&#x27;s Newsletter</div>
+              <div class="card-desc">Lenny Rachitsky</div>
+            </a>
+            <a href="https://www.reforge.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Reforge</div>
+              <div class="card-desc">Reforge</div>
+            </a>
+            <a href="https://www.pavilion.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Pavilion</div>
+              <div class="card-desc">Pavilion</div>
+            </a>
+            <a href="https://www.marketingprofs.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">MarketingProfs</div>
+              <div class="card-desc">MarketingProfs</div>
+            </a>
+            <a href="https://review.firstround.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">First Round Review</div>
+              <div class="card-desc">First Round Capital</div>
+            </a>
+            <a href="https://a16z.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">a16z Blog</div>
+              <div class="card-desc">Andreessen Horowitz</div>
+            </a>
+            <a href="https://www.drift.com/blog" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Drift Blog</div>
+              <div class="card-desc">Drift</div>
+            </a>
+            <a href="https://www.elenaverna.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Elena Verna</div>
+              <div class="card-desc">Elena Verna</div>
+            </a>
+            <a href="https://devrelcollective.fun/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">DevRel Collective (Slack)</div>
+              <div class="card-desc">DevRel Collective</div>
+            </a>
+            <a href="https://www.writethedocs.org/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Write the Docs</div>
+              <div class="card-desc">Write the Docs</div>
+            </a>
+            <a href="https://cmxhub.com/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">CMX</div>
+              <div class="card-desc">CMX</div>
+            </a>
+            <a href="https://www.scalingdevtools.com/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Scaling DevTools Podcast</div>
+              <div class="card-desc">Jack Bridger, BitReach</div>
+            </a>
+            <a href="https://codetomarket.fm/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Code to Market Podcast</div>
+              <div class="card-desc">Hank Taylor and Gonto</div>
+            </a>
+            <a href="https://dx.tips/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">DX Tips: The DevTools Magazine</div>
+              <div class="card-desc">swyx</div>
+            </a>
+            <a href="https://reodotdev.substack.com" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Developer Led Growth</div>
+              <div class="card-desc">Reo.Dev</div>
+            </a>
+            <a href="https://console.dev/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Console</div>
+              <div class="card-desc">Console</div>
+            </a>
+            <a href="https://softwareleadweekly.com/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Software Lead Weekly</div>
+              <div class="card-desc">Oren Ellenbogen</div>
+            </a>
+            <a href="https://www.developermarkepear.com/" class="card" target="_blank" rel="noopener">
+              <div class="card-title">Developer Markepear Newsletter</div>
+              <div class="card-desc">Flo Merian</div>
+            </a>
+      </div>
+    </section>
   </main>
 
   <footer>
@@ -1394,18 +1271,38 @@
   </footer>
 
   <script>
-    // Reveal sections on scroll
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-          observer.unobserve(entry.target);
-        }
+        if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); }
       });
     }, { threshold: 0.05, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.category').forEach(el => observer.observe(el));
 
-    document.querySelectorAll('.category-section').forEach(s => observer.observe(s));
+    const taglineEl = document.getElementById('tagline');
+    const text = taglineEl.textContent;
+    taglineEl.innerHTML = text.split(' ').map(w => '<span class="tagline-word">' + w + '</span>').join(' ');
+    const words = taglineEl.querySelectorAll('.tagline-word');
+    const tagObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          words.forEach((word, i) => { setTimeout(() => word.classList.add('active'), i * 80); });
+          tagObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.3 });
+    tagObserver.observe(taglineEl);
+
+    const iconMap = {
+      'target':'ph-target','magnifying-glass':'ph-magnifying-glass','users':'ph-users','rocket':'ph-rocket',
+      'swords':'ph-sword','pencil-simple':'ph-pencil-simple','chart-line-up':'ph-chart-line-up',
+      'chart-bar':'ph-chart-bar','currency-dollar':'ph-currency-dollar','wrench':'ph-wrench',
+      'robot':'ph-robot','ruler':'ph-ruler','toolbox':'ph-toolbox','clipboard-text':'ph-clipboard-text',
+      'book-open':'ph-book-open','books':'ph-books','play':'ph-play','chat-circle':'ph-chat-circle','push-pin':'ph-push-pin'
+    };
+    document.querySelectorAll('[data-icon]').forEach(el => {
+      const name = iconMap[el.dataset.icon] || 'ph-push-pin';
+      el.innerHTML = '<i class="' + name + '"></i>';
+    });
   </script>
-
 </body>
 </html>
