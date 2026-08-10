@@ -2,7 +2,13 @@
 
 # Awesome Product Marketing
 
-A curated and opinionated list of resources for Product Marketing Managers at AI, high-growth, and developer-focused companies. Built for PMMs who ship AI products, market to AI buyers, and use AI to do the work.
+A curated and opinionated list of resources for Product Marketing Managers working in the AI era. Built for the modern PMM who ships AI products, markets to developers, and uses AI to do the work.
+
+**Who this is for:**
+- **Dev PMMs** who sell to developers
+- **PMMs at AI companies** who ship AI products and position them
+- **PMMs whose buyers are developers** and need to understand dev buying behavior
+- **PMM leaders** whose audience has shifted to devs and need to retool their org
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/a692570/awesome-product-marketing/pulls) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
@@ -15,6 +21,7 @@ Positioning &middot; Competitive Intelligence &middot; ICP &amp; Segmentation &m
 ## Contents
 
 - [Positioning & Messaging](#positioning--messaging)
+- [Marketing in the AI Era](#marketing-in-the-ai-era)
 - [Market & Competitive Intelligence](#market--competitive-intelligence)
 - [ICP & Segmentation](#icp--segmentation)
 - [Product Launches](#product-launches)
@@ -24,7 +31,6 @@ Positioning &middot; Competitive Intelligence &middot; ICP &amp; Segmentation &m
 - [Customer Evidence & Stories](#customer-evidence--stories)
 - [Pricing & Packaging](#pricing--packaging)
 - [Developer Marketing](#developer-marketing)
-- [Marketing in the AI Era](#marketing-in-the-ai-era)
 - [Metrics, Analytics & Attribution](#metrics-analytics--attribution)
 - [Tools & Stack](#tools--stack)
 - [Market Research & Developer Surveys](#market-research--developer-surveys)
@@ -42,14 +48,12 @@ The core craft. Everything downstream depends on getting this right.
   April Dunford's framework distilled: competitive alternatives, unique attributes, value, target market, market category, trends.
 - [A Guide to Advanced B2B Positioning](https://www.lennysnewsletter.com/p/a-guide-to-advanced-b2b-positioning) - April Dunford, via Lenny's Newsletter
   April's most recent deep dive on positioning, written for product teams.
-- [What is Product Marketing? The 2026 Guide](https://www.productmarketingalliance.com/what-is-product-marketing/) - Product Marketing Alliance
-  Decent 101 if you are new to the function.
 - [Product Positioning Template & Framework](https://www.productmarketingalliance.com/product-positioning-template-framework) - Product Marketing Alliance
   Downloadable template for articulating how your product uniquely meets customer needs.
 - [A Practical Guide to Creating a Winning Positioning and Messaging Strategy](https://www.productmarketingalliance.com/a-practical-guide-to-creating-a-winning-positioning-and-messaging-strategy) - Product Marketing Alliance
   Full positioning and messaging process walkthrough with templates.
 - [The Pragmatic Framework](https://www.pragmaticinstitute.com/framework/) - Pragmatic Institute
-  The market-value framework most enterprise PMM orgs run on. Know it even if you do not use it.
+  The market-value framework most enterprise PMM orgs run on. Know it because your enterprise buyers run on it, not because it is the default for your dev audience.
 - [The Four Types of Defensibility](https://www.nfx.com/post/the-four-types-of-defensibility/) - NFX (James Currier)
   Foundational moats article. Used by PMMs when articulating defensibility in messaging or to sales.
 - [Selling to the Enterprise: Crafting Product Narratives](https://staysaasy.com/product/2021/08/29/narratives-in-enterprise-saas.html) - StaySaaSy
@@ -58,6 +62,34 @@ The core craft. Everything downstream depends on getting this right.
 ### Messaging frameworks
 
 - [Value Prop Canvas](https://www.strategyzer.com/canvas/value-proposition-canvas) - Strategyzer
+  Standard VPC. Useful as a starting point, but dev buyers rarely care about canvas exercises, they care about whether your thing works in their stack.
+
+## Marketing in the AI Era
+
+How AI changes the practice of product marketing itself: agent-friendly content, AI-native GTM motions, answer-engine optimization, and the new developer buying behavior. When buyers ask AI assistants for recommendations instead of searching Google, your product needs to show up in the answer. That is prompt-level visibility, not SEO.
+
+- [The GTM for Developer Tools Is Breaking in Two Places at Once](https://newsletter.thelongcommit.com/p/the-gtm-for-developer-tools-is-breaking) - Juan Cruz Martinez, The Long Commit
+  How Cursor/Claude Code agent-picks-the-SDK behavior breaks traditional dev-tool GTM (May 2026). The canonical piece on this shift.
+- [AI Coding Tool Marketing: How to Reach Developers in the Cursor and Copilot Era](https://business.daily.dev/resources/ai-coding-tool-marketing-how-to-reach-developers-cursor-copilot-era) - Daniela Torres, daily.dev
+  How AI coding tools change dev marketing, with 2026 Cursor $2B ARR and Claude Code market share data.
+- [How to Optimize Your Content for AI Search Visibility (GEO / AEO)](https://www.lumar.io/blog/best-practice/how-to-optimize-your-content-for-ai-search-visibility-geo-aeo) - Lumar
+  GEO/AEO playbook for ChatGPT, Perplexity, Google AI Overviews with 26 expert contributors.
+- [Google's New AI Search Guide: AEO and GEO Are Still SEO](https://www.searchenginejournal.com/googles-new-ai-search-guide-calls-aeo-and-geo-still-seo/575026) - Search Engine Journal
+  Google's official position on AI search optimization and what tactics to ignore.
+- [Nine Emerging Developer Patterns for the AI Era](https://a16z.com/nine-emerging-developer-patterns-for-the-ai-era) - Yoko Li, a16z
+  How AI changes developer behavior and what that means for dev marketing (May 2025).
+- [How to Build a Developer-Led GTM Strategy in 2026](https://hackmamba.io/developer-marketing/gtm-strategy-for-devtools) - Mohammed Tahir, Hackmamba
+  Hybrid GTM and modern B2D sales motions for 2026, including AI-native pipeline paths.
+- [How Marc Lou Made His Entire SaaS Readable by AI Agents](https://x.com/marclou/status/2076687096279171344) - Marc Lou, X
+  Added 8,831 URLs to his sitemap, set text/plain content-type headers, and 24 hours later ChatGPT could fetch them. The new distribution surface is agent fetch, not human browse.
+- [The New PMM Stack: How AI Fits Across Research, Positioning, and GTM](https://www.productmarketingalliance.com/the-new-pmm-stack) - Jay Cameron, Product Marketing Alliance
+  Framework for where AI belongs in the PMM workflow: signal, speed, and scale. Human for meaning. The clearest breakdown of AI-enabled product marketing roles.
+- [How To Create a Killer Go-To-Market Strategy for your AI Product](https://www.youtube.com/watch?v=r96qDzfC7Jk) - TK Kader
+  GTM positioning for AI products: copilot, prediction engine, and agent. The Iron Man suit metaphor and how to position AI features so buyers understand the value.
+- [Agent Readability: A Specification for AI-Optimized Websites](https://vercel.com/kb/guide/agent-readability-spec) - Vercel
+  Vercel's spec for making websites parseable by AI agents. Covers llms.txt, markdown mirrors, content negotiation, structured data. 844K+ sites have adopted llms.txt. Google merged a check into Lighthouse in April 2026. This is the new distribution surface.
+- [AI-Native vs AI-Bolted-On: The 2026 Buyer Playbook](https://www.saasmag.com/ai-native-vs-ai-bolted-on) - SaaS Mag
+  How to tell AI-native products from AI-wrapped SaaS. Margin is the honest signal: AI product gross margins sit at 52% vs 80% for pure SaaS. The buyer framework PMMs need when competitors claim "AI-powered" and mean a summarization sidebar.
 
 ## Market & Competitive Intelligence
 
@@ -207,6 +239,8 @@ Battle cards, decks, training, and the hard work of making reps say the right th
   Kyle Poyar's definitive analysis of UBP adoption. The author who put usage-based pricing on the map for SaaS. His Substack is the reference for pricing strategy decisions.
 - [Willingness to Pay: How to Research and Improve It](https://www.paddle.com/resources/willingness-to-pay) - Paddle
   WTP methodology for SaaS: how to measure it, how to use it for tier design, and why copying competitor prices is the wrong default.
+- [The AI Pricing and Monetization Playbook](https://www.bvp.com/atlas/the-ai-pricing-and-monetization-playbook) - Bessemer Venture Partners
+  The definitive guide to pricing AI products: usage-based, outcome-based, token-based, hybrid, and agent pricing. Copilot vs Agent vs AI-enabled Service pricing models. The reference for any PMM pricing an AI product.
 
 ## Developer Marketing
 
@@ -253,25 +287,6 @@ Marketing to people who hate marketing.
   Comprehensive index of developer-focused newsletters for sponsorship and audience research.
 - [Awesome Newsletters (Developer Section)](https://github.com/zudochkin/awesome-newsletters) - zudochkin
   GitHub repo of curated developer newsletters organized by programming language and topic.
-
-## Marketing in the AI Era
-
-How AI changes the practice of product marketing itself: agent-friendly content, AI-native GTM motions, answer-engine optimization, and the new developer buying behavior. When buyers ask AI assistants for recommendations instead of searching Google, your product needs to show up in the answer. That is prompt-level visibility, not SEO.
-
-- [The GTM for Developer Tools Is Breaking in Two Places at Once](https://newsletter.thelongcommit.com/p/the-gtm-for-developer-tools-is-breaking) - Juan Cruz Martinez, The Long Commit
-  How Cursor/Claude Code agent-picks-the-SDK behavior breaks traditional dev-tool GTM (May 2026). The canonical piece on this shift.
-- [AI Coding Tool Marketing: How to Reach Developers in the Cursor and Copilot Era](https://business.daily.dev/resources/ai-coding-tool-marketing-how-to-reach-developers-cursor-copilot-era) - Daniela Torres, daily.dev
-  How AI coding tools change dev marketing, with 2026 Cursor $2B ARR and Claude Code market share data.
-- [How to Optimize Your Content for AI Search Visibility (GEO / AEO)](https://www.lumar.io/blog/best-practice/how-to-optimize-your-content-for-ai-search-visibility-geo-aeo) - Lumar
-  GEO/AEO playbook for ChatGPT, Perplexity, Google AI Overviews with 26 expert contributors.
-- [Google's New AI Search Guide: AEO and GEO Are Still SEO](https://www.searchenginejournal.com/googles-new-ai-search-guide-calls-aeo-and-geo-still-seo/575026) - Search Engine Journal
-  Google's official position on AI search optimization and what tactics to ignore.
-- [Nine Emerging Developer Patterns for the AI Era](https://a16z.com/nine-emerging-developer-patterns-for-the-ai-era) - Yoko Li, a16z
-  How AI changes developer behavior and what that means for dev marketing (May 2025).
-- [How to Build a Developer-Led GTM Strategy in 2026](https://hackmamba.io/developer-marketing/gtm-strategy-for-devtools) - Mohammed Tahir, Hackmamba
-  Hybrid GTM and modern B2D sales motions for 2026, including AI-native pipeline paths.
-- [How Marc Lou Made His Entire SaaS Readable by AI Agents](https://x.com/marclou/status/2076687096279171344) - Marc Lou, X
-  Added 8,831 URLs to his sitemap, set text/plain content-type headers, and 24 hours later ChatGPT could fetch them. The new distribution surface is agent fetch, not human browse.
 
 ## Metrics, Analytics & Attribution
 
@@ -393,15 +408,6 @@ The tools that show up again and again in working PMM stacks.
 - [GitHub Sponsors](https://github.com/sponsors) - built-in sponsorship for funding open source maintainers
 - [Open Collective](https://opencollective.com) - transparent fiscal hosting platform for open source project funding
 - [SonarSource (formerly Tidelift)](https://www.sonarsource.com/solutions/security/?tidelift=tidelift-redirect) - connecting enterprise subscribers with open source maintainers for commercial support. Tidelift was absorbed into SonarSource.
-
-### AI Marketing Tools & Agents
-
-Tools PMMs use to ship faster with AI, and the platforms reshaping the marketing stack.
-
-- [The New PMM Stack: How AI Fits Across Research, Positioning, and GTM](https://www.productmarketingalliance.com/the-new-pmm-stack) - Jay Cameron, Product Marketing Alliance
-  Framework for where AI belongs in the PMM workflow: signal, speed, and scale. Human for meaning. The clearest breakdown of AI-enabled product marketing roles.
-- [How To Create a Killer Go-To-Market Strategy for your AI Product](https://www.youtube.com/watch?v=r96qDzfC7Jk) - TK Kader
-  GTM positioning for AI products: copilot, prediction engine, and agent. The Iron Man suit metaphor and how to position AI features so buyers understand the value.
 
 ## Market Research & Developer Surveys
 
