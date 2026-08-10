@@ -366,16 +366,16 @@ main {
         <span class="terminal-dot g"></span>
         <span class="terminal-title">~/awesome-product-marketing — zsh</span>
       </div>
-      <div class="terminal-body">
-        <span class="term-line"><span class="prompt">$</span><span class="cmd">figlet -f smslant awesome pmm</span></span>
-        <pre class="ascii-art"> ___ __    _____ ___ ___  __ _  ___   ___  __ _  __ _
+      <div class="terminal-body" id="term-body">
+        <span class="term-line"><span class="prompt">$</span><span class="cmd" id="cmd1"></span><span class="cursor" id="cursor1"></span></span>
+        <pre class="ascii-art" id="ascii-art" style="display:none;"> ___ __    _____ ___ ___  __ _  ___   ___  __ _  __ _
 / _ `/ |/|/ / -_|_-&lt;/ _ \/  ' \/ -_) / _ \/  ' \/  ' \
 \_,_/|__,__/\__/___/\___/_/_/_/\__/ / .__/_/_/_/_/_/_/
                                    /_/                </pre>
-        <span class="output"><span class="output-amber">→</span> 223 resources for PMMs at dev-focused companies</span>
-        <span class="output"><span class="output-amber">→</span> Curated for the AI era — maintained by Abhishek Sharma</span>
-        <span class="output">&nbsp;</span>
-        <span class="term-line"><span class="prompt">$</span><span class="cmd">ls</span><span class="cursor"></span></span>
+        <span class="output" id="out1" style="display:none;"><span class="output-amber">→</span> 223 resources for PMMs at dev-focused companies</span>
+        <span class="output" id="out2" style="display:none;"><span class="output-amber">→</span> Curated for the AI era — maintained by Abhishek Sharma</span>
+        <span class="output" id="blank" style="display:none;">&nbsp;</span>
+        <span class="term-line" id="ls-line" style="display:none;"><span class="prompt">$</span><span class="cmd" id="cmd2"></span><span class="cursor" id="cursor2"></span></span>
       </div>
       <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">Awesome Product Marketing — Curated PMM Resources for the AI Era</h1>
     </div>
@@ -2529,6 +2529,71 @@ main {
     }, { rootMargin: '-40% 0px -55% 0px', threshold: 0 });
 
     sectionEls.forEach(s => tabObserver.observe(s));
+
+    // ── Terminal Typing Animation ─────────────────────────────────────
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+    async function typeText(el, text, speed) {
+      for (let i = 0; i < text.length; i++) {
+        el.textContent += text[i];
+        await sleep(speed + (Math.random() * speed * 0.4));
+      }
+    }
+
+    async function runTerminal() {
+      const cmd1 = document.getElementById('cmd1');
+      const cursor1 = document.getElementById('cursor1');
+      const ascii = document.getElementById('ascii-art');
+      const out1 = document.getElementById('out1');
+      const out2 = document.getElementById('out2');
+      const blank = document.getElementById('blank');
+      const lsLine = document.getElementById('ls-line');
+      const cmd2 = document.getElementById('cmd2');
+      const cursor2 = document.getElementById('cursor2');
+
+      if (reduceMotion) {
+        // Skip animation, show everything immediately
+        cmd1.textContent = 'figlet -f smslant awesome pmm';
+        cursor1.style.display = 'none';
+        ascii.style.display = 'block';
+        out1.style.display = 'block';
+        out2.style.display = 'block';
+        blank.style.display = 'block';
+        lsLine.style.display = 'block';
+        cmd2.textContent = 'ls';
+        return;
+      }
+
+      // Type the figlet command
+      await typeText(cmd1, 'figlet -f smslant awesome pmm', 55);
+      await sleep(200);
+      cursor1.style.display = 'none';
+
+      // Reveal ASCII art line by line
+      const artLines = ascii.textContent.split('\n');
+      ascii.textContent = '';
+      ascii.style.display = 'block';
+      for (const line of artLines) {
+        ascii.textContent += line + '\n';
+        await sleep(60);
+      }
+      await sleep(150);
+
+      // Reveal output lines
+      out1.style.display = 'block';
+      await sleep(80);
+      out2.style.display = 'block';
+      await sleep(80);
+      blank.style.display = 'block';
+
+      // Type the ls command
+      lsLine.style.display = 'block';
+      await typeText(cmd2, 'ls', 80);
+    }
+
+    runTerminal();
 
     // ── Remove tabindex clutter: keyboard nav for tabs ─────────────────
     tabs.forEach((tab, i) => {
