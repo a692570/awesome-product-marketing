@@ -240,7 +240,7 @@ Marketing to people who hate marketing.
 
 ## Marketing in the AI Era
 
-How AI changes the practice of product marketing itself: agent-friendly content, AI-native GTM motions, answer-engine optimization, and the new developer buying behavior.
+How AI changes the practice of product marketing itself: agent-friendly content, AI-native GTM motions, answer-engine optimization, and the new developer buying behavior. When buyers ask AI assistants for recommendations instead of searching Google, your product needs to show up in the answer. That is prompt-level visibility, not SEO.
 
 - [The GTM for Developer Tools Is Breaking in Two Places at Once](https://newsletter.thelongcommit.com/p/the-gtm-for-developer-tools-is-breaking) - Juan Cruz Martinez, The Long Commit
   How Cursor/Claude Code agent-picks-the-SDK behavior breaks traditional dev-tool GTM (May 2026). The canonical piece on this shift.
@@ -256,8 +256,6 @@ How AI changes the practice of product marketing itself: agent-friendly content,
   Hybrid GTM and modern B2D sales motions for 2026, including AI-native pipeline paths.
 - [How Marc Lou Made His Entire SaaS Readable by AI Agents](https://x.com/marclou/status/2076687096279171344) - Marc Lou, X
   Added 8,831 URLs to his sitemap, set text/plain content-type headers, and 24 hours later ChatGPT could fetch them. The new distribution surface is agent fetch, not human browse.
-- [Prompt Marketing: The New Channel Nobody Has Named Yet](https://www.lennysnewsletter.com) - Emerging practice
-  When buyers ask AI assistants for recommendations instead of searching Google, your product needs to show up in the answer. This is not SEO. It is prompt-level visibility.
 
 ## Metrics, Analytics & Attribution
 
