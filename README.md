@@ -28,6 +28,7 @@ Positioning &middot; Competitive Intelligence &middot; ICP &amp; Segmentation &m
 - [Metrics, Analytics & Attribution](#metrics-analytics--attribution)
 - [Tools & Stack](#tools--stack)
 - [Market Research & Developer Surveys](#market-research--developer-surveys)
+- [Templates](#templates)
 - [Internal Handbooks](#internal-handbooks)
 - [Books](#books)
 - [Videos & Talks](#videos--talks)
@@ -434,6 +435,21 @@ Data sources for understanding developer audiences, tools, and trends.
   11th annual practitioner survey of DevRel programs with budget, headcount, and metric benchmarks.
 - [State of CSS](https://stateofcss.com) - Sacha Greif and contributors
   Annual survey on CSS features, tooling, and developer preferences.
+
+## Templates
+
+Ready-to-use PMM templates from Abhishek Sharma (PMM, Telnyx). Built on real workflows, not theoretical frameworks. Each integrates methods from the [FullFunnel B2B Marketing playbook](https://fullfunnel.substack.com) (Andrei Zinkevich) and practical positioning work at Telnyx.
+
+| Template | What it produces | When to use |
+|---|---|---|
+| [positioning-doc.md](templates/positioning-doc.md) | Complete positioning document | Before any launch, content, or sales enablement work |
+| [launch-checklist.md](templates/launch-checklist.md) | Structured launch plan with pre/launch/post phases | When shipping a new product or feature |
+| [abm-campaign-packet.md](templates/abm-campaign-packet.md) | Full ABM campaign packet with account prioritization and measurement | When building an account-based marketing motion |
+| [battle-card.md](templates/battle-card.md) | One-page competitive battle card for sales reps | When reps need ammunition against a specific competitor |
+| [messaging-framework.md](templates/messaging-framework.md) | 10-section messaging reference doc | When the team needs a single source of truth for product messaging |
+| [content-angles.md](templates/content-angles.md) | Differentiated content angles that pass a quality gate | When planning content and need angles that stand out |
+
+These templates draw from April Dunford's positioning framework (extended with enterprise buying realities), FullFunnel's ABM playbook (cluster targeting, 3-list prioritization, signal-based strategy, measurement framework), and real PMM practice at a developer-focused infrastructure company.
 
 ## Internal Handbooks
 
