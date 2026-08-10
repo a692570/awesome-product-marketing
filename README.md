@@ -153,6 +153,8 @@ Build ICP from observed buying behavior, not from brainstormed segmentation.
   React-based video creation. The veteran code-as-video framework, ~46K GitHub stars. Pairs with HyperFrames for data-driven and template-driven video pipelines.
 - [How to Predict Virality with Meta's TRIBE v2](https://x.com/fuckgrowth/status/2041580077826371733) - f*ckgrowth, X
   Meta open-sourced TRIBE v2, a brain encoding model trained on 1,000+ hours of fMRI from 720 people. It predicts how 70,000 brain regions light up when watching a video. This thread walks through running a video draft through it, re-editing based on neural engagement data, and getting 221K views. Free Colab notebook, no code required.
+- [The Psychology of Viral Launch Videos](https://x.com/mattepstein/status/2077486346181226800) - Matt Epstein, X
+  Retention rate science, the 3 doubts that make viewers drop, hook structure, and frame-by-frame attention design. From the agency (@shownmedia) behind viral launches for companies that raised billions. Zero paid seeding.
 
 ## Sales Enablement
 
