@@ -168,6 +168,8 @@ Battle cards, decks, training, and the hard work of making reps say the right th
   Canonical CLG article that names community-led growth as the next expansion of PLG.
 - [AI Coding Tool Marketing: How to Reach Developers in the Cursor and Copilot Era](https://business.daily.dev/resources/ai-coding-tool-marketing-how-to-reach-developers-cursor-copilot-era) - Daniela Torres, daily.dev
   How AI coding tools change dev marketing, with 2026 Cursor $2B ARR and Claude Code market share data.
+- [Tokenmaxxing: How Top Builders Use AI To Do The Work Of 400 Engineers](https://www.ycombinator.com/library/Pa-tokenmaxxing-how-top-builders-use-ai-to-do-the-work-of-400-engineers) - Y Combinator
+  YC practitioner writeup on how top builders use AI to multiply output. Cited in Lenny's podcast with Anthropic's Dianne Penn as the framing for how AI reshapes the dev team and the dev buyer.
 
 ## Customer Evidence & Stories
 
@@ -224,6 +226,10 @@ Marketing to people who hate marketing.
   11th annual practitioner survey of DevRel programs with budget, headcount, and metric benchmarks. The only systematic data source on DevRel salaries and structure.
 - [The GTM for Developer Tools Is Breaking in Two Places at Once](https://newsletter.thelongcommit.com/p/the-gtm-for-developer-tools-is-breaking) - Juan Cruz Martinez, The Long Commit
   How Cursor/Claude Code agent-picks-the-SDK behavior breaks traditional dev-tool GTM (May 2026).
+- [What Claude Code Actually Chooses](https://amplifying.ai/research/claude-code-picks/report) - Amplifying
+  Data report on which tools Claude Code picks across 20 categories. Agents build, not buy, in 12 of 20 categories. The competitive intel layer for the agent-picks-the-SDK problem.
+- [Agent Journey Map: Designing Software for AI Agents](https://www.leoniemonigatti.com/blog/agent-experience.html) - Leonie Monigatti
+  First practitioner framework for Agent Experience (AX). Five-stage journey map: Discover, Evaluate, Onboard, Integrate, Advocate. Extends DX thinking to when the user is an AI agent (March 2026).
 - [How to Build a Developer-Led GTM Strategy in 2026](https://hackmamba.io/developer-marketing/gtm-strategy-for-devtools) - Mohammed Tahir, Hackmamba
   Hybrid GTM and modern B2D sales motions for 2026.
 - [Building Vibrant Developer Communities](https://www.heavybit.com/library/blog/building-vibrant-developer-communities/) - Heavybit
@@ -483,6 +489,8 @@ Public marketing handbooks from developer-focused companies. The best way to lea
 
 - [Developer Marketing at Auth0](https://www.youtube.com/watch?v=_mfkJI-jahg) - Gonto (Martin Gontovnikoff)
   Canonical Auth0 developer marketing talk. Auth0's dev marketing motion is widely copied.
+- [Anthropic's First Technical PM on Token Maxing, the Jagged Edge, and Living in the Future](https://www.lennysnewsletter.com/p/anthropics-first-technical-pm-on) - Dianne Penn, Lenny's Podcast
+  How Anthropic built the eval-driven development loop, the Claude coding pivot, "evals as PRDs," and the "Claude 8 test" for forward compatibility. The most-cited 2026 product podcast on building for agents (July 2026).
 - [On Developer Marketing (YouTube Interview)](https://www.youtube.com/watch?v=MWwH-12N5TA) - Lee Robinson, interviewed by Peter Yang
   Vercel/Cursor practitioner deep dive on dev marketing tactics (Aug 2024).
 - [DevRelCon Talk Library](https://www.youtube.com/channel/UCabc3QtCLKsNeTOx9cqDSlQ) - DevRelCon / Hoopy
