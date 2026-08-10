@@ -2,13 +2,7 @@
 
 # Awesome Product Marketing
 
-A curated and opinionated list of resources for Product Marketing Managers working in the AI era. Built for the modern PMM who ships AI products, markets to developers, and uses AI to do the work.
-
-**Who this is for:**
-- **Dev PMMs** who sell to developers
-- **PMMs at AI companies** who ship AI products and position them
-- **PMMs whose buyers are developers** and need to understand dev buying behavior
-- **PMM leaders** whose audience has shifted to devs and need to retool their org
+A curated and opinionated list of resources for Product Marketing Managers working in the AI era. Built for dev PMMs, PMMs at AI companies, and PMM leaders whose audience has shifted to developers.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/a692570/awesome-product-marketing/pulls) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
