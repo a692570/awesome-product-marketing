@@ -90,6 +90,12 @@ How AI changes the practice of product marketing itself: agent-friendly content,
   Vercel's spec for making websites parseable by AI agents. Covers llms.txt, markdown mirrors, content negotiation, structured data. 844K+ sites have adopted llms.txt. Google merged a check into Lighthouse in April 2026. This is the new distribution surface.
 - [AI-Native vs AI-Bolted-On: The 2026 Buyer Playbook](https://www.saasmag.com/ai-native-vs-ai-bolted-on) - SaaS Mag
   How to tell AI-native products from AI-wrapped SaaS. Margin is the honest signal: AI product gross margins sit at 52% vs 80% for pure SaaS. The buyer framework PMMs need when competitors claim "AI-powered" and mean a summarization sidebar.
+- [llms.txt](https://llmstxt.org) - Jeremy Howard, Answer.AI
+  The proposed standard for agent-readable websites. Like robots.txt for AI. 844K+ sites have adopted it. Google merged a check into Lighthouse in April 2026.
+- [Agent Ready](https://agent-ready.dev) - Agent Ready
+  Scan any website against the Vercel Agent Readability Spec and llmstxt.org standard. Get actionable fixes in seconds. 15 site-wide + 23 per-page checks.
+- [AX Design Standard](https://axd.ax) - AX Community
+  Open reference standard for designing products and websites that AI agents can navigate. Covers discovery, parsing, and action protocols.
 
 ## Market & Competitive Intelligence
 
@@ -138,11 +144,10 @@ Build ICP from observed buying behavior, not from brainstormed segmentation.
 - [HyperFrames Launches](https://github.com/heygen-com/hyperframes-launches) - HeyGen
   Open source repo of real launch videos built with HyperFrames. Each subdirectory is a standalone composition you can preview, render, or remix. The reference for code-as-video launch content.
 - [HyperFrames](https://hyperframes.heygen.com/) - HeyGen
-  Compose videos by writing HTML, CSS, and JS. Open source under Apache 2.0. Lets AI agents generate launch videos, demo videos, and product walkthroughs without a timeline editor.
+  Compose videos by writing HTML, CSS, and JS. Open source under Apache 2.0. Lets AI agents generate launch videos, demo videos, and product walkthroughs without a timeline editor. CLI tool at [github.com/heygen-com/hyperframes](https://github.com/heygen-com/hyperframes).
 - [Remotion](https://www.remotion.dev/) - Remotion
   React-based video creation. The veteran code-as-video framework, ~46K GitHub stars. Pairs with HyperFrames for data-driven and template-driven video pipelines.
-- [Full Tutorial: Make Professional Launch Videos for Free with HyperFrames](https://creatoreconomy.so/p/full-tutorial-make-professional-launch-videos-free-hyperframes-ai) - Bin and Jake, Creator Economy
-  How HyperFrames turns HTML and websites into dynamic launch videos, plus the playbook HeyGen uses to make them look polished.
+
 ## Sales Enablement
 
 Battle cards, decks, training, and the hard work of making reps say the right thing.
@@ -337,10 +342,6 @@ The tools that show up again and again in working PMM stacks.
 - [DX](https://getdx.com/) - survey platform for measuring developer experience and engineering productivity. Used by Spotify, Verizon, Walmart.
 - [Developer Marketing Examples](https://mktto.dev/examples) - Flo Merian
   Curated swipe file of real developer marketing campaigns and landing pages.
-- [HyperFrames](https://hyperframes.heygen.com/) - HeyGen
-  Code-as-video for launch videos, demos, and product walkthroughs. Agents compose videos by writing HTML, CSS, and JS.
-- [Remotion](https://www.remotion.dev/) - Remotion
-  React-based video creation. The veteran code-as-video framework for data-driven and programmatic video.
 - [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) - Anthropic
   Open standard for connecting AI assistants to external tools and data. PMMs use MCP servers to give agents access to CRMs, analytics, and content systems.
 - [Corey Haines Marketing Skills](https://github.com/coreyhaines31/marketingskills) - Corey Haines
@@ -348,8 +349,6 @@ The tools that show up again and again in working PMM stacks.
 
 ### Agent and AI-Native Marketing Tools
 
-- [HyperFrames CLI](https://github.com/heygen-com/hyperframes) - HeyGen
-  Command-line tool for previewing, rendering, and remixing HyperFrames compositions. Pairs with the hyperframes-launches repo for launch video templates.
 - [MCP Server Directory](https://mcpmarket.com/) - MCP Market
   Discover MCP servers that connect AI agents to your favorite tools. Browse by category for marketing, analytics, and CRM integrations.
 - [Awesome Agent Skills](https://github.com/linny006/awesome-agent-skills) - linny006
