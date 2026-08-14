@@ -563,6 +563,16 @@ Public marketing handbooks from developer-focused companies. The best way to lea
 - [Developer Markepear Newsletter](https://www.developermarkepear.com/) - Flo Merian
   Newsletter with real developer marketing campaign breakdowns. The closest thing to a swipe file subscription for B2D marketers.
 
+## Star this repo
+
+If this list saved you time, star it so other PMMs can find it.
+
+<div align="center">
+
+[![Star History](https://api.star-history.com/svg?repos=a692570/awesome-product-marketing&type=Date)](https://star-history.com/#a692570/awesome-product-marketing&Date)
+
+</div>
+
 ## Follow
 
 <div align="center">
