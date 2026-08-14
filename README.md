@@ -659,16 +659,6 @@ Public marketing handbooks from developer-focused companies. The best way to lea
 - [The GTMnow Podcast](https://podcasts.apple.com/us/podcast/the-gtmnow-podcast/id1369291464) - GTMfund
   Weekly interviews with top 1% GTM execs, VCs, and founders. Seed through Series B go-to-market strategy.
 
-## Star this repo
-
-If this list saved you time, star it so other PMMs can find it.
-
-<div align="center">
-
-[![Star History](https://api.star-history.com/svg?repos=a692570/awesome-product-marketing&type=Date)](https://star-history.com/#a692570/awesome-product-marketing&Date)
-
-</div>
-
 ## Follow
 
 <div align="center">
