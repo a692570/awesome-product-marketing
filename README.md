@@ -173,6 +173,12 @@ Battle cards, decks, training, and the hard work of making reps say the right th
   Detailed sales machine case study on GitHub's transition from PLG to enterprise, post Microsoft acquisition.
 - [Introducing Enterprise Sales to a Product-Led Growth Organization](https://www.bvp.com/atlas/introducing-enterprise-sales-to-a-product-led-growth-organization) - Bessemer
   Practical guide to layering enterprise sales on PLG. The reference for the most common transition dev-focused companies face.
+- [MEDDIC Sales Qualification Frameworks](https://meddicc.com/meddic-sales-qualification-and-frameworks) - MEDDIC&C
+  Canonical enterprise sales qualification methodology: Metrics, Economic buyer, Decision criteria, Decision process, Identify pain, Champion. Companion to BANT for complex deals.
+- [PreSales Collective](https://www.presalescollective.com/slack) - PreSales Collective
+  Free Slack community for sales engineers, SE leaders, and SE ICs. Largest pre-sales community, volunteer-run.
+- [Discovery Call Cheat Sheet](https://www.gong.io/wp-content/uploads/2021/05/Discovery-Cheat-Sheet_2.3.pdf) - Gong Labs
+  One-pager on what high-performing discovery calls do differently, pulled from Gong's analysis of millions of sales calls.
 
 ## Content & Thought Leadership
 
@@ -498,6 +504,12 @@ Public marketing handbooks from developer-focused companies. The best way to lea
   How the best reps win. Sales enablement foundations.
 - 📕 [SPIN Selling](https://www.amazon.com/dp/0070511136) - Neil Rackham
   The original research on question-based selling. Old, still useful.
+- 📕 [Mastering Technical Sales: The Sales Engineer's Handbook](https://www.amazon.com/Mastering-Technical-Sales-Professional-Development/dp/1630818720) - John Care
+  The canonical presales / SE handbook. 4th edition (2026) covers cloud, XaaS, virtual demos, and modern SE management.
+- 📕 [Great Demo! How To Create And Execute Stunning Software Demonstrations](https://www.amazon.com/Great-Demo-Stunning-Software-Demonstrations/dp/059534559X) - Peter Cohan
+  The only demo methodology validated by studies of thousands of demos. Situation slide, peeling the onion, "Do The Last Thing First." Workshop at greatdemo.com.
+- 📕 [Doing Discovery: The Single Most Important Element of Software Sales Success](https://www.amazon.com/Doing-Discovery-Important-Enablement-Processes/dp/B0B8RJK4C2) - Peter Cohan
+  Companion to Great Demo! on the discovery side. The vendor perceived as doing superior discovery has a competitive advantage.
 
 ### Growth & Demand
 
