@@ -370,6 +370,8 @@ The tools that show up again and again in working PMM stacks.
   Discover MCP servers that connect AI agents to your favorite tools. Browse by category for marketing, analytics, and CRM integrations.
 - [Awesome Agent Skills](https://github.com/linny006/awesome-agent-skills) - linny006
   Curated list of AI agent skills with automated daily testing and rating. Covers marketing, coding, research, and productivity skills.
+- [NotFair Plugin](https://github.com/nowork-studio/notfair-plugin) - NotFair
+  MIT-licensed set of 45 inspectable agent workflows for SEO, GEO, paid media, analytics, and content across Claude Code, Codex, and compatible agents. Live connectors can query Search Console, GA4, and ad platforms; account changes use explicit approval boundaries.
 - [Best Marketing Skills GitHub Repos 2026](https://www.hyperfx.ai/blog/best-marketing-skills-github-repos-2026) - HyperFX
   Operator-grade comparison of 8 marketing skill repos for AI agents, ranked by coverage, install count, and Claude Code / Cursor / Codex compatibility.
 
