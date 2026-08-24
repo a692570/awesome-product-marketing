@@ -373,6 +373,10 @@ The tools that show up again and again in working PMM stacks.
 - [Best Marketing Skills GitHub Repos 2026](https://www.hyperfx.ai/blog/best-marketing-skills-github-repos-2026) - HyperFX
   Operator-grade comparison of 8 marketing skill repos for AI agents, ranked by coverage, install count, and Claude Code / Cursor / Codex compatibility.
 
+- [OctoLoops](https://octoloops.com) - OctoLoops
+  Agent-run distribution loops that find live discussions matching an ICP, score them for spam risk, and draft the reply, with separate loops for SEO, landing page and outbound.
+  Worth a look as a working example of agents owning discovery and prioritization rather than just drafting copy after a human picks the target.
+
 ### Developer Advertising Platforms
 
 - [Carbon Ads (BuySellAds)](https://www.buysellads.com) - ad marketplace connecting advertisers with developer and tech publisher inventory
