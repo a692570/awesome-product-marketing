@@ -370,6 +370,8 @@ The tools that show up again and again in working PMM stacks.
   Discover MCP servers that connect AI agents to your favorite tools. Browse by category for marketing, analytics, and CRM integrations.
 - [Awesome Agent Skills](https://github.com/linny006/awesome-agent-skills) - linny006
   Curated list of AI agent skills with automated daily testing and rating. Covers marketing, coding, research, and productivity skills.
+- [BulkPublish social media content skills](https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills) - BulkPublish
+  Reusable AI-agent skills for planning, adapting, reviewing, scheduling, and publishing social content through the [BulkPublish API](https://github.com/azeemkafridi/bulkpublish-api) and [MCP documentation](https://app.bulkpublish.com/docs).
 - [Best Marketing Skills GitHub Repos 2026](https://www.hyperfx.ai/blog/best-marketing-skills-github-repos-2026) - HyperFX
   Operator-grade comparison of 8 marketing skill repos for AI agents, ranked by coverage, install count, and Claude Code / Cursor / Codex compatibility.
 
