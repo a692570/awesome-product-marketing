@@ -111,6 +111,7 @@ Knowing the battlefield before you write a single word.
 - [Crayon](https://www.crayon.co) - competitive intelligence tracking
 - [Kompyte](https://www.kompyte.com) - competitor tracking and battlecards
 - [Visualping](https://visualping.io) - free, monitors any page for changes, good for pricing intel
+- [Debriefing](https://debriefing.io) - tracks competitor pricing pages, changelogs, careers pages and funding, sends a sourced brief each cycle, from $80/mo
 
 ## ICP & Segmentation
 
