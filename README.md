@@ -111,6 +111,7 @@ Knowing the battlefield before you write a single word.
 - [Crayon](https://www.crayon.co) - competitive intelligence tracking
 - [Kompyte](https://www.kompyte.com) - competitor tracking and battlecards
 - [Visualping](https://visualping.io) - free, monitors any page for changes, good for pricing intel
+- [Mode VC Chart of the Day](https://modevc.com/charts/) - 39 daily empirical AI market charts tracking LMSYS Arena leaderboards, API pricing deflation, and developer SDK adoption.
 
 ## ICP & Segmentation
 
