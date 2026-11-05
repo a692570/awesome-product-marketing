@@ -353,6 +353,7 @@ The tools that show up again and again in working PMM stacks.
 - [ChatGPT](https://chat.openai.com) / [Claude](https://claude.ai) - drafting, research, analysis
 - [Grammarly](https://www.grammarly.com) - editing at scale
 - [Common Room](https://www.commonroom.io/) - community intelligence platform aggregating dev engagement signals across GitHub, Slack, Discord, Twitter. Used by PostHog, Snowflake for dark-funnel account mapping.
+- [OpenSparta](https://opensparta.com/en/pricing) - Telegram operations workspace with a Lead Radar module that monitors selected communities for buying requests and shows the original message and match evidence, helping PMMs review community-level demand signals.
 - [PostHog](https://posthog.com/) - open source product analytics with feature flags and A/B testing. The default analytics stack for dev-focused PLG companies.
 - [Stainless](https://www.stainless.com/) - SDK generation tool used by OpenAI, Cloudflare, and LangChain for typed client SDKs.
 - [Speakeasy](https://www.speakeasy.com/) - SDK generation from OpenAPI specs. Used by API-first companies to ship idiomatic client libraries.
