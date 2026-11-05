@@ -111,6 +111,7 @@ Knowing the battlefield before you write a single word.
 - [Crayon](https://www.crayon.co) - competitive intelligence tracking
 - [Kompyte](https://www.kompyte.com) - competitor tracking and battlecards
 - [Visualping](https://visualping.io) - free, monitors any page for changes, good for pricing intel
+- [twtData](https://twtdata.com) - exports a public X account's follower and following lists to CSV, for audience research on a competitor
 
 ## ICP & Segmentation
 
