@@ -111,6 +111,8 @@ Knowing the battlefield before you write a single word.
 - [Crayon](https://www.crayon.co) - competitive intelligence tracking
 - [Kompyte](https://www.kompyte.com) - competitor tracking and battlecards
 - [Visualping](https://visualping.io) - free, monitors any page for changes, good for pricing intel
+- [Arcmira](https://arcmira.com/) - YouTube transcript search API and MCP
+  YouTube transcript search and monitoring for your AI: exact quotes, full transcripts and speakers. [API docs](https://arcmira.com/docs).
 
 ## ICP & Segmentation
 
