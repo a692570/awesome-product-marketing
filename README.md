@@ -112,7 +112,7 @@ Knowing the battlefield before you write a single word.
 - [Kompyte](https://www.kompyte.com) - competitor tracking and battlecards
 - [Visualping](https://visualping.io) - free, monitors any page for changes, good for pricing intel
 - [Arcmira](https://arcmira.com/) - YouTube transcript search API and MCP
-  Find product mentions and sponsor ad reads in indexed videos and podcasts, with timestamped sources for competitive research. [API docs](https://arcmira.com/docs).
+  YouTube transcript search and monitoring for your AI: exact quotes, full transcripts and speakers. [API docs](https://arcmira.com/docs).
 
 ## ICP & Segmentation
 
