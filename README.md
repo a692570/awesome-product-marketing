@@ -263,6 +263,8 @@ Battle cards, decks, training, and the hard work of making reps say the right th
   WTP methodology for SaaS: how to measure it, how to use it for tier design, and why copying competitor prices is the wrong default.
 - [The AI Pricing and Monetization Playbook](https://www.bvp.com/atlas/the-ai-pricing-and-monetization-playbook) - Bessemer Venture Partners
   The definitive guide to pricing AI products: usage-based, outcome-based, token-based, hybrid, and agent pricing. Copilot vs Agent vs AI-enabled Service pricing models. The reference for any PMM pricing an AI product.
+- [Pricing-change verification checklist](https://evidentsignal.com/downloads/pricing-change-verification-checklist.md) - EvidentSignal
+  A manual checklist for comparing billing cadence, included usage, customer eligibility and dated evidence before reporting a competitor pricing change. Helps PMMs distinguish changes to the offer from changes to its display.
 
 ## Developer Marketing
 
